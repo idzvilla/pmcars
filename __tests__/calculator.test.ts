@@ -42,6 +42,9 @@ describe('calculateDuty3To5Years', () => {
 describe('calculateDutyOver5Years', () => {
   test('объём <= 1000', () => expect(calculateDutyOver5Years(1000)).toBe(3000))
   test('объём <= 1500', () => expect(calculateDutyOver5Years(1200)).toBe(3840))
+  test('объём <= 1800', () => expect(calculateDutyOver5Years(1800)).toBe(6300))
+  test('объём <= 2300', () => expect(calculateDutyOver5Years(2000)).toBe(9600))
+  test('объём <= 3000', () => expect(calculateDutyOver5Years(2800)).toBe(14000))
   test('объём > 3000',  () => expect(calculateDutyOver5Years(4000)).toBe(22800))
 })
 
@@ -90,5 +93,36 @@ describe('calculateTotal', () => {
     }
     const r = calculateTotal(input)
     expect(r.total).toBeCloseTo(r.duty + r.customsFee + r.recyclingFee + r.eptsFee, 2)
+  })
+
+  test('мото + указ 140 — пошлина делится на 2', () => {
+    const base: CalculatorInput = {
+      carCost: 5000, engineVolume: 800, carType: 'moto',
+      engineType: 'ice', carAge: 'under3', decree140: false, eurRate: 3.38,
+    }
+    const with140: CalculatorInput = { ...base, decree140: true }
+    const r1 = calculateTotal(base)
+    const r2 = calculateTotal(with140)
+    expect(r2.duty).toBeCloseTo(r1.duty / 2, 2)
+  })
+
+  test('авто старше 5 лет — верный путь расчёта', () => {
+    const input: CalculatorInput = {
+      carCost: 8000, engineVolume: 2000, carType: 'auto',
+      engineType: 'ice', carAge: 'over5', decree140: false, eurRate: 3.38,
+    }
+    const r = calculateTotal(input)
+    // over5, 2000 cc: 2000 * 4.8 = 9600
+    expect(r.duty).toBe(9600)
+    expect(r.total).toBeCloseTo(r.duty + r.customsFee + r.recyclingFee + r.eptsFee, 2)
+  })
+
+  test('мото — нет утилизационного сбора', () => {
+    const input: CalculatorInput = {
+      carCost: 5000, engineVolume: 600, carType: 'moto',
+      engineType: 'ice', carAge: 'under3', decree140: false, eurRate: 3.38,
+    }
+    const r = calculateTotal(input)
+    expect(r.recyclingFee).toBe(0)
   })
 })
