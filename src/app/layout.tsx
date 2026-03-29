@@ -15,8 +15,8 @@ export const metadata: Metadata = {
 
 export default function RootLayout({ children }: { children: React.ReactNode }) {
   return (
-    <html lang="ru">
-      <body>
+    <html lang="ru" suppressHydrationWarning>
+      <body className="font-montserrat">
         <Header />
         <main className="pt-[88px]">
           {children}
