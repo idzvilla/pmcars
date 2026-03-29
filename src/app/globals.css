@@ -1,27 +1,60 @@
+/* src/app/globals.css */
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
 
-:root {
-  --background: #ffffff;
-  --foreground: #171717;
+@font-face {
+  font-family: 'Muller';
+  src: url('/fonts/MullerLight.ttf') format('truetype');
+  font-weight: 300;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'Muller';
+  src: url('/fonts/Muller-Regular.ttf') format('truetype');
+  font-weight: 400;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'Muller';
+  src: url('/fonts/MullerMedium.ttf') format('truetype');
+  font-weight: 500;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'Muller';
+  src: url('/fonts/Muller-Bold.ttf') format('truetype');
+  font-weight: 700;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'Montserrat';
+  src: url('/fonts/Montserrat-Regular.ttf') format('truetype');
+  font-weight: 400;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'Montserrat';
+  src: url('/fonts/Montserrat-Bold.ttf') format('truetype');
+  font-weight: 700;
+  font-display: swap;
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
+:root {
+  --font-muller: 'Muller', sans-serif;
+  --font-montserrat: 'Montserrat', sans-serif;
 }
+
+* { box-sizing: border-box; margin: 0; padding: 0; }
 
 body {
-  color: var(--foreground);
-  background: var(--background);
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: var(--font-montserrat);
+  color: #333333;
+  background: #ffffff;
 }
 
-@layer utilities {
-  .text-balance {
-    text-wrap: balance;
-  }
+h1, h2, h3, h4, h5, h6 {
+  font-family: var(--font-muller);
 }
+
+html { scroll-behavior: smooth; }
