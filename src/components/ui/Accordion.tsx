@@ -34,7 +34,7 @@ export default function Accordion({ items }: AccordionProps) {
             style={{
               maxHeight: openIndex === i ? '24rem' : '0',
               overflow: 'hidden',
-              visibility: openIndex === i ? 'visible' : 'hidden',
+              transition: 'max-height 0.3s ease',
             }}
             aria-hidden={openIndex !== i}
           >

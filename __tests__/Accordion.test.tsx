@@ -15,18 +15,21 @@ test('renders all questions', () => {
 
 test('answer hidden by default', () => {
   render(<Accordion items={items} />)
-  expect(screen.queryByText('От 990 BYN.')).not.toBeVisible()
+  const answerDiv = screen.getByText('От 990 BYN.').closest('[aria-hidden]')
+  expect(answerDiv).toHaveAttribute('aria-hidden', 'true')
 })
 
 test('clicking question shows answer', () => {
   render(<Accordion items={items} />)
   fireEvent.click(screen.getByText('Сколько стоит доставка?'))
-  expect(screen.getByText('От 990 BYN.')).toBeVisible()
+  const answerDiv = screen.getByText('От 990 BYN.').closest('[aria-hidden]')
+  expect(answerDiv).toHaveAttribute('aria-hidden', 'false')
 })
 
 test('clicking open question closes it', () => {
   render(<Accordion items={items} />)
   fireEvent.click(screen.getByText('Сколько стоит доставка?'))
   fireEvent.click(screen.getByText('Сколько стоит доставка?'))
-  expect(screen.queryByText('От 990 BYN.')).not.toBeVisible()
+  const answerDiv = screen.getByText('От 990 BYN.').closest('[aria-hidden]')
+  expect(answerDiv).toHaveAttribute('aria-hidden', 'true')
 })
