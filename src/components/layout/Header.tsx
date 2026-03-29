@@ -6,7 +6,7 @@ import Image from 'next/image'
 import { Menu, ChevronDown } from 'lucide-react'
 import MobileMenu from './MobileMenu'
 
-const infoLinks = [
+const infoLinks: { label: string; href: string }[] = [
   { label: 'Таможенный калькулятор', href: '/info/kalkulyator' },
   { label: 'ЭПТС', href: '/info/epts' },
   { label: 'ДКП', href: '/info/dkp' },
@@ -32,19 +32,22 @@ export default function Header() {
         }`}
       >
         {/* Топбар */}
-        <div className="bg-[#0a0e15] border-b border-white/5">
+        <div className="bg-dark-bg border-b border-white/5">
           <div className="container flex items-center justify-between py-2 text-xs font-montserrat">
             <a href="tel:+375XXXXXXXXX" className="text-primary font-bold hover:text-primary-dark transition-colors">
               +375 (XX) XXX-XX-XX
             </a>
-            <div className="hidden sm:flex items-center gap-4 text-white/60">
-              <div className="flex gap-3">
-                <a href="https://t.me/pmcars" target="_blank" rel="noopener noreferrer" className="hover:text-primary transition-colors">TG</a>
-                <a href="https://wa.me/375XXXXXXXXX" target="_blank" rel="noopener noreferrer" className="hover:text-primary transition-colors">WA</a>
-                <a href="viber://chat?number=+375XXXXXXXXX" className="hover:text-primary transition-colors">Viber</a>
+            <div className="flex items-center gap-3 text-white/60">
+              <div className="hidden sm:flex items-center gap-3">
+                <div className="flex gap-3">
+                  <a href="https://t.me/pmcars" target="_blank" rel="noopener noreferrer" className="hover:text-primary transition-colors">TG</a>
+                  <a href="https://wa.me/375XXXXXXXXX" target="_blank" rel="noopener noreferrer" className="hover:text-primary transition-colors">WA</a>
+                  <a href="viber://chat?number=+375XXXXXXXXX" target="_blank" rel="noopener noreferrer" className="hover:text-primary transition-colors">Viber</a>
+                </div>
+                <span className="text-white/30">|</span>
+                <span>10:00–20:00</span>
+                <span className="text-white/30">|</span>
               </div>
-              <span className="text-white/30">|</span>
-              <span>10:00–20:00</span>
               <Link
                 href="/tracking"
                 className="bg-primary text-white px-3 py-1 rounded text-xs font-bold hover:bg-primary-dark transition-colors"
@@ -77,7 +80,10 @@ export default function Header() {
                 onMouseEnter={() => setInfoOpen(true)}
                 onMouseLeave={() => setInfoOpen(false)}
               >
-                <button className="flex items-center gap-1 text-white/80 hover:text-primary transition-colors">
+                <button
+                  className="flex items-center gap-1 text-white/80 hover:text-primary transition-colors"
+                  onClick={() => setInfoOpen(v => !v)}
+                >
                   Информация <ChevronDown size={14} className={`transition-transform ${infoOpen ? 'rotate-180' : ''}`} />
                 </button>
                 {infoOpen && (

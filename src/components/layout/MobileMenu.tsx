@@ -8,7 +8,11 @@ interface MobileMenuProps {
   onClose: () => void
 }
 
-const navItems = [
+type NavItem =
+  | { label: string; href: string; children?: never }
+  | { label: string; href?: never; children: { label: string; href: string }[] }
+
+const navItems: NavItem[] = [
   { label: 'Услуги', href: '/uslugi' },
   { label: 'Доставка из США', href: '/dostavka' },
   {
@@ -29,7 +33,7 @@ export default function MobileMenu({ isOpen, onClose }: MobileMenuProps) {
   return (
     <div className="fixed inset-0 z-50 bg-dark-bg flex flex-col">
       <div className="flex justify-end p-4">
-        <button onClick={onClose} className="text-white p-2">
+        <button onClick={onClose} className="text-white p-2" aria-label="Закрыть меню">
           <X size={24} />
         </button>
       </div>
@@ -85,7 +89,7 @@ export default function MobileMenu({ isOpen, onClose }: MobileMenuProps) {
         <div className="flex gap-4">
           <a href="https://t.me/pmcars" target="_blank" rel="noopener noreferrer" className="text-white/70 hover:text-primary text-sm">TG</a>
           <a href="https://wa.me/375XXXXXXXXX" target="_blank" rel="noopener noreferrer" className="text-white/70 hover:text-primary text-sm">WA</a>
-          <a href="viber://chat?number=+375XXXXXXXXX" className="text-white/70 hover:text-primary text-sm">Viber</a>
+          <a href="viber://chat?number=+375XXXXXXXXX" target="_blank" rel="noopener noreferrer" className="text-white/70 hover:text-primary text-sm">Viber</a>
         </div>
       </div>
     </div>
