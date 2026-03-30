@@ -1,0 +1,98 @@
+{
+  "iaai": {
+    "buyerFee": {
+      "public": [
+        {"min": 0, "max": 999, "fee": 100},
+        {"min": 1000, "max": 2499, "fee": 200},
+        {"min": 2500, "max": 4999, "fee": 400},
+        {"min": 5000, "max": 7499, "fee": 890},
+        {"min": 7500, "max": 9999, "fee": 1200},
+        {"min": 10000, "max": null, "fee": 1500}
+      ],
+      "dealer": [
+        {"min": 0, "max": 999, "fee": 80},
+        {"min": 1000, "max": 2499, "fee": 160},
+        {"min": 2500, "max": 4999, "fee": 320},
+        {"min": 5000, "max": 7499, "fee": 712},
+        {"min": 7500, "max": 9999, "fee": 960},
+        {"min": 10000, "max": null, "fee": 1200}
+      ]
+    },
+    "fixedFees": {
+      "internetBidFee": 160,
+      "serviceFee": 95,
+      "environmentalFee": 15,
+      "titleHandlingFee": 20
+    }
+  },
+  "copart": {
+    "baseFee": {
+      "public": [
+        {"min": 0, "max": 999, "fee": 69},
+        {"min": 1000, "max": 1999, "fee": 200},
+        {"min": 2000, "max": 2999, "fee": 300},
+        {"min": 3000, "max": 3999, "fee": 400},
+        {"min": 4000, "max": 4999, "fee": 500},
+        {"min": 5000, "max": 7499, "fee": 600},
+        {"min": 7500, "max": 9999, "fee": 800},
+        {"min": 10000, "max": null, "fee": 1000}
+      ],
+      "dealer": [
+        {"min": 0, "max": 999, "fee": 55},
+        {"min": 1000, "max": 1999, "fee": 160},
+        {"min": 2000, "max": 2999, "fee": 240},
+        {"min": 3000, "max": 3999, "fee": 320},
+        {"min": 4000, "max": 4999, "fee": 400},
+        {"min": 5000, "max": 7499, "fee": 480},
+        {"min": 7500, "max": 9999, "fee": 640},
+        {"min": 10000, "max": null, "fee": 800}
+      ]
+    },
+    "fixedFees": {
+      "internetBidFee": 59,
+      "gateFee": 79,
+      "environmentalFee": 10
+    }
+  },
+  "bidcars": {
+    "baseFee": {
+      "public": [
+        {"min": 0, "max": 999, "fee": 99},
+        {"min": 1000, "max": 1999, "fee": 200},
+        {"min": 2000, "max": 2999, "fee": 300},
+        {"min": 3000, "max": 3999, "fee": 400},
+        {"min": 4000, "max": 4999, "fee": 500},
+        {"min": 5000, "max": 7499, "fee": 600},
+        {"min": 7500, "max": 9999, "fee": 800},
+        {"min": 10000, "max": null, "fee": 1000}
+      ],
+      "dealer": [
+        {"min": 0, "max": 999, "fee": 79},
+        {"min": 1000, "max": 1999, "fee": 160},
+        {"min": 2000, "max": 2999, "fee": 240},
+        {"min": 3000, "max": 3999, "fee": 320},
+        {"min": 4000, "max": 4999, "fee": 400},
+        {"min": 5000, "max": 7499, "fee": 480},
+        {"min": 7500, "max": 9999, "fee": 640},
+        {"min": 10000, "max": null, "fee": 800}
+      ]
+    },
+    "fixedFees": {
+      "internetBidFee": 59,
+      "gateFee": 79,
+      "environmentalFee": 10,
+      "platformFee": 450
+    }
+  },
+  "vehicleTypeSurcharges": {
+    "car": 0,
+    "truck": 20,
+    "motorcycle": -10
+  },
+  "platformFee": {
+    "enabled": false,
+    "percent": 6.37,
+    "min": 0,
+    "max": null
+  }
+}
