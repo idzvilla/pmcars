@@ -3,6 +3,7 @@
 import { useState, useEffect } from 'react'
 import { calculateTotal, type CalculatorInput, type CalculatorResult } from '@/lib/calculator'
 import Button from '@/components/ui/Button'
+import { ChevronDown } from 'lucide-react'
 
 const EUR_RATE_FALLBACK = 3.38
 
@@ -20,7 +21,14 @@ export default function KalkulyatorPage() {
     carAge: 'under3',
     decree140: false,
   })
-  const [result, setResult] = useState<CalculatorResult | null>(null)
+  const [result, setResult] = useState<CalculatorResult>({
+    carCost: 0,
+    duty: 0,
+    customsFee: 0,
+    recyclingFee: 0,
+    eptsFee: 0,
+    total: 0,
+  })
 
   useEffect(() => {
     fetch('https://api.nbrb.by/exrates/rates/451')
@@ -34,21 +42,25 @@ export default function KalkulyatorPage() {
     setResult(calculateTotal({ ...input, eurRate }))
   }
 
-  const sel = 'w-full px-4 py-3 rounded-lg border border-gray-200 font-montserrat text-sm focus:outline-none focus:border-primary bg-white'
+  const sel = 'w-full pl-4 pr-10 py-3 rounded-lg border border-gray-200 font-montserrat text-sm focus:outline-none focus:border-primary bg-white appearance-none'
   const inp = 'w-full px-4 py-3 rounded-lg border border-gray-200 font-montserrat text-sm focus:outline-none focus:border-primary'
 
   return (
     <div className="py-16 md:py-24">
-      <div className="container max-w-2xl">
-        <h1 className="font-muller font-bold text-4xl text-body mb-2">Таможенный калькулятор</h1>
-        <p className="text-muted font-montserrat mb-2">
+      <div className="container">
+        <h1 className="font-muller font-bold text-4xl md:text-5xl text-body mb-4">Таможенный калькулятор</h1>
+        <p className="text-muted font-montserrat text-lg mb-4 max-w-2xl">
           Расчёт таможенных платежей при ввозе авто из США в Беларусь
         </p>
-        <p className="text-xs text-muted font-montserrat mb-10">
-          Курс EUR/BYN: {eurRate.toFixed(4)} (НБРБ)
-        </p>
+        <div className="flex flex-wrap gap-2 mb-10">
+          <span className="inline-flex items-center gap-2 px-3 py-1.5 rounded-full bg-light-bg border border-gray-200 font-montserrat text-sm text-body">
+            🇪🇺 <span className="font-bold">EUR</span> {eurRate.toFixed(4)} BYN
+          </span>
+        </div>
 
-        <div className="bg-light-bg rounded-2xl p-8 space-y-5 mb-8">
+        <div className="lg:grid lg:grid-cols-2 lg:gap-8 lg:items-start">
+
+        <div className="bg-light-bg rounded-2xl p-8 space-y-5 mb-8 lg:mb-0">
           <div className="grid grid-cols-1 sm:grid-cols-2 gap-5">
             <div>
               <label className="block font-montserrat font-bold text-sm text-body mb-1">Стоимость авто (EUR)</label>
@@ -65,28 +77,37 @@ export default function KalkulyatorPage() {
           <div className="grid grid-cols-1 sm:grid-cols-3 gap-5">
             <div>
               <label className="block font-montserrat font-bold text-sm text-body mb-1">Тип ТС</label>
-              <select className={sel} value={input.carType}
-                onChange={(e) => setInput({ ...input, carType: e.target.value as 'auto' | 'moto' })}>
-                <option value="auto">Автомобиль</option>
-                <option value="moto">Мотоцикл</option>
-              </select>
+              <div className="relative">
+                <select className={sel} value={input.carType}
+                  onChange={(e) => setInput({ ...input, carType: e.target.value as 'auto' | 'moto' })}>
+                  <option value="auto">Автомобиль</option>
+                  <option value="moto">Мотоцикл</option>
+                </select>
+                <ChevronDown size={16} className="pointer-events-none absolute right-3 top-1/2 -translate-y-1/2 text-muted" />
+              </div>
             </div>
             <div>
               <label className="block font-montserrat font-bold text-sm text-body mb-1">Тип двигателя</label>
-              <select className={sel} value={input.engineType}
-                onChange={(e) => setInput({ ...input, engineType: e.target.value as 'ice' | 'electric' })}>
-                <option value="ice">Бензин / Дизель</option>
-                <option value="electric">Электромобиль</option>
-              </select>
+              <div className="relative">
+                <select className={sel} value={input.engineType}
+                  onChange={(e) => setInput({ ...input, engineType: e.target.value as 'ice' | 'electric' })}>
+                  <option value="ice">Бензин / Дизель</option>
+                  <option value="electric">Электромобиль</option>
+                </select>
+                <ChevronDown size={16} className="pointer-events-none absolute right-3 top-1/2 -translate-y-1/2 text-muted" />
+              </div>
             </div>
             <div>
               <label className="block font-montserrat font-bold text-sm text-body mb-1">Возраст авто</label>
-              <select className={sel} value={input.carAge}
-                onChange={(e) => setInput({ ...input, carAge: e.target.value as CalculatorInput['carAge'] })}>
-                <option value="under3">До 3 лет</option>
-                <option value="3to5">От 3 до 5 лет</option>
-                <option value="over5">Старше 5 лет</option>
-              </select>
+              <div className="relative">
+                <select className={sel} value={input.carAge}
+                  onChange={(e) => setInput({ ...input, carAge: e.target.value as CalculatorInput['carAge'] })}>
+                  <option value="under3">До 3 лет</option>
+                  <option value="3to5">От 3 до 5 лет</option>
+                  <option value="over5">Старше 5 лет</option>
+                </select>
+                <ChevronDown size={16} className="pointer-events-none absolute right-3 top-1/2 -translate-y-1/2 text-muted" />
+              </div>
             </div>
           </div>
 
@@ -101,7 +122,7 @@ export default function KalkulyatorPage() {
           </Button>
         </div>
 
-        {result && (
+        <div className="sticky top-24">
           <div className="bg-dark-bg rounded-2xl p-8 text-white">
             <h2 className="font-muller font-bold text-xl mb-6">Результат расчёта</h2>
             <div className="space-y-3 mb-6">
@@ -126,7 +147,9 @@ export default function KalkulyatorPage() {
               * Расчёт является ориентировочным. Точную стоимость уточняйте у менеджера.
             </p>
           </div>
-        )}
+        </div>
+
+        </div>
       </div>
     </div>
   )

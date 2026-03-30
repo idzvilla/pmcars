@@ -8,7 +8,7 @@ interface ButtonProps extends ComponentPropsWithoutRef<'button'> {
   size?: 'sm' | 'md' | 'lg'
 }
 
-const base = 'inline-flex items-center justify-center font-montserrat font-bold rounded transition-colors'
+const base = 'inline-flex items-center justify-center font-montserrat font-bold rounded-lg transition-colors'
 const variants = {
   primary: 'bg-primary text-white hover:bg-primary-dark',
   outline: 'border-2 border-primary text-primary hover:bg-primary hover:text-white',

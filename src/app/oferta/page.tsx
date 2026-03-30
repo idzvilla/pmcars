@@ -10,7 +10,7 @@ export default function OfertaPage() {
   return (
     <div className="py-16 md:py-24">
       <div className="container max-w-3xl">
-        <h1 className="font-muller font-bold text-4xl text-body mb-2">
+        <h1 className="font-muller font-bold text-4xl md:text-5xl text-body mb-4">
           Публичный договор оферты
         </h1>
         <p className="text-muted font-montserrat text-sm mb-10">

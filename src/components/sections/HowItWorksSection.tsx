@@ -33,7 +33,7 @@ export default function HowItWorksSection() {
           {steps.map((s, i) => (
             <div key={s.num} className="relative">
               {i < steps.length - 1 && (
-                <div className="hidden lg:block absolute top-8 left-[calc(50%+2rem)] right-[-50%] h-[2px] bg-primary/20" />
+                <div className="hidden lg:block absolute top-6 left-14 -right-6 h-[1px] bg-primary/15" />
               )}
               <div className="flex flex-col items-center text-center lg:items-start lg:text-left">
                 <span className="font-muller font-bold text-5xl text-primary/20 mb-3 leading-none">{s.num}</span>

@@ -3,6 +3,7 @@ import type { Metadata } from 'next'
 import './globals.css'
 import Header from '@/components/layout/Header'
 import Footer from '@/components/layout/Footer'
+import { Agentation } from 'agentation'
 
 export const metadata: Metadata = {
   title: {
@@ -18,7 +19,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
     <html lang="ru" suppressHydrationWarning>
       <body className="font-montserrat">
         <Header />
-        <main className="pt-[88px]">
+        <main className="pt-[90px]">
           {children}
         </main>
         <Footer />

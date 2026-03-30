@@ -2,6 +2,7 @@
 import Link from 'next/link'
 import Image from 'next/image'
 
+
 const navColumns = [
   {
     title: 'Компания',
@@ -40,15 +41,27 @@ export default function Footer() {
             <Link href="/">
               <Image src="/logo.svg" alt="pmcars.by" width={120} height={28} className="mb-4" />
             </Link>
-            <a href="tel:+375XXXXXXXXX" className="block text-primary font-bold text-base mb-2 hover:text-primary-dark">
-              +375 (XX) XXX-XX-XX
+            <a href="tel:+375296363636" className="block text-primary font-bold text-base mb-2 hover:text-primary-dark">
+              +375 (29) 636-36-36
             </a>
-            <div className="flex gap-3 text-sm">
-              <a href="https://t.me/pmcars" target="_blank" rel="noopener noreferrer" className="hover:text-primary transition-colors">TG</a>
-              <a href="https://wa.me/375XXXXXXXXX" target="_blank" rel="noopener noreferrer" className="hover:text-primary transition-colors">WA</a>
-              <a href="viber://chat?number=+375XXXXXXXXX" target="_blank" rel="noopener noreferrer" className="hover:text-primary transition-colors">Viber</a>
+            <div className="flex items-center gap-2 mb-3">
+              <a href="https://t.me/pmcars" target="_blank" rel="noopener noreferrer" className="opacity-70 hover:opacity-100 transition-opacity">
+                <Image src="/icons/tg.svg" alt="Telegram" width={22} height={22} />
+              </a>
+              <a href="viber://chat?number=+375296363636" target="_blank" rel="noopener noreferrer" className="opacity-70 hover:opacity-100 transition-opacity">
+                <Image src="/icons/vb.svg" alt="Viber" width={22} height={22} />
+              </a>
+              <a href="https://wa.me/375296363636" target="_blank" rel="noopener noreferrer" className="opacity-70 hover:opacity-100 transition-opacity">
+                <Image src="/icons/wa.svg" alt="WhatsApp" width={22} height={22} />
+              </a>
+              <a href="https://instagram.com/pmcars" target="_blank" rel="noopener noreferrer" className="opacity-70 hover:opacity-100 transition-opacity">
+                <Image src="/icons/inst.svg" alt="Instagram" width={22} height={22} />
+              </a>
+              <a href="https://tiktok.com/@pmcars" target="_blank" rel="noopener noreferrer" className="opacity-70 hover:opacity-100 transition-opacity">
+                <Image src="/icons/tt.svg" alt="TikTok" width={22} height={22} />
+              </a>
             </div>
-            <p className="text-xs mt-3 text-white/30">Минск, Беларусь</p>
+            <p className="text-xs text-white/30">Минск, Беларусь</p>
           </div>
 
           {/* Навигация */}

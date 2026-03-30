@@ -84,13 +84,13 @@ export default function MobileMenu({ isOpen, onClose }: MobileMenuProps) {
         </ul>
       </nav>
       <div className="p-6 border-t border-white/10">
-        <a href="tel:+375XXXXXXXXX" className="block text-primary text-xl font-bold font-montserrat mb-3">
-          +375 (XX) XXX-XX-XX
+        <a href="tel:+375296363636" className="block text-primary text-xl font-bold font-montserrat mb-3">
+          +375 (29) 636-36-36
         </a>
         <div className="flex gap-4">
           <a href="https://t.me/pmcars" target="_blank" rel="noopener noreferrer" className="text-white/70 hover:text-primary text-sm">TG</a>
-          <a href="https://wa.me/375XXXXXXXXX" target="_blank" rel="noopener noreferrer" className="text-white/70 hover:text-primary text-sm">WA</a>
-          <a href="viber://chat?number=+375XXXXXXXXX" target="_blank" rel="noopener noreferrer" className="text-white/70 hover:text-primary text-sm">Viber</a>
+          <a href="https://wa.me/375296363636" target="_blank" rel="noopener noreferrer" className="text-white/70 hover:text-primary text-sm">WA</a>
+          <a href="viber://chat?number=+375296363636" target="_blank" rel="noopener noreferrer" className="text-white/70 hover:text-primary text-sm">Viber</a>
         </div>
       </div>
     </div>

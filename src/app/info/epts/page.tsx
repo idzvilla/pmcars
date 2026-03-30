@@ -11,7 +11,7 @@ export default function EptsPage() {
   return (
     <div className="py-16 md:py-24">
       <div className="container max-w-3xl">
-        <h1 className="font-muller font-bold text-4xl text-body mb-4">ЭПТС</h1>
+        <h1 className="font-muller font-bold text-4xl md:text-5xl text-body mb-4">ЭПТС</h1>
         <p className="text-muted font-montserrat text-lg mb-10">Электронный паспорт транспортного средства</p>
         <div className="space-y-8 font-montserrat text-muted leading-relaxed">
           <section>
