@@ -29,15 +29,21 @@ export default function FaqSection() {
   return (
     <section className="bg-light-bg py-16 md:py-24">
       <div className="container">
-        <h2 className="font-muller font-bold text-3xl md:text-4xl text-body text-center mb-12">
-          Частые вопросы
-        </h2>
-        <div className="max-w-3xl mx-auto mb-8">
+        <div className="mb-12">
+          <div className="w-10 h-[3px] bg-primary mb-5" />
+          <div className="lg:flex lg:items-end lg:gap-16">
+            <h2 className="font-muller font-bold text-3xl md:text-4xl text-body mb-4 lg:mb-0 lg:w-64 flex-shrink-0">
+              Частые вопросы
+            </h2>
+            <p className="text-muted font-montserrat max-w-md">
+              Если не нашли ответ — напишите нам в Telegram, ответим быстро.
+            </p>
+          </div>
+        </div>
+        <div className="max-w-3xl mb-8">
           <Accordion items={faqItems} />
         </div>
-        <div className="text-center">
-          <Button href="/faq" variant="outline">Все вопросы и ответы</Button>
-        </div>
+        <Button href="/faq" variant="outline">Все вопросы и ответы</Button>
       </div>
     </section>
   )

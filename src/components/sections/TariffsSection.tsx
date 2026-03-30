@@ -47,19 +47,24 @@ export default function TariffsSection() {
   return (
     <section className="bg-white py-16 md:py-24">
       <div className="container">
-        <h2 className="font-muller font-bold text-3xl md:text-4xl text-body text-center mb-4">
-          Стоимость услуг
-        </h2>
-        <p className="text-muted font-montserrat text-center mb-12 max-w-xl mx-auto">
-          Фиксированная цена за нашу работу. Всё остальное — по фактическим затратам, без накруток.
-        </p>
-        <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
+        <div className="mb-12">
+          <div className="w-10 h-[3px] bg-primary mb-5" />
+          <div className="lg:flex lg:items-end lg:gap-16">
+            <h2 className="font-muller font-bold text-3xl md:text-4xl text-body mb-4 lg:mb-0 lg:w-64 flex-shrink-0">
+              Стоимость услуг
+            </h2>
+            <p className="text-muted font-montserrat max-w-md">
+              Фиксированная цена за нашу работу. Всё остальное — по фактическим затратам, без накруток.
+            </p>
+          </div>
+        </div>
+        <div className="grid grid-cols-1 md:grid-cols-3 gap-6 items-start">
           {tariffs.map((t) => (
             <div
               key={t.title}
               className={`rounded-2xl p-8 flex flex-col border-2 transition-all ${
                 t.highlighted
-                  ? 'border-primary bg-primary/5 shadow-lg shadow-primary/10'
+                  ? 'border-primary bg-primary/5 shadow-xl shadow-primary/15 lg:-mt-5'
                   : 'border-gray-100 bg-light-bg'
               }`}
             >
@@ -83,7 +88,7 @@ export default function TariffsSection() {
             </div>
           ))}
         </div>
-        <p className="text-center font-montserrat text-sm text-muted mt-8">
+        <p className="text-left font-montserrat text-sm text-muted mt-8">
           Хотите узнать полную стоимость авто включая доставку и таможню?{' '}
           <Link href="/info/kalkulyator-rashod" className="text-primary hover:underline font-bold">
             Калькулятор расходов →

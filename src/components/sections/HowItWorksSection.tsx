@@ -26,17 +26,20 @@ export default function HowItWorksSection() {
   return (
     <section className="bg-white py-16 md:py-24">
       <div className="container">
-        <h2 className="font-muller font-bold text-3xl md:text-4xl text-body text-center mb-12">
-          Как это работает
-        </h2>
+        <div className="mb-12">
+          <div className="w-10 h-[3px] bg-primary mb-5" />
+          <h2 className="font-muller font-bold text-3xl md:text-4xl text-body">
+            Как это работает
+          </h2>
+        </div>
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
           {steps.map((s, i) => (
             <div key={s.num} className="relative">
               {i < steps.length - 1 && (
                 <div className="hidden lg:block absolute top-6 left-14 -right-6 h-[1px] bg-primary/15" />
               )}
-              <div className="flex flex-col items-center text-center lg:items-start lg:text-left">
-                <span className="font-muller font-bold text-5xl text-primary/20 mb-3 leading-none">{s.num}</span>
+              <div className="flex flex-col">
+                <span className="font-muller font-bold text-6xl text-primary/15 mb-3 leading-none">{s.num}</span>
                 <h3 className="font-muller font-bold text-lg text-body mb-2">{s.title}</h3>
                 <p className="font-montserrat text-sm text-muted leading-relaxed">{s.text}</p>
               </div>

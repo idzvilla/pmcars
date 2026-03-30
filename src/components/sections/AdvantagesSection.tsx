@@ -38,15 +38,28 @@ export default function AdvantagesSection() {
   return (
     <section className="bg-light-bg py-16 md:py-24">
       <div className="container">
-        <h2 className="font-muller font-bold text-3xl md:text-4xl text-body text-center mb-12">
-          Почему работают с нами
-        </h2>
-        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
-          {advantages.map((a) => (
-            <div key={a.title} className="bg-white rounded-2xl p-6 shadow-sm hover:shadow-md transition-shadow">
-              <a.icon size={32} className="text-primary mb-4" />
-              <h3 className="font-muller font-bold text-lg text-body mb-2">{a.title}</h3>
-              <p className="font-montserrat text-sm text-muted leading-relaxed">{a.text}</p>
+        <div className="mb-12">
+          <div className="w-10 h-[3px] bg-primary mb-5" />
+          <div className="lg:flex lg:items-end lg:gap-16">
+            <h2 className="font-muller font-bold text-3xl md:text-4xl text-body mb-4 lg:mb-0 lg:w-64 flex-shrink-0">
+              Почему работают с нами
+            </h2>
+            <p className="text-muted font-montserrat max-w-md">
+              Специализация на одном рынке, честность на каждом шаге и один менеджер от заявки до ключей.
+            </p>
+          </div>
+        </div>
+        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4">
+          {advantages.map((a, i) => (
+            <div
+              key={a.title}
+              className={`rounded-2xl p-6 transition-shadow hover:shadow-md ${
+                i === 0 ? 'bg-dark-bg text-white' : 'bg-white'
+              }`}
+            >
+              <a.icon size={28} className={`mb-4 ${i === 0 ? 'text-primary' : 'text-primary'}`} />
+              <h3 className={`font-muller font-bold text-lg mb-2 ${i === 0 ? 'text-white' : 'text-body'}`}>{a.title}</h3>
+              <p className={`font-montserrat text-sm leading-relaxed ${i === 0 ? 'text-white/60' : 'text-muted'}`}>{a.text}</p>
             </div>
           ))}
         </div>
