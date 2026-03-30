@@ -92,4 +92,9 @@ describe('getLocationsForAuction', () => {
   test('returns empty array for bidcars (not in CSV)', () => {
     expect(getLocationsForAuction('bidcars')).toHaveLength(0)
   })
+  test('returns unique locations (no duplicates)', () => {
+    const locs = getLocationsForAuction('copart')
+    const unique = [...new Set(locs)]
+    expect(locs).toHaveLength(unique.length)
+  })
 })
