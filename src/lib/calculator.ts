@@ -20,10 +20,10 @@ export interface CalculatorResult {
 }
 
 // Константы в BYN
-const CUSTOMS_FEE_BYN = 120
+export const CUSTOMS_FEE_BYN = 120
 const EPTS_FEE_BYN = 70
-const RECYCLING_FEE_UNDER_3_BYN = 544
-const RECYCLING_FEE_OVER_3_BYN = 1089
+export const RECYCLING_FEE_UNDER_3_BYN = 544
+export const RECYCLING_FEE_OVER_3_BYN = 1089
 
 export function calculateDutyUnder3Years(carCost: number, engineVolume: number): number {
   const byPrice = carCost <= 8500 ? carCost * 0.54 : carCost * 0.48

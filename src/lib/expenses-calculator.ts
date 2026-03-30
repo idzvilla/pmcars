@@ -13,13 +13,10 @@ import {
   type EUPort,
   type City,
 } from '@/lib/expenses-data'
-import { calculateTotal } from '@/lib/calculator'
+import { calculateTotal, CUSTOMS_FEE_BYN, RECYCLING_FEE_UNDER_3_BYN, RECYCLING_FEE_OVER_3_BYN } from '@/lib/calculator'
 
 const OUR_SERVICES_BYN = 1000
-const CUSTOMS_FEE_BYN = 120
 const SVX_BYN = 650
-const RECYCLING_FEE_UNDER3_BYN = 544
-const RECYCLING_FEE_OVER3_BYN = 1089
 
 export interface ExpensesInput {
   auction: AuctionType
@@ -88,7 +85,7 @@ export function calculateExpenses(input: ExpensesInput): ExpensesResult {
   const dutyEUR = customsResult.duty
 
   // Fixed BYN fees
-  const utilFeeBYN = carAge === 'under3' ? RECYCLING_FEE_UNDER3_BYN : RECYCLING_FEE_OVER3_BYN
+  const utilFeeBYN = carAge === 'under3' ? RECYCLING_FEE_UNDER_3_BYN : RECYCLING_FEE_OVER_3_BYN
 
   // Total in USD
   const totalUSD =
