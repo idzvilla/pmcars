@@ -73,6 +73,11 @@ describe('calculateExpenses', () => {
     expect(result.utilFeeBYN).toBe(1089)
   })
 
+  test('utilFeeBYN = 1089 for car 3to5 years', () => {
+    const result = calculateExpenses({ ...BASE_INPUT, carAge: '3to5' })
+    expect(result.utilFeeBYN).toBe(1089)
+  })
+
   test('svxBYN = 650', () => {
     expect(calculateExpenses(BASE_INPUT).svxBYN).toBe(650)
   })

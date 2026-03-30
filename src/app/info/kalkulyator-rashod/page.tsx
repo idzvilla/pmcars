@@ -24,7 +24,21 @@ const ZERO_RESULT: ExpensesResult = {
 }
 
 const sel = 'w-full px-4 py-3 rounded-lg border border-gray-200 font-montserrat text-sm focus:outline-none focus:border-primary bg-white'
-const inp = 'w-full px-4 py-3 rounded-lg border border-gray-200 font-montserrat text-sm focus:outline-none focus:border-primary'
+const inp = 'w-full px-4 py-3 rounded-lg border border-gray-200 font-montserrat text-sm focus:outline-none focus:border-primary bg-white'
+
+const ResultRow = ({ label, value }: { label: string; value: string }) => (
+  <div className="flex justify-between font-montserrat text-sm">
+    <span className="text-white/60">{label}</span>
+    <span className="text-white font-bold">{value}</span>
+  </div>
+)
+
+const ResultBlock = ({ title, children }: { title: string; children: React.ReactNode }) => (
+  <div>
+    <h3 className="font-muller font-bold text-base text-white mb-3">{title}</h3>
+    <div className="space-y-2">{children}</div>
+  </div>
+)
 
 export default function KalkulyatorRashodPage() {
   const [usdRate, setUsdRate] = useState(USD_RATE_FALLBACK)
@@ -80,20 +94,6 @@ export default function KalkulyatorRashodPage() {
   }, [auction, location, priceUSD, engineLiters, carAge, vehicleSize, fuelType, city, euPort, decree140, usdRate, eurRate])
 
   const locations = getLocationsForAuction(auction)
-
-  const ResultRow = ({ label, value }: { label: string; value: string }) => (
-    <div className="flex justify-between font-montserrat text-sm">
-      <span className="text-white/60">{label}</span>
-      <span className="text-white font-bold">{value}</span>
-    </div>
-  )
-
-  const ResultBlock = ({ title, children }: { title: string; children: React.ReactNode }) => (
-    <div>
-      <h3 className="font-muller font-bold text-base text-white mb-3">{title}</h3>
-      <div className="space-y-2">{children}</div>
-    </div>
-  )
 
   return (
     <div className="py-16 md:py-24">
