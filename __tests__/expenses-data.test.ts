@@ -7,6 +7,7 @@ import {
   getInlandFee,
   getInsurance,
   autoSelectPort,
+  getLocationsForAuction,
 } from '@/lib/expenses-data'
 
 describe('getAuctionFee', () => {
@@ -79,4 +80,16 @@ describe('autoSelectPort', () => {
   test('< 2.0л → KLAIPEDA', () => expect(autoSelectPort(1.6)).toBe('KLAIPEDA'))
   test('>= 2.0л → POTI', () => expect(autoSelectPort(2.0)).toBe('POTI'))
   test('3.0л → POTI', () => expect(autoSelectPort(3.0)).toBe('POTI'))
+})
+
+describe('getLocationsForAuction', () => {
+  test('returns copart locations array', () => {
+    const locs = getLocationsForAuction('copart')
+    expect(Array.isArray(locs)).toBe(true)
+    expect(locs.length).toBeGreaterThan(0)
+    expect(locs).toContain('ACE - Carson - CA')
+  })
+  test('returns empty array for bidcars (not in CSV)', () => {
+    expect(getLocationsForAuction('bidcars')).toHaveLength(0)
+  })
 })
