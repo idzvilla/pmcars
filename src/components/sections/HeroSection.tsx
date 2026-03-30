@@ -8,22 +8,27 @@ export default function HeroSection() {
       <div className="container py-20">
         <div className="max-w-2xl">
           <p className="text-primary text-sm font-montserrat font-bold uppercase tracking-widest mb-4">
-            Авто из США в Беларусь
+            Авто из США • Беларусь
           </p>
           <h1 className="font-muller font-bold text-white text-4xl md:text-5xl lg:text-6xl leading-tight mb-6">
-            Пригоняем под&nbsp;ключ
+            Пригоняем авто из&nbsp;США под&nbsp;ключ
           </h1>
           <p className="text-white/60 font-montserrat text-lg mb-8 leading-relaxed">
-            Подбор на аукционах Copart и IAAI, доставка морем, растаможка и постановка на учёт.
-            Официальный договор, без скрытых комиссий.
+            Copart и IAAI — подбор, доставка, растаможка.
+            Официальный договор, фиксированная стоимость услуг.
           </p>
           <div className="flex flex-wrap gap-4">
-            <Button href="/info/kalkulyator" size="lg">
+            <Button href="/info/kalkulyator-rashod" size="lg">
               Рассчитать стоимость
             </Button>
-            <Button href="/contacts" variant="outline" size="lg">
-              Получить консультацию
-            </Button>
+            <a
+              href="https://t.me/pmcars"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="inline-flex items-center gap-2 px-8 py-4 rounded border-2 border-white/20 text-white font-montserrat font-bold text-lg hover:border-primary hover:text-primary transition-colors"
+            >
+              Написать в Telegram
+            </a>
           </div>
         </div>
       </div>
