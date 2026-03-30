@@ -19,6 +19,7 @@ const navItems: NavItem[] = [
     label: 'Информация',
     children: [
       { label: 'Таможенный калькулятор', href: '/info/kalkulyator' },
+      { label: 'Калькулятор расходов', href: '/info/kalkulyator-rashod' },
       { label: 'ЭПТС', href: '/info/epts' },
       { label: 'ДКП', href: '/info/dkp' },
       { label: 'Снятие с учёта', href: '/info/snyatie' },

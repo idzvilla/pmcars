@@ -12,6 +12,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
     '/oferta',
     '/contacts',
     '/info/kalkulyator',
+    '/info/kalkulyator-rashod',
     '/info/epts',
     '/info/dkp',
     '/info/snyatie',
