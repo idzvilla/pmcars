@@ -112,9 +112,9 @@ export function autoSelectPort(engineLiters: number): EUPort {
 }
 
 export function getLocationsForAuction(auction: AuctionType): string[] {
-  return [...new Set(
+  return Array.from(new Set(
     usDomesticPrices
       .filter(e => e.auction === auction)
       .map(e => e.location)
-  )]
+  ))
 }

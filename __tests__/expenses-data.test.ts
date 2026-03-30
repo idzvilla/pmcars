@@ -94,7 +94,7 @@ describe('getLocationsForAuction', () => {
   })
   test('returns unique locations (no duplicates)', () => {
     const locs = getLocationsForAuction('copart')
-    const unique = [...new Set(locs)]
+    const unique = Array.from(new Set(locs))
     expect(locs).toHaveLength(unique.length)
   })
 })
