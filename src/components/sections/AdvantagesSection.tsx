@@ -25,7 +25,7 @@ const advantages = [
   {
     icon: Users,
     title: 'Один менеджер от и до',
-    text: 'Не передаём между отделами. Один человек ведёт вас от подбора до ключей в руках.',
+    text: 'Не передаём между отделы. Один человек ведёт вас от подбора до ключей в руках.',
   },
   {
     icon: Clock,
@@ -38,28 +38,15 @@ export default function AdvantagesSection() {
   return (
     <section className="bg-light-bg py-16 md:py-24">
       <div className="container">
-        <div className="mb-12">
-          <div className="w-10 h-[3px] bg-primary mb-5" />
-          <div className="lg:flex lg:items-end lg:gap-16">
-            <h2 className="font-muller font-bold text-3xl md:text-4xl text-body mb-4 lg:mb-0 lg:w-64 flex-shrink-0">
-              Почему работают с нами
-            </h2>
-            <p className="text-muted font-montserrat max-w-md">
-              Специализация на одном рынке, честность на каждом шаге и один менеджер от заявки до ключей.
-            </p>
-          </div>
-        </div>
+        <h2 className="font-muller font-bold text-4xl md:text-5xl text-body tracking-tight text-center mb-14">
+          Почему работают с нами
+        </h2>
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4">
-          {advantages.map((a, i) => (
-            <div
-              key={a.title}
-              className={`rounded-2xl p-6 transition-shadow hover:shadow-md ${
-                i === 0 ? 'bg-dark-bg text-white' : 'bg-white'
-              }`}
-            >
-              <a.icon size={28} className={`mb-4 ${i === 0 ? 'text-primary' : 'text-primary'}`} />
-              <h3 className={`font-muller font-bold text-lg mb-2 ${i === 0 ? 'text-white' : 'text-body'}`}>{a.title}</h3>
-              <p className={`font-montserrat text-sm leading-relaxed ${i === 0 ? 'text-white/60' : 'text-muted'}`}>{a.text}</p>
+          {advantages.map((a) => (
+            <div key={a.title} className="bg-white rounded-2xl p-6">
+              <a.icon size={22} strokeWidth={1.5} className="text-primary mb-4" />
+              <h3 className="font-muller font-bold text-lg text-body mb-2">{a.title}</h3>
+              <p className="font-montserrat text-sm text-muted leading-relaxed">{a.text}</p>
             </div>
           ))}
         </div>
