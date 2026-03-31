@@ -367,7 +367,44 @@ export default function ProtsessPageClient() {
               </div>
             </section>
 
-            {/* Sections 5–6 will be added here */}
+            {/* ── Section 5: Получение авто в РБ ── */}
+            <section
+              id="poluchenie"
+              className="pb-14 md:pb-16 border-b border-gray-100 mb-14 md:mb-16"
+            >
+              <h2 className="font-muller font-bold text-3xl md:text-4xl text-body tracking-tight mb-3">
+                Получение авто в РБ
+              </h2>
+              <p className="font-montserrat text-base text-muted mb-8 max-w-xl">
+                Все автомобили доставляются на СВХ (склад временного хранения) в Гомеле или
+                Минске. Именно здесь автомобиль выгружается, проходит таможенное оформление и
+                передаётся вам.
+              </p>
+              <div className="bg-light-bg rounded-2xl p-6 border border-gray-100 mb-8 max-w-xl">
+                <p className="font-montserrat text-sm text-muted leading-relaxed">
+                  Вы не остаётесь один на этапе получения автомобиля. Мы сопровождаем и
+                  подсказываем до момента, пока вы не заберёте авто.
+                </p>
+              </div>
+              <div className="flex flex-wrap gap-3">
+                <Link
+                  href="/info/kalkulyator-rashod"
+                  className="inline-flex items-center px-6 py-3.5 rounded-xl bg-primary text-white font-montserrat font-bold text-sm hover:bg-primary/90 transition-colors"
+                >
+                  Рассчитать стоимость авто под ключ
+                </Link>
+                <a
+                  href="https://t.me/pmcars"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="inline-flex items-center px-6 py-3.5 rounded-xl border border-gray-200 text-body font-montserrat font-bold text-sm hover:border-primary hover:text-primary transition-colors"
+                >
+                  Получить консультацию
+                </a>
+              </div>
+            </section>
+
+            {/* Section 6 will be added here */}
           </div>
 
           {/* Right sidebar — desktop only */}
