@@ -11,6 +11,55 @@ const SECTIONS = [
   { id: 'info', label: 'Полезная информация' },
 ]
 
+const PURCHASE_STEPS = [
+  {
+    title: 'Заявка и консультация',
+    text: 'Вы оставляете заявку или связываетесь с нами удобным способом. Мы уточняем бюджет, обсуждаем какой автомобиль нужен, объясняем как проходит покупка и делаем предварительный расчёт. Уже на этом этапе вы понимаете: сколько примерно будет стоить авто «под ключ» и какие есть варианты.',
+    bullets: null,
+  },
+  {
+    title: 'Подбор автомобиля',
+    text: 'Подбираем реальные лоты с аукционов США (Copart, IAAI, Manheim). Вы получаете:',
+    bullets: [
+      'подбор под ваш бюджет',
+      'фото и описание авто',
+      'отчёт CARFAX / история',
+      'анализ повреждений',
+      'прогноз стоимости ремонта',
+    ],
+  },
+  {
+    title: 'Согласование и расчёт',
+    text: 'Перед покупкой вы точно знаете: финальную стоимость авто при согласованной ставке, расходы на доставку, таможенные платежи и ориентировочную стоимость ремонта. Никаких «доплат по ходу».',
+    bullets: null,
+  },
+  {
+    title: 'Участие в торгах',
+    text: 'Наша задача — купить автомобиль, который будет выгоден и оправдает вложения. Согласовываем максимальную ставку, участвуем в онлайн-торгах, не превышаем ваш бюджет. Вы можете присутствовать онлайн, в офисе или доверить процесс нам. Если авто не выиграли — подбираем другие варианты, вы ничего не теряете.',
+    bullets: null,
+  },
+  {
+    title: 'Оплата и оформление',
+    text: 'После покупки вы получаете скриншот из кабинета аукциона и официальный инвойс. В инвойсе указана итоговая сумма: стоимость автомобиля + аукционный сбор. Оплата производится через банк по SWIFT-переводу — мы объясняем как правильно заполнить платёж и подсказываем банки.',
+    bullets: null,
+  },
+  {
+    title: 'Доставка из США',
+    text: 'Организовываем логистику: доставка по США до порта, погрузка в контейнер, отправка в Европу, доставка в Беларусь. Вы можете отслеживать авто на каждом этапе — мы сообщаем статусы и сроки.',
+    bullets: null,
+  },
+  {
+    title: 'Таможенное оформление',
+    text: 'Помогаем пройти растаможку в Беларуси: подготовка документов, расчёт платежей, сопровождение процесса.',
+    bullets: null,
+  },
+  {
+    title: 'Получение автомобиля',
+    text: 'Вы получаете авто в Беларуси (Гомель или другой город). Проверяете автомобиль, оформляете документы. На каждом этапе вы знали: где находится ваш автомобиль, сколько уже потрачено и что будет дальше.',
+    bullets: null,
+  },
+]
+
 export default function ProtsessPageClient() {
   const [activeSection, setActiveSection] = useState('kak-my-rabotaem')
 
@@ -88,7 +137,56 @@ export default function ProtsessPageClient() {
               </div>
             </section>
 
-            {/* Sections 2–6 will be added here */}
+            {/* ── Section 2: Процесс покупки ── */}
+            <section
+              id="protsess"
+              className="pb-14 md:pb-16 border-b border-gray-100 mb-14 md:mb-16"
+            >
+              <h2 className="font-muller font-bold text-3xl md:text-4xl text-body tracking-tight mb-3">
+                Процесс покупки
+              </h2>
+              <p className="font-montserrat text-base text-muted mb-10 max-w-xl">
+                Процесс выстроен так, чтобы вы на каждом этапе понимали, что происходит с
+                вашим автомобилем и за что вы платите.
+              </p>
+              <div className="flex flex-col">
+                {PURCHASE_STEPS.map((step, i) => (
+                  <div key={step.title} className="flex gap-5 items-start">
+                    <div className="flex flex-col items-center flex-shrink-0">
+                      <div className="w-9 h-9 rounded-full bg-primary flex items-center justify-center text-white font-muller font-bold text-sm flex-shrink-0">
+                        {i + 1}
+                      </div>
+                      {i < PURCHASE_STEPS.length - 1 && (
+                        <div className="w-[2px] flex-1 min-h-[2rem] bg-primary/20 mt-1 mb-1" />
+                      )}
+                    </div>
+                    <div className={i < PURCHASE_STEPS.length - 1 ? 'pb-6' : ''}>
+                      <h3 className="font-muller font-bold text-lg text-body mb-1 pt-1">
+                        {step.title}
+                      </h3>
+                      <p className="font-montserrat text-sm text-muted leading-relaxed">
+                        {step.text}
+                      </p>
+                      {step.bullets && (
+                        <ul className="mt-2 flex flex-col gap-1">
+                          {step.bullets.map((b) => (
+                            <li
+                              key={b}
+                              className="font-montserrat text-sm text-muted flex items-start gap-2"
+                            >
+                              <span className="mt-1.5 w-1 h-1 rounded-full bg-primary flex-shrink-0" />
+                              {b}
+                            </li>
+                          ))}
+                        </ul>
+                      )}
+                    </div>
+                  </div>
+                ))}
+              </div>
+            </section>
+
+            {/* Sections 3–6 will be added here */}
           </div>
 
           {/* Right sidebar — desktop only */}
