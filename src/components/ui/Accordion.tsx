@@ -5,7 +5,7 @@ import { ChevronDown } from 'lucide-react'
 
 export interface AccordionItem {
   question: string
-  answer: string
+  answer: React.ReactNode
 }
 
 interface AccordionProps {
@@ -32,13 +32,15 @@ export default function Accordion({ items }: AccordionProps) {
           </button>
           <div
             style={{
-              maxHeight: openIndex === i ? '24rem' : '0',
+              maxHeight: openIndex === i ? '40rem' : '0',
               overflow: 'hidden',
               transition: 'max-height 0.3s ease',
             }}
             aria-hidden={openIndex !== i}
           >
-            <p className="text-muted font-montserrat text-sm leading-relaxed pb-4">{item.answer}</p>
+            <div className="text-muted font-montserrat text-sm leading-relaxed pb-4">
+              {item.answer}
+            </div>
           </div>
         </div>
       ))}
