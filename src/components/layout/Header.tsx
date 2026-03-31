@@ -125,6 +125,11 @@ export default function Header() {
                           Доставка
                         </Link>
                       </li>
+                      <li>
+                        <Link href="/protsess" className="text-white/80 hover:text-primary transition-colors whitespace-nowrap">
+                          Процесс покупки
+                        </Link>
+                      </li>
                       <li className="relative group self-stretch flex items-center">
                         <button className="flex items-center gap-2 text-white/80 group-hover:text-primary transition-colors whitespace-nowrap">
                           Информация

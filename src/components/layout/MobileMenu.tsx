@@ -15,6 +15,7 @@ type NavItem =
 const navItems: NavItem[] = [
   { label: 'Услуги', href: '/uslugi' },
   { label: 'Доставка из США', href: '/dostavka' },
+  { label: 'Процесс покупки', href: '/protsess' },
   {
     label: 'Информация',
     children: [
