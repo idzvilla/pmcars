@@ -21,6 +21,7 @@ describe('ProtsessPageClient', () => {
     expect(screen.getAllByText('Доставка и растаможка').length).toBeGreaterThanOrEqual(1)
     expect(screen.getAllByText('Получение авто в РБ').length).toBeGreaterThanOrEqual(1)
     expect(screen.getAllByText('Полезная информация').length).toBeGreaterThanOrEqual(1)
+    expect(screen.getByText('С чего начинается покупка')).toBeInTheDocument()
   })
 
   it('renders sidebar navigation links', () => {

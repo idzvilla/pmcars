@@ -129,7 +129,7 @@ const INFO_ITEMS = [
     answer: (
       <>
         <p className="mb-2">Цена автомобиля из США — это не только стоимость на аукционе. В итог входят:</p>
-        <ul className="flex flex-col gap-1">
+        <ul className="list-none flex flex-col gap-1">
           {[
             'стоимость лота',
             'комиссия аукциона',
@@ -178,7 +178,7 @@ const INFO_ITEMS = [
           воспользоваться категория граждан РБ, имеющая инвалидность 1–2 группы, а также
           многодетные семьи.
         </p>
-        <ul className="flex flex-col gap-1 mb-2">
+        <ul className="list-none flex flex-col gap-1 mb-2">
           {[
             'Требуется подтверждающий документ',
             'Воспользоваться можно 1 раз в год',
@@ -202,7 +202,7 @@ const INFO_ITEMS = [
     answer: (
       <>
         <p className="mb-2">Без опыта можно столкнуться с ситуациями:</p>
-        <ul className="flex flex-col gap-1 mb-3">
+        <ul className="list-none flex flex-col gap-1 mb-3">
           {[
             'авто невозможно растаможить в РБ',
             'автомобиль нельзя вывезти из США',
