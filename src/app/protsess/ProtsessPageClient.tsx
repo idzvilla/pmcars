@@ -83,6 +83,34 @@ const PURCHASE_STEPS = [
   },
 ]
 
+const DELIVERY_STAGES = [
+  {
+    title: 'Доставка по США до порта',
+    days: '3–10 дней',
+    text: 'После покупки автомобиль отправляется с аукциона в порт. Срок зависит от расстояния до порта. На этом этапе уже формируется часть стоимости доставки.',
+  },
+  {
+    title: 'Подготовка и погрузка',
+    days: null,
+    text: 'Автомобиль проходит оформление документов, готовится к отправке и загружается в контейнер. Вы получаете информацию о дате отправки.',
+  },
+  {
+    title: 'Морская доставка',
+    days: '4–6 недель',
+    text: 'Автомобиль отправляется морем в Европу. Сроки зависят от загрузки портов, маршрута и сезона. После отправки вы можете отслеживать контейнер.',
+  },
+  {
+    title: 'Доставка в Беларусь',
+    days: null,
+    text: 'После прибытия в транзитный порт авто выгружается, проходит транзит и доставляется в Беларусь. Мы сопровождаем процесс до момента прибытия.',
+  },
+  {
+    title: 'Передача на таможню',
+    days: null,
+    text: 'Автомобиль передаётся для оформления в РБ. Подготавливаем документы, сопровождаем процесс, помогаем пройти таможню.',
+  },
+]
+
 export default function ProtsessPageClient() {
   const [activeSection, setActiveSection] = useState('kak-my-rabotaem')
 
@@ -267,7 +295,79 @@ export default function ProtsessPageClient() {
               </div>
             </section>
 
-            {/* Sections 4–6 will be added here */}
+            {/* ── Section 4: Доставка и растаможка ── */}
+            <section
+              id="dostavka"
+              className="pb-14 md:pb-16 border-b border-gray-100 mb-14 md:mb-16"
+            >
+              <h2 className="font-muller font-bold text-3xl md:text-4xl text-body tracking-tight mb-3">
+                Доставка и растаможка
+              </h2>
+              <p className="font-montserrat text-base text-muted mb-3 max-w-xl">
+                Организуем доставку авто из США в Гомель и по всей Беларуси: от аукциона до
+                получения автомобиля без лишних сложностей.
+              </p>
+              <p className="font-montserrat text-sm text-primary font-semibold mb-8">
+                В среднем доставка занимает от 6 до 10 недель
+              </p>
+              <div className="flex flex-col mb-10">
+                {DELIVERY_STAGES.map((stage, i) => (
+                  <div key={stage.title} className="flex gap-5 items-start">
+                    <div className="flex flex-col items-center flex-shrink-0">
+                      <div className="w-9 h-9 rounded-full bg-primary flex items-center justify-center text-white font-muller font-bold text-sm flex-shrink-0">
+                        {i + 1}
+                      </div>
+                      {i < DELIVERY_STAGES.length - 1 && (
+                        <div className="w-[2px] flex-1 min-h-[2rem] bg-primary/20 mt-1 mb-1" />
+                      )}
+                    </div>
+                    <div className={i < DELIVERY_STAGES.length - 1 ? 'pb-6' : ''}>
+                      <div className="flex flex-wrap items-center gap-3 mb-1 pt-1">
+                        <h3 className="font-muller font-bold text-lg text-body">
+                          {stage.title}
+                        </h3>
+                        {stage.days && (
+                          <span className="text-xs font-montserrat text-primary bg-primary/10 px-2.5 py-0.5 rounded-full">
+                            {stage.days}
+                          </span>
+                        )}
+                      </div>
+                      <p className="font-montserrat text-sm text-muted leading-relaxed">
+                        {stage.text}
+                      </p>
+                    </div>
+                  </div>
+                ))}
+              </div>
+              <div className="bg-light-bg rounded-2xl p-6 border border-gray-100 mb-10">
+                <h3 className="font-muller font-bold text-base text-body mb-2">
+                  Вы всегда знаете где ваш автомобиль
+                </h3>
+                <p className="font-montserrat text-sm text-muted leading-relaxed">
+                  Во время доставки вы можете отслеживать статус авто, получать обновления и
+                  задавать вопросы. Выбираем надёжных перевозчиков, контролируем этапы,
+                  информируем без задержек.
+                </p>
+              </div>
+              <div className="flex flex-wrap gap-3">
+                <Link
+                  href="/info/kalkulyator-rashod"
+                  className="inline-flex items-center px-6 py-3.5 rounded-xl bg-primary text-white font-montserrat font-bold text-sm hover:bg-primary/90 transition-colors"
+                >
+                  Рассчитать стоимость доставки
+                </Link>
+                <a
+                  href="https://t.me/pmcars"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="inline-flex items-center px-6 py-3.5 rounded-xl border border-gray-200 text-body font-montserrat font-bold text-sm hover:border-primary hover:text-primary transition-colors"
+                >
+                  Получить консультацию по срокам
+                </a>
+              </div>
+            </section>
+
+            {/* Sections 5–6 will be added here */}
           </div>
 
           {/* Right sidebar — desktop only */}
