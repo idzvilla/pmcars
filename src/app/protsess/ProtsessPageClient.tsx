@@ -11,6 +11,29 @@ const SECTIONS = [
   { id: 'info', label: 'Полезная информация' },
 ]
 
+const PAYMENT_STAGES = [
+  {
+    num: 1,
+    title: 'Договор и предоплата',
+    text: 'После согласования условий подписывается договор и вносится предоплата за услуги компании.',
+  },
+  {
+    num: 2,
+    title: 'Оплата автомобиля',
+    text: 'После выигрыша на аукционе вы оплачиваете стоимость лота, аукционные сборы и почтовые услуги. Оплата официальная с подтверждением всех операций.',
+  },
+  {
+    num: 3,
+    title: 'Доставка',
+    text: 'Оплачивается логистика: доставка по США, морская доставка, доставка в Беларусь по прибытию в порт назначения.',
+  },
+  {
+    num: 4,
+    title: 'Таможенные платежи',
+    text: 'Оплата производится при оформлении авто в Республике Беларусь.',
+  },
+]
+
 const PURCHASE_STEPS = [
   {
     title: 'Заявка и консультация',
@@ -186,7 +209,65 @@ export default function ProtsessPageClient() {
               </div>
             </section>
 
-            {/* Sections 3–6 will be added here */}
+            {/* ── Section 3: Оплата и договор ── */}
+            <section
+              id="oplata"
+              className="pb-14 md:pb-16 border-b border-gray-100 mb-14 md:mb-16"
+            >
+              <h2 className="font-muller font-bold text-3xl md:text-4xl text-body tracking-tight mb-3">
+                Оплата и договор
+              </h2>
+              <p className="font-montserrat text-base text-muted mb-8 max-w-xl">
+                Перед началом сотрудничества мы заключаем договор. Вы понимаете, за что
+                платите и какие у вас есть гарантии.
+              </p>
+              <div className="grid grid-cols-1 md:grid-cols-2 gap-4 mb-10">
+                {PAYMENT_STAGES.map((stage) => (
+                  <div
+                    key={stage.num}
+                    className="bg-light-bg rounded-2xl p-6 border border-gray-100"
+                  >
+                    <span className="inline-flex items-center justify-center w-7 h-7 rounded-full bg-primary/10 text-primary font-muller font-bold text-xs mb-3">
+                      {stage.num}
+                    </span>
+                    <h3 className="font-muller font-bold text-lg text-body mb-2">
+                      {stage.title}
+                    </h3>
+                    <p className="font-montserrat text-sm text-muted leading-relaxed">
+                      {stage.text}
+                    </p>
+                  </div>
+                ))}
+              </div>
+              <div className="bg-dark-bg rounded-2xl p-8 md:p-10">
+                <div className="max-w-xl">
+                  <h3 className="font-muller font-bold text-2xl text-white mb-3">
+                    Не обещаем «самые дешёвые авто»
+                  </h3>
+                  <p className="font-montserrat text-white/50 text-base mb-8 leading-relaxed">
+                    Работаем так, чтобы вы рекомендовали нас своим знакомым.
+                  </p>
+                  <div className="flex flex-wrap gap-3">
+                    <Link
+                      href="/contacts"
+                      className="inline-flex items-center px-6 py-3.5 rounded-xl bg-primary text-white font-montserrat font-bold text-sm hover:bg-primary/90 transition-colors"
+                    >
+                      Оставить заявку
+                    </Link>
+                    <a
+                      href="https://t.me/pmcars"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="inline-flex items-center px-6 py-3.5 rounded-xl border border-white/20 text-white font-montserrat font-bold text-sm hover:border-primary hover:text-primary transition-colors"
+                    >
+                      Написать в Telegram
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </section>
+
+            {/* Sections 4–6 will be added here */}
           </div>
 
           {/* Right sidebar — desktop only */}
