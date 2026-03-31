@@ -58,12 +58,53 @@ export default function KalkulyatorRashodPage() {
   const [result, setResult] = useState<ExpensesResult>(ZERO_RESULT)
   const [copied, setCopied] = useState(false)
 
+  const [vinInput, setVinInput] = useState('')
+  const [vinStatus, setVinStatus] = useState<'idle' | 'loading' | 'success' | 'error'>('idle')
+  const [vinError, setVinError] = useState('')
+
   const AGE_LABEL: Record<CarAge, string> = { under3: 'до 3 лет', '3to5': '3–5 лет', over5: 'старше 5 лет' }
   const FUEL_LABEL: Record<FuelType, string> = { gas: 'Бензин', diesel: 'Дизель', hybrid: 'Гибрид', electric: 'Электро' }
   const SIZE_LABEL: Record<VehicleSize, string> = { regular: 'Легковой автомобиль', large: 'Крупный', oversize: 'Oversized' }
   const CITY_LABEL: Record<City, string> = { MINSK: 'Минск', GOMEL: 'Гомель', VITEBSK: 'Витебск', MOGILEV: 'Могилёв', BREST: 'Брест', GRODNO: 'Гродно' }
   const PORT_LABEL: Record<EUPort, string> = { POTI: 'Поти', KLAIPEDA: 'Клайпеда' }
-  const AUCTION_LABEL: Record<AuctionType, string> = { copart: 'Copart', iaai: 'IAAI', bidcars: 'BidCars' }
+  const AUCTION_LABEL: Record<AuctionType, string> = { copart: 'Copart', iaai: 'IAAI', manheim: 'Manheim', bidcars: 'BidCars' }
+
+  async function handleVinLookup() {
+    const vin = vinInput.trim().toUpperCase()
+    if (!/^[A-HJ-NPR-Z0-9]{17}$/i.test(vin)) return
+    setVinStatus('loading')
+    setVinError('')
+    try {
+      const res = await fetch(`/api/copart-vin?vin=${vin}`)
+      if (!res.ok) {
+        const json = await res.json().catch(() => ({}))
+        if (res.status === 404 || json?.error === 'not_found') {
+          setVinError('VIN не найден на Copart')
+        } else {
+          setVinError('Copart временно недоступен')
+        }
+        setVinStatus('error')
+        return
+      }
+      const data = await res.json()
+      if (data.priceUSD > 0) setPriceUSD(data.priceUSD)
+      if (data.engineLiters > 0) setEngineLiters(data.engineLiters)
+      if (data.fuelType) setFuelType(data.fuelType)
+      if (data.location) setLocation(data.location)
+      if (data.year) {
+        const currentYear = new Date().getFullYear()
+        const age = currentYear - data.year
+        if (age < 3) setCarAge('under3')
+        else if (age <= 5) setCarAge('3to5')
+        else setCarAge('over5')
+      }
+      setAuction('copart')
+      setVinStatus('success')
+    } catch {
+      setVinError('Copart временно недоступен')
+      setVinStatus('error')
+    }
+  }
 
   function buildShareText() {
     const auctionTotal = result.carPriceUSD + result.auctionFeeUSD
@@ -152,6 +193,45 @@ export default function KalkulyatorRashodPage() {
           </span>
         </div>
 
+        {/* ===== VIN LOOKUP ===== */}
+        <div className="bg-light-bg rounded-2xl p-6 mb-8">
+          <h2 className="font-muller font-bold text-lg text-body mb-1">Загрузить данные с Copart</h2>
+          <p className="font-montserrat text-sm text-muted mb-4">
+            Введите VIN — год, двигатель, топливо и цена заполнятся автоматически
+          </p>
+          <div className="flex gap-3">
+            <input
+              type="text"
+              maxLength={17}
+              placeholder="VIN (17 символов)"
+              className={inp + ' uppercase flex-1'}
+              value={vinInput}
+              onChange={e => {
+                setVinInput(e.target.value.toUpperCase())
+                setVinStatus('idle')
+                setVinError('')
+              }}
+              onKeyDown={e => { if (e.key === 'Enter' && vinInput.length === 17 && vinStatus !== 'loading') handleVinLookup() }}
+            />
+            <button
+              onClick={handleVinLookup}
+              disabled={vinInput.length !== 17 || vinStatus === 'loading'}
+              aria-label="Найти"
+              className="px-6 py-3 rounded-lg bg-primary text-white font-montserrat font-bold text-sm transition-colors hover:bg-primary/90 disabled:opacity-40 disabled:cursor-not-allowed whitespace-nowrap"
+            >
+              {vinStatus === 'loading' ? 'Загрузка...' : 'Найти'}
+            </button>
+          </div>
+          {vinStatus === 'success' && (
+            <p className="mt-3 font-montserrat text-sm text-green-600 font-medium">
+              ✓ Данные загружены — проверьте и при необходимости скорректируйте поля ниже
+            </p>
+          )}
+          {vinStatus === 'error' && (
+            <p className="mt-3 font-montserrat text-sm text-red-500">{vinError}</p>
+          )}
+        </div>
+
         <div className="lg:grid lg:grid-cols-[1fr_440px] lg:gap-8 lg:items-start">
 
           {/* ===== FORM ===== */}
@@ -168,6 +248,7 @@ export default function KalkulyatorRashodPage() {
                       onChange={e => setAuction(e.target.value as AuctionType)}>
                       <option value="copart">Copart</option>
                       <option value="iaai">IAAI</option>
+                      <option value="manheim">Manheim</option>
                       <option value="bidcars">BidCars</option>
                     </select>
                     <ChevronDown size={16} className="pointer-events-none absolute right-3 top-1/2 -translate-y-1/2 text-muted" />
@@ -327,7 +408,7 @@ export default function KalkulyatorRashodPage() {
               <button
                 onClick={handleShare}
                 disabled={result.totalUSD === 0}
-                className="w-full flex items-center justify-center gap-2 rounded-xl py-3 font-montserrat font-bold text-sm transition-colors disabled:opacity-30 disabled:cursor-not-allowed bg-white/8 hover:bg-white/12 text-white/70 hover:text-white"
+                className="w-full flex items-center justify-center gap-2 rounded-xl py-3 font-montserrat font-bold text-sm transition-colors disabled:opacity-30 disabled:cursor-not-allowed bg-white/10 hover:bg-white/15 text-white/70 hover:text-white"
               >
                 {copied ? <Check size={15} strokeWidth={2.5} /> : <Copy size={15} />}
                 {copied ? 'Скопировано!' : 'Поделиться расчётом'}
