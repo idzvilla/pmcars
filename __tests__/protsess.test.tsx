@@ -16,11 +16,11 @@ describe('ProtsessPageClient', () => {
     render(<ProtsessPageClient />)
     // 'Процесс покупки' appears in both h1 and section h2, so use getAllByText
     expect(screen.getAllByText('Процесс покупки').length).toBeGreaterThanOrEqual(2)
-    expect(screen.getByText('Как мы работаем')).toBeInTheDocument()
-    expect(screen.getByText('Оплата и договор')).toBeInTheDocument()
-    expect(screen.getByText('Доставка и растаможка')).toBeInTheDocument()
-    expect(screen.getByText('Получение авто в РБ')).toBeInTheDocument()
-    expect(screen.getByText('Полезная информация')).toBeInTheDocument()
+    expect(screen.getAllByText('Как мы работаем').length).toBeGreaterThanOrEqual(1)
+    expect(screen.getAllByText('Оплата и договор').length).toBeGreaterThanOrEqual(1)
+    expect(screen.getAllByText('Доставка и растаможка').length).toBeGreaterThanOrEqual(1)
+    expect(screen.getAllByText('Получение авто в РБ').length).toBeGreaterThanOrEqual(1)
+    expect(screen.getAllByText('Полезная информация').length).toBeGreaterThanOrEqual(1)
   })
 
   it('renders sidebar navigation links', () => {

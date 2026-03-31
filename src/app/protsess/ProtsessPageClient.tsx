@@ -1,6 +1,7 @@
 'use client'
 import { useEffect, useState } from 'react'
 import Link from 'next/link'
+import Accordion from '@/components/ui/Accordion'
 
 const SECTIONS = [
   { id: 'kak-my-rabotaem', label: 'Как мы работаем' },
@@ -108,6 +109,121 @@ const DELIVERY_STAGES = [
     title: 'Передача на таможню',
     days: null,
     text: 'Автомобиль передаётся для оформления в РБ. Подготавливаем документы, сопровождаем процесс, помогаем пройти таможню.',
+  },
+]
+
+const INFO_ITEMS = [
+  {
+    question: 'С чего начинается покупка',
+    answer: (
+      <p>
+        Первый шаг — понять что именно вы ищете: конкретная модель или лот, автомобиль под
+        определённый бюджет, авто для себя или для перепродажи. Мы помогаем определить
+        оптимальный вариант и объясняем на что реально можно рассчитывать. Оптимальный
+        возраст авто — до 5 лет, минимальный бюджет «под ключ» — от $13 000.
+      </p>
+    ),
+  },
+  {
+    question: 'Из чего складывается итоговая стоимость',
+    answer: (
+      <>
+        <p className="mb-2">Цена автомобиля из США — это не только стоимость на аукционе. В итог входят:</p>
+        <ul className="flex flex-col gap-1">
+          {[
+            'стоимость лота',
+            'комиссия аукциона',
+            'доставка по США',
+            'морская доставка',
+            'доставка в Беларусь',
+            'таможенные платежи',
+            'утильсбор, оформление, хранение',
+            'ремонт',
+            'услуги компании',
+          ].map((item) => (
+            <li key={item} className="flex items-start gap-2">
+              <span className="mt-1.5 w-1 h-1 rounded-full bg-primary flex-shrink-0" />
+              {item}
+            </li>
+          ))}
+        </ul>
+        <p className="mt-2">Мы сразу считаем полную стоимость, чтобы не было «доплат по ходу».</p>
+      </>
+    ),
+  },
+  {
+    question: 'Как строится маршрут доставки',
+    answer: (
+      <>
+        <p className="mb-3">Маршрут зависит от объёма двигателя автомобиля:</p>
+        <div className="space-y-2">
+          <div>
+            <span className="font-semibold text-body">До 1.5 литра</span>
+            <p className="mt-0.5">Контейнер доставляется в порт Клайпеда (Литва), затем авто перегружается на автовоз и доставляется на СВХ в Гомель или Минск.</p>
+          </div>
+          <div>
+            <span className="font-semibold text-body">Более 1.5 литра</span>
+            <p className="mt-0.5">Автомобиль направляется через порт Поти (Грузия), далее перегружается на автовоз и доставляется в Гомель или Минск.</p>
+          </div>
+        </div>
+      </>
+    ),
+  },
+  {
+    question: 'Льготная растаможка — 140 указ',
+    answer: (
+      <>
+        <p className="mb-2">
+          В Беларуси есть возможность снизить таможенные платежи на 50%. Льготой может
+          воспользоваться категория граждан РБ, имеющая инвалидность 1–2 группы, а также
+          многодетные семьи.
+        </p>
+        <ul className="flex flex-col gap-1 mb-2">
+          {[
+            'Требуется подтверждающий документ',
+            'Воспользоваться можно 1 раз в год',
+            'Ограничений на дальнейшую продажу нет',
+          ].map((item) => (
+            <li key={item} className="flex items-start gap-2">
+              <span className="mt-1.5 w-1 h-1 rounded-full bg-primary flex-shrink-0" />
+              {item}
+            </li>
+          ))}
+        </ul>
+        <p className="text-xs text-muted/70">
+          Использование на постоянной основе в коммерческих целях может повлечь вопросы со
+          стороны контролирующих органов.
+        </p>
+      </>
+    ),
+  },
+  {
+    question: 'Реальные риски при покупке без опыта',
+    answer: (
+      <>
+        <p className="mb-2">Без опыта можно столкнуться с ситуациями:</p>
+        <ul className="flex flex-col gap-1 mb-3">
+          {[
+            'авто невозможно растаможить в РБ',
+            'автомобиль нельзя вывезти из США',
+            'серьёзные скрытые повреждения',
+            'участие в сильных ДТП или наводнениях',
+            'скрученный пробег',
+            'завышенная цена',
+            'ошибки в расчёте таможни',
+          ].map((item) => (
+            <li key={item} className="flex items-start gap-2">
+              <span className="mt-1.5 w-1 h-1 rounded-full bg-primary flex-shrink-0" />
+              {item}
+            </li>
+          ))}
+        </ul>
+        <p>
+          Мы проверяем историю авто (CARFAX), анализируем повреждения, оцениваем
+          целесообразность покупки и отсекаем проблемные варианты.
+        </p>
+      </>
+    ),
   },
 ]
 
@@ -404,7 +520,44 @@ export default function ProtsessPageClient() {
               </div>
             </section>
 
-            {/* Section 6 will be added here */}
+            {/* ── Section 6: Полезная информация ── */}
+            <section id="info" className="pb-14 md:pb-16">
+              <h2 className="font-muller font-bold text-3xl md:text-4xl text-body tracking-tight mb-3">
+                Полезная информация
+              </h2>
+              <p className="font-montserrat text-base text-muted mb-8 max-w-xl">
+                Коротко и по делу — чтобы вы понимали как всё устроено и не сталкивались с
+                неприятными сюрпризами.
+              </p>
+              <div className="mb-10">
+                <Accordion items={INFO_ITEMS} />
+              </div>
+              <div className="bg-dark-bg rounded-2xl p-8 md:p-10">
+                <div className="max-w-xl">
+                  <h3 className="font-muller font-bold text-2xl text-white mb-3">
+                    Остались вопросы?
+                  </h3>
+                  <p className="font-montserrat text-white/50 text-base mb-8 leading-relaxed">
+                    Расскажем подробнее, поможем рассчитать стоимость под ваш бюджет и
+                    подберём подходящий вариант.
+                  </p>
+                  <div className="flex flex-wrap gap-3">
+                    <Link
+                      href="/contacts"
+                      className="inline-flex items-center px-6 py-3.5 rounded-xl bg-primary text-white font-montserrat font-bold text-sm hover:bg-primary/90 transition-colors"
+                    >
+                      Получить консультацию
+                    </Link>
+                    <Link
+                      href="/info/kalkulyator-rashod"
+                      className="inline-flex items-center px-6 py-3.5 rounded-xl border border-white/20 text-white font-montserrat font-bold text-sm hover:border-primary hover:text-primary transition-colors"
+                    >
+                      Рассчитать стоимость
+                    </Link>
+                  </div>
+                </div>
+              </div>
+            </section>
           </div>
 
           {/* Right sidebar — desktop only */}
