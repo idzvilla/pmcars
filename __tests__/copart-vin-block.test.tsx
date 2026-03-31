@@ -2,7 +2,16 @@
 import { render, screen, fireEvent, waitFor } from '@testing-library/react'
 import KalkulyatorRashodPage from '@/app/info/kalkulyator-rashod/page'
 
-// Mock exchange rate fetches so they don't hit real APIs
+const MOCK_SUCCESS = {
+  year: 2019,
+  engineLiters: 2.0,
+  fuelType: 'gas',
+  priceUSD: 8500,
+  location: 'Houston - TX',
+  lotNumber: 87654321,
+  source: 'copart',
+}
+
 beforeEach(() => {
   global.fetch = jest.fn((url: string) => {
     if (String(url).includes('nbrb')) {
@@ -41,7 +50,6 @@ describe('VIN lookup block', () => {
       if (String(url).includes('nbrb')) {
         return Promise.resolve({ json: async () => ({ Cur_OfficialRate: 3.0 }) })
       }
-      // copart-vin never resolves
       return new Promise(() => {})
     })
 
@@ -61,7 +69,7 @@ describe('VIN lookup block', () => {
       if (String(url).includes('nbrb')) {
         return Promise.resolve({ json: async () => ({ Cur_OfficialRate: 3.0 }) })
       }
-      if (String(url).includes('copart-vin')) {
+      if (String(url).includes('vin-lookup')) {
         return Promise.resolve({
           ok: false,
           status: 404,
@@ -87,18 +95,8 @@ describe('VIN lookup block', () => {
       if (String(url).includes('nbrb')) {
         return Promise.resolve({ json: async () => ({ Cur_OfficialRate: 3.0 }) })
       }
-      if (String(url).includes('copart-vin')) {
-        return Promise.resolve({
-          ok: true,
-          json: async () => ({
-            year: 2019,
-            engineLiters: 2.0,
-            fuelType: 'gas',
-            priceUSD: 8500,
-            location: 'Houston - TX',
-            lotNumber: 87654321,
-          }),
-        })
+      if (String(url).includes('vin-lookup')) {
+        return Promise.resolve({ ok: true, json: async () => MOCK_SUCCESS })
       }
       return Promise.reject(new Error('unmocked'))
     })
@@ -115,23 +113,13 @@ describe('VIN lookup block', () => {
     })
   })
 
-  test('shows success message after lookup', async () => {
+  test('shows success message with source name', async () => {
     ;(global.fetch as jest.Mock).mockImplementation((url: string) => {
       if (String(url).includes('nbrb')) {
         return Promise.resolve({ json: async () => ({ Cur_OfficialRate: 3.0 }) })
       }
-      if (String(url).includes('copart-vin')) {
-        return Promise.resolve({
-          ok: true,
-          json: async () => ({
-            year: 2019,
-            engineLiters: 2.0,
-            fuelType: 'gas',
-            priceUSD: 8500,
-            location: 'Houston - TX',
-            lotNumber: 87654321,
-          }),
-        })
+      if (String(url).includes('vin-lookup')) {
+        return Promise.resolve({ ok: true, json: async () => MOCK_SUCCESS })
       }
       return Promise.reject(new Error('unmocked'))
     })
@@ -144,6 +132,32 @@ describe('VIN lookup block', () => {
 
     await waitFor(() => {
       expect(screen.getByText(/данные загружены/i)).toBeInTheDocument()
+      expect(screen.getAllByText(/COPART/i).length).toBeGreaterThan(0)
+    })
+  })
+
+  test('shows IAAI as source when result comes from IAAI', async () => {
+    ;(global.fetch as jest.Mock).mockImplementation((url: string) => {
+      if (String(url).includes('nbrb')) {
+        return Promise.resolve({ json: async () => ({ Cur_OfficialRate: 3.0 }) })
+      }
+      if (String(url).includes('vin-lookup')) {
+        return Promise.resolve({
+          ok: true,
+          json: async () => ({ ...MOCK_SUCCESS, source: 'iaai' }),
+        })
+      }
+      return Promise.reject(new Error('unmocked'))
+    })
+
+    render(<KalkulyatorRashodPage />)
+    fireEvent.change(screen.getByPlaceholderText(/vin/i), {
+      target: { value: '1HGBH41JXMN109186' },
+    })
+    fireEvent.click(screen.getByRole('button', { name: /найти/i }))
+
+    await waitFor(() => {
+      expect(screen.getByText(/IAAI/i)).toBeInTheDocument()
     })
   })
 })

@@ -61,6 +61,7 @@ export default function KalkulyatorRashodPage() {
   const [vinInput, setVinInput] = useState('')
   const [vinStatus, setVinStatus] = useState<'idle' | 'loading' | 'success' | 'error'>('idle')
   const [vinError, setVinError] = useState('')
+  const [vinSource, setVinSource] = useState('')
 
   const AGE_LABEL: Record<CarAge, string> = { under3: 'до 3 лет', '3to5': '3–5 лет', over5: 'старше 5 лет' }
   const FUEL_LABEL: Record<FuelType, string> = { gas: 'Бензин', diesel: 'Дизель', hybrid: 'Гибрид', electric: 'Электро' }
@@ -75,13 +76,13 @@ export default function KalkulyatorRashodPage() {
     setVinStatus('loading')
     setVinError('')
     try {
-      const res = await fetch(`/api/copart-vin?vin=${vin}`)
+      const res = await fetch(`/api/vin-lookup?vin=${vin}`)
       if (!res.ok) {
         const json = await res.json().catch(() => ({}))
         if (res.status === 404 || json?.error === 'not_found') {
-          setVinError('VIN не найден на Copart')
+          setVinError('VIN не найден на Copart, IAAI и BidCars')
         } else {
-          setVinError('Copart временно недоступен')
+          setVinError('Аукционы временно недоступны')
         }
         setVinStatus('error')
         return
@@ -98,10 +99,13 @@ export default function KalkulyatorRashodPage() {
         else if (age <= 5) setCarAge('3to5')
         else setCarAge('over5')
       }
-      setAuction('copart')
+      if (data.source === 'copart' || data.source === 'iaai' || data.source === 'bidcars') {
+        setAuction(data.source)
+      }
+      setVinSource(data.source ?? '')
       setVinStatus('success')
     } catch {
-      setVinError('Copart временно недоступен')
+      setVinError('Аукционы временно недоступны')
       setVinStatus('error')
     }
   }
@@ -195,7 +199,7 @@ export default function KalkulyatorRashodPage() {
 
         {/* ===== VIN LOOKUP ===== */}
         <div className="bg-light-bg rounded-2xl p-6 mb-8">
-          <h2 className="font-muller font-bold text-lg text-body mb-1">Загрузить данные с Copart</h2>
+          <h2 className="font-muller font-bold text-lg text-body mb-1">Загрузить данные с аукциона</h2>
           <p className="font-montserrat text-sm text-muted mb-4">
             Введите VIN — год, двигатель, топливо и цена заполнятся автоматически
           </p>
@@ -210,6 +214,7 @@ export default function KalkulyatorRashodPage() {
                 setVinInput(e.target.value.toUpperCase())
                 setVinStatus('idle')
                 setVinError('')
+                setVinSource('')
               }}
               onKeyDown={e => { if (e.key === 'Enter' && vinInput.length === 17 && vinStatus !== 'loading') handleVinLookup() }}
             />
@@ -224,7 +229,7 @@ export default function KalkulyatorRashodPage() {
           </div>
           {vinStatus === 'success' && (
             <p className="mt-3 font-montserrat text-sm text-green-600 font-medium">
-              ✓ Данные загружены — проверьте и при необходимости скорректируйте поля ниже
+              ✓ Данные загружены с {vinSource ? vinSource.toUpperCase() : 'аукциона'} — проверьте и при необходимости скорректируйте поля ниже
             </p>
           )}
           {vinStatus === 'error' && (
