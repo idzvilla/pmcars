@@ -1,12 +1,11 @@
 // src/app/api/copart-vin/route.ts
 import { NextRequest, NextResponse } from 'next/server'
-
-type FuelType = 'gas' | 'diesel' | 'hybrid' | 'electric'
+import { isValidVin, mapFuelType, parseEngineLiters } from '@/lib/vin-lookup'
 
 export interface CopartLotData {
   year: number
   engineLiters: number
-  fuelType: FuelType
+  fuelType: 'gas' | 'diesel' | 'hybrid' | 'electric'
   priceUSD: number
   location: string
   lotNumber: number
@@ -19,27 +18,6 @@ const COPART_HEADERS = {
   'Accept': 'application/json, text/plain, */*',
   'Referer': 'https://www.copart.com/',
   'Origin': 'https://www.copart.com',
-}
-
-function mapFuelType(raw: string): FuelType {
-  const s = raw.toUpperCase()
-  if (s.includes('DIESEL')) return 'diesel'
-  if (s.includes('HYBRID')) return 'hybrid'
-  if (s.includes('ELECTRIC')) return 'electric'
-  return 'gas'
-}
-
-function parseEngineLiters(raw: string | number | undefined | null): number {
-  if (raw === undefined || raw === null) return 0
-  const num = typeof raw === 'number' ? raw : parseFloat(String(raw))
-  if (isNaN(num)) return 0
-  // Copart stores engine in cc (e.g. 2000) — convert to liters
-  // Values > 100 are treated as cc, values <= 100 are already liters
-  return num > 100 ? Math.round((num / 1000) * 10) / 10 : Math.round(num * 10) / 10
-}
-
-function isValidVin(vin: string): boolean {
-  return /^[A-HJ-NPR-Z0-9]{17}$/i.test(vin)
 }
 
 export async function GET(req: NextRequest): Promise<NextResponse<CopartLotData | ErrorResponse>> {
