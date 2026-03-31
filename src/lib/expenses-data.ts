@@ -2,7 +2,7 @@ import auctionFeesRaw from '@/data/auction-fees.json'
 import shippingConfigRaw from '@/data/shipping-config.json'
 import usDomesticRaw from '@/data/us-domestic-prices.json'
 
-export type AuctionType = 'copart' | 'iaai' | 'bidcars'
+export type AuctionType = 'copart' | 'iaai' | 'manheim' | 'bidcars'
 export type VehicleSize = 'regular' | 'large' | 'oversize'
 export type FuelType = 'gas' | 'diesel' | 'hybrid' | 'electric'
 export type CarAge = 'under3' | '3to5' | 'over5'

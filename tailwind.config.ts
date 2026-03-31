@@ -24,6 +24,15 @@ const config: Config = {
         padding: { DEFAULT: '1rem', lg: '2rem', xl: '1rem' },
         screens: { xl: '1184px' },
       },
+      keyframes: {
+        'fade-in': {
+          '0%': { opacity: '0', transform: 'translateY(8px)' },
+          '100%': { opacity: '1', transform: 'translateY(0)' },
+        },
+      },
+      animation: {
+        'fade-in': 'fade-in 0.3s ease-out',
+      },
     },
   },
   plugins: [],

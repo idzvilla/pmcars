@@ -1,3970 +1,4154 @@
 [
   {
+    "location": "Illinois",
+    "auction": "copart",
+    "port": "Chicago",
+    "regular": 180,
+    "large": 180,
+    "oversize": 216
+  },
+  {
     "location": "ABILENE - Texas",
     "auction": "copart",
     "port": "Houston",
-    "regular": 425,
-    "large": 425,
-    "oversize": 495
-  },
-  {
-    "location": "ACE - Carson - CA",
-    "auction": "copart",
-    "port": "Los Angeles",
-    "regular": 235,
-    "large": 235,
-    "oversize": 267
-  },
-  {
-    "location": "ACE - Perris - CA",
-    "auction": "copart",
-    "port": "Los Angeles",
-    "regular": 325,
-    "large": 325,
-    "oversize": 375
-  },
-  {
-    "location": "ACE - PERRIS 2 - CA",
-    "auction": "copart",
-    "port": "Los Angeles",
     "regular": 350,
     "large": 350,
-    "oversize": 405
+    "oversize": 420
   },
   {
     "location": "ADELANTO - California",
     "auction": "copart",
     "port": "Los Angeles",
-    "regular": 375,
-    "large": 375,
-    "oversize": 435
+    "regular": 300,
+    "large": 300,
+    "oversize": 360
   },
   {
     "location": "ADP TOWING MAUI - Hawaii",
     "auction": "copart",
     "port": "Los Angeles",
-    "regular": 375,
-    "large": 375,
-    "oversize": 435
+    "regular": 2250,
+    "large": 2250,
+    "oversize": 2700
   },
   {
     "location": "AKRON - Ohio",
     "auction": "copart",
     "port": "Norfolk",
-    "regular": 625,
-    "large": 625,
-    "oversize": 735
+    "regular": 550,
+    "large": 550,
+    "oversize": 660
   },
   {
     "location": "ALBANY - New York",
     "auction": "copart",
     "port": "New York",
-    "regular": 350,
-    "large": 350,
-    "oversize": 405
+    "regular": 275,
+    "large": 275,
+    "oversize": 330
   },
   {
     "location": "ALBUQUERQUE - New Mexico",
     "auction": "copart",
     "port": "Houston",
-    "regular": 675,
-    "large": 675,
-    "oversize": 795
-  },
-  {
-    "location": "ALTOONA - PA",
-    "auction": "copart",
-    "port": "New York",
-    "regular": 525,
-    "large": 525,
-    "oversize": 615
+    "regular": 600,
+    "large": 600,
+    "oversize": 720
   },
   {
     "location": "ALTOONA - Pennsylvania",
     "auction": "copart",
     "port": "New York",
-    "regular": 525,
-    "large": 525,
-    "oversize": 615
+    "regular": 450,
+    "large": 450,
+    "oversize": 540
   },
   {
     "location": "AMARILLO - Texas",
     "auction": "copart",
     "port": "Houston",
-    "regular": 600,
-    "large": 600,
-    "oversize": 705
-  },
-  {
-    "location": "ANAHEIM - CA",
-    "auction": "copart",
-    "port": "Los Angeles",
-    "regular": 275,
-    "large": 275,
-    "oversize": 315
+    "regular": 525,
+    "large": 525,
+    "oversize": 630
   },
   {
     "location": "ANDREWS - Texas",
     "auction": "copart",
     "port": "Houston",
-    "regular": 500,
-    "large": 500,
-    "oversize": 585
+    "regular": 425,
+    "large": 425,
+    "oversize": 510
   },
   {
     "location": "ANTELOPE - California",
     "auction": "copart",
     "port": "Los Angeles",
-    "regular": 475,
-    "large": 475,
-    "oversize": 555
+    "regular": 400,
+    "large": 400,
+    "oversize": 480
   },
   {
     "location": "APPLETON - Wisconsin",
     "auction": "copart",
     "port": "Chicago",
-    "regular": 400,
-    "large": 400,
-    "oversize": 465
-  },
-  {
-    "location": "ASHEVILLE - NC",
-    "auction": "copart",
-    "port": "Norfolk",
-    "regular": 475,
-    "large": 475,
-    "oversize": 555
+    "regular": 325,
+    "large": 325,
+    "oversize": 390
   },
   {
     "location": "ATLANTA EAST - Georgia",
     "auction": "copart",
     "port": "Savannah",
-    "regular": 375,
-    "large": 375,
-    "oversize": 435
+    "regular": 300,
+    "large": 300,
+    "oversize": 360
   },
   {
     "location": "ATLANTA NORTH - Georgia",
     "auction": "copart",
     "port": "Savannah",
-    "regular": 400,
-    "large": 400,
-    "oversize": 465
+    "regular": 325,
+    "large": 325,
+    "oversize": 390
   },
   {
     "location": "ATLANTA SOUTH - Georgia",
     "auction": "copart",
     "port": "Savannah",
-    "regular": 375,
-    "large": 375,
-    "oversize": 435
+    "regular": 300,
+    "large": 300,
+    "oversize": 360
   },
   {
     "location": "ATLANTA WEST - Georgia",
     "auction": "copart",
     "port": "Savannah",
-    "regular": 375,
-    "large": 375,
-    "oversize": 435
-  },
-  {
-    "location": "Augusta - Georgia",
-    "auction": "copart",
-    "port": "Savannah",
-    "regular": 350,
-    "large": 350,
-    "oversize": 405
+    "regular": 300,
+    "large": 300,
+    "oversize": 360
   },
   {
     "location": "AUSTIN - Texas",
     "auction": "copart",
     "port": "Houston",
-    "regular": 325,
-    "large": 325,
-    "oversize": 375
+    "regular": 250,
+    "large": 250,
+    "oversize": 300
   },
   {
-    "location": "AVENEL NEW JERSEY - NJ",
+    "location": "Augusta - Georgia",
     "auction": "copart",
-    "port": "New York",
-    "regular": 200,
-    "large": 200,
-    "oversize": 225
+    "port": "Savannah",
+    "regular": 275,
+    "large": 275,
+    "oversize": 330
   },
   {
     "location": "BAKERSFIELD - California",
     "auction": "copart",
     "port": "Los Angeles",
-    "regular": 425,
-    "large": 425,
-    "oversize": 495
+    "regular": 350,
+    "large": 350,
+    "oversize": 420
   },
   {
     "location": "BALTIMORE - Maryland",
     "auction": "copart",
     "port": "Norfolk",
-    "regular": 400,
-    "large": 400,
-    "oversize": 465
+    "regular": 325,
+    "large": 325,
+    "oversize": 390
   },
   {
     "location": "BALTIMORE EAST - Maryland",
     "auction": "copart",
     "port": "Norfolk",
-    "regular": 400,
-    "large": 400,
-    "oversize": 465
+    "regular": 325,
+    "large": 325,
+    "oversize": 390
   },
   {
     "location": "BATON ROUGE - Louisiana",
     "auction": "copart",
     "port": "Houston",
-    "regular": 425,
-    "large": 425,
-    "oversize": 495
+    "regular": 350,
+    "large": 350,
+    "oversize": 420
   },
   {
     "location": "BILLINGS - Montana",
     "auction": "copart",
-    "port": "Sesttle",
-    "regular": 925,
-    "large": 925,
-    "oversize": 1095
+    "port": "Seattle",
+    "regular": 850,
+    "large": 850,
+    "oversize": 1020
   },
   {
     "location": "BIRMINGHAM - Alabama",
     "auction": "copart",
     "port": "Savannah",
-    "regular": 450,
-    "large": 450,
-    "oversize": 525
-  },
-  {
-    "location": "BISMARCK - North Dakota",
-    "auction": "copart",
-    "port": "Chicago",
-    "regular": 0,
-    "large": 0,
-    "oversize": 0
+    "regular": 375,
+    "large": 375,
+    "oversize": 450
   },
   {
     "location": "BOISE - Idaho",
     "auction": "copart",
-    "port": "Sesttle",
-    "regular": 525,
-    "large": 525,
-    "oversize": 615
-  },
-  {
-    "location": "BOSTON - SHIRLEY - MA",
-    "auction": "copart",
-    "port": "New York",
+    "port": "Seattle",
     "regular": 450,
     "large": 450,
-    "oversize": 525
-  },
-  {
-    "location": "BRIDGEPORT - PA",
-    "auction": "copart",
-    "port": "New York",
-    "regular": 275,
-    "large": 275,
-    "oversize": 315
-  },
-  {
-    "location": "BUCKHANNON - WV",
-    "auction": "copart",
-    "port": "Norfolk",
-    "regular": 700,
-    "large": 700,
-    "oversize": 825
+    "oversize": 540
   },
   {
     "location": "Buffalo - New York",
     "auction": "copart",
     "port": "New York",
-    "regular": 575,
-    "large": 575,
-    "oversize": 675
-  },
-  {
-    "location": "BURLINGTON - VT",
-    "auction": "copart",
-    "port": "New York",
-    "regular": 575,
-    "large": 575,
-    "oversize": 675
+    "regular": 500,
+    "large": 500,
+    "oversize": 600
   },
   {
     "location": "CALGARY - Alberta",
     "auction": "copart",
     "port": "Toronto",
-    "regular": 1525,
-    "large": 1525,
-    "oversize": 1625
+    "regular": 1450,
+    "large": 1450,
+    "oversize": 1550
   },
   {
-    "location": "CANDIA - New Hampshire",
+    "location": "CANDIA - New Hampshire -",
     "auction": "copart",
     "port": "New York",
-    "regular": 475,
-    "large": 475,
-    "oversize": 555
+    "regular": 400,
+    "large": 400,
+    "oversize": 480
   },
   {
     "location": "CARTERSVILLE - Georgia",
     "auction": "copart",
     "port": "Savannah",
+    "regular": 300,
+    "large": 300,
+    "oversize": 360
+  },
+  {
+    "location": "CASPER - Wyoming Copart",
+    "auction": "copart",
+    "port": "Chicago",
+    "regular": 950,
+    "large": 950,
+    "oversize": 1140
+  },
+  {
+    "location": "CEDAR RAPIDS - Iowa",
+    "auction": "copart",
+    "port": "Chicago",
+    "regular": 400,
+    "large": 400,
+    "oversize": 480
+  },
+  {
+    "location": "CHAMBERSBURG - Pennsylvania -",
+    "auction": "copart",
+    "port": "New York",
+    "regular": 350,
+    "large": 350,
+    "oversize": 420
+  },
+  {
+    "location": "CHARLESTON - West Virginia -",
+    "auction": "copart",
+    "port": "Norfolk",
+    "regular": 625,
+    "large": 625,
+    "oversize": 750
+  },
+  {
+    "location": "CHARLESTON - SC -Copart",
+    "auction": "copart",
+    "port": "Savannah",
+    "regular": 275,
+    "large": 275,
+    "oversize": 330
+  },
+  {
+    "location": "CHICAGO NORTH - Illinois -",
+    "auction": "copart",
+    "port": "Chicago",
+    "regular": 180,
+    "large": 180,
+    "oversize": 216
+  },
+  {
+    "location": "CHICAGO SOUTH - Illinois -",
+    "auction": "copart",
+    "port": "Chicago",
+    "regular": 180,
+    "large": 180,
+    "oversize": 216
+  },
+  {
+    "location": "CHICAGO SOUTH - WOODMAR/HEIGTS sublot",
+    "auction": "copart",
+    "port": "Chicago",
+    "regular": 180,
+    "large": 180,
+    "oversize": 216
+  },
+  {
+    "location": "CHINA GROVE - North Carolina -",
+    "auction": "copart",
+    "port": "Norfolk",
+    "regular": 300,
+    "large": 300,
+    "oversize": 360
+  },
+  {
+    "location": "CICERO - Indiana -",
+    "auction": "copart",
+    "port": "Chicago",
+    "regular": 300,
+    "large": 300,
+    "oversize": 360
+  },
+  {
+    "location": "CLEVELAND EAST - Ohio -",
+    "auction": "copart",
+    "port": "Norfolk",
+    "regular": 550,
+    "large": 550,
+    "oversize": 660
+  },
+  {
+    "location": "CLEVELAND WEST - Ohio -",
+    "auction": "copart",
+    "port": "Norfolk",
+    "regular": 550,
+    "large": 550,
+    "oversize": 660
+  },
+  {
+    "location": "CLEWISTON - Florida -",
+    "auction": "copart",
+    "port": "Miami",
+    "regular": 300,
+    "large": 300,
+    "oversize": 360
+  },
+  {
+    "location": "COLORADO SPRINGS - Colorado -",
+    "auction": "copart",
+    "port": "Chicago",
+    "regular": 650,
+    "large": 650,
+    "oversize": 780
+  },
+  {
+    "location": "COLUMBUS - Ohio -",
+    "auction": "copart",
+    "port": "Norfolk",
+    "regular": 550,
+    "large": 550,
+    "oversize": 660
+  },
+  {
+    "location": "CONCORD - North Carolina -",
+    "auction": "copart",
+    "port": "Norfolk",
+    "regular": 300,
+    "large": 300,
+    "oversize": 360
+  },
+  {
+    "location": "CORPUS CHRISTI - Texas -",
+    "auction": "copart",
+    "port": "Houston",
+    "regular": 275,
+    "large": 275,
+    "oversize": 330
+  },
+  {
+    "location": "CRASHEDTOYS ATLANTA - Georgia -",
+    "auction": "copart",
+    "port": "Savannah",
+    "regular": 275,
+    "large": 275,
+    "oversize": 330
+  },
+  {
+    "location": "CRASHEDTOYS DALLAS - Texas -",
+    "auction": "copart",
+    "port": "Houston",
+    "regular": 275,
+    "large": 275,
+    "oversize": 330
+  },
+  {
+    "location": "DALLAS - Texas -",
+    "auction": "copart",
+    "port": "Houston",
+    "regular": 275,
+    "large": 275,
+    "oversize": 330
+  },
+  {
+    "location": "DALLAS SOUTH - Texas -",
+    "auction": "copart",
+    "port": "Houston",
+    "regular": 275,
+    "large": 275,
+    "oversize": 330
+  },
+  {
+    "location": "DANVILLE - Virginia -",
+    "auction": "copart",
+    "port": "Norfolk",
+    "regular": 300,
+    "large": 300,
+    "oversize": 360
+  },
+  {
+    "location": "DAVENPORT - 169 Davenport sublot - Iowa -",
+    "auction": "copart",
+    "port": "Chicago",
+    "regular": 325,
+    "large": 325,
+    "oversize": 390
+  },
+  {
+    "location": "DAVENPORT - Iowa -",
+    "auction": "copart",
+    "port": "Chicago",
+    "regular": 325,
+    "large": 325,
+    "oversize": 390
+  },
+  {
+    "location": "DAYTON - Ohio -",
+    "auction": "copart",
+    "port": "Norfolk",
+    "regular": 550,
+    "large": 550,
+    "oversize": 660
+  },
+  {
+    "location": "DENVER - Colorado -",
+    "auction": "copart",
+    "port": "Chicago",
+    "regular": 650,
+    "large": 650,
+    "oversize": 780
+  },
+  {
+    "location": "DENVER CENTRAL - Colorado -",
+    "auction": "copart",
+    "port": "Chicago",
+    "regular": 650,
+    "large": 650,
+    "oversize": 780
+  },
+  {
+    "location": "DENVER SOUTH - Colorado -",
+    "auction": "copart",
+    "port": "Chicago",
+    "regular": 650,
+    "large": 650,
+    "oversize": 780
+  },
+  {
+    "location": "DES MOINES - Iowa -",
+    "auction": "copart",
+    "port": "Chicago",
+    "regular": 400,
+    "large": 400,
+    "oversize": 480
+  },
+  {
+    "location": "DETROIT - Michigan -",
+    "auction": "copart",
+    "port": "Chicago",
+    "regular": 400,
+    "large": 400,
+    "oversize": 480
+  },
+  {
+    "location": "DOTHAN - Alabama -",
+    "auction": "copart",
+    "port": "Savannah",
     "regular": 375,
     "large": 375,
-    "oversize": 435
+    "oversize": 450
   },
   {
-    "location": "CENTRAL NEW JERSEY - NJ",
+    "location": "DYER - Indiana -",
     "auction": "copart",
-    "port": "New York",
-    "regular": 225,
-    "large": 225,
-    "oversize": 255
+    "port": "Chicago",
+    "regular": 180,
+    "large": 180,
+    "oversize": 216
   },
   {
-    "location": "CHAMBERSBURG - Pennsylvania",
+    "location": "EARLINGTON - Kentucky -",
     "auction": "copart",
-    "port": "New York",
+    "port": "Savannah",
+    "regular": 550,
+    "large": 550,
+    "oversize": 660
+  },
+  {
+    "location": "EDMONTON - Alberta -",
+    "auction": "copart",
+    "port": "Toronto",
+    "regular": 1450,
+    "large": 1450,
+    "oversize": 1650
+  },
+  {
+    "location": "EL PASO - Texas -",
+    "auction": "copart",
+    "port": "Houston",
     "regular": 425,
     "large": 425,
-    "oversize": 495
+    "oversize": 510
   },
   {
-    "location": "CHARLESTON - SC",
+    "location": "EUGENE - Oregon -",
     "auction": "copart",
-    "port": "Savannah",
+    "port": "Seattle",
+    "regular": 375,
+    "large": 375,
+    "oversize": 450
+  },
+  {
+    "location": "EXETER - Rhode Island -",
+    "auction": "copart",
+    "port": "New York",
     "regular": 350,
     "large": 350,
-    "oversize": 405
+    "oversize": 420
   },
   {
-    "location": "CHARLESTON - West Virginia",
-    "auction": "copart",
-    "port": "Norfolk",
-    "regular": 700,
-    "large": 700,
-    "oversize": 825
-  },
-  {
-    "location": "CHARLOTTE - NC",
-    "auction": "copart",
-    "port": "Norfolk",
-    "regular": 375,
-    "large": 375,
-    "oversize": 435
-  },
-  {
-    "location": "CHATTANOOGA - TN",
+    "location": "FAIRBURN - Georgia -",
     "auction": "copart",
     "port": "Savannah",
-    "regular": 550,
-    "large": 550,
-    "oversize": 645
-  },
-  {
-    "location": "CHICAGO NORTH - Illinois",
-    "auction": "copart",
-    "port": "Chicago",
-    "regular": 255,
-    "large": 255,
-    "oversize": 291
-  },
-  {
-    "location": "CHICAGO SOUTH - Illinois",
-    "auction": "copart",
-    "port": "Chicago",
-    "regular": 255,
-    "large": 255,
-    "oversize": 291
-  },
-  {
-    "location": "CHICAGO SOUTH-Woodmar/Heights sublot - Illinois",
-    "auction": "copart",
-    "port": "Chicago",
-    "regular": 255,
-    "large": 255,
-    "oversize": 291
-  },
-  {
-    "location": "CHINA GROVE - North Carolina",
-    "auction": "copart",
-    "port": "Norfolk",
-    "regular": 375,
-    "large": 375,
-    "oversize": 435
-  },
-  {
-    "location": "CICERO - Indiana",
-    "auction": "copart",
-    "port": "Chicago",
-    "regular": 375,
-    "large": 375,
-    "oversize": 435
-  },
-  {
-    "location": "CINCINNATI SOUTH - OH",
-    "auction": "copart",
-    "port": "Norfolk",
-    "regular": 625,
-    "large": 625,
-    "oversize": 735
-  },
-  {
-    "location": "CLEARWATER - FL",
-    "auction": "copart",
-    "port": "Miami",
-    "regular": 325,
-    "large": 325,
-    "oversize": 375
-  },
-  {
-    "location": "CLEVELAND - OH",
-    "auction": "copart",
-    "port": "Norfolk",
-    "regular": 625,
-    "large": 625,
-    "oversize": 735
-  },
-  {
-    "location": "CLEVELAND EAST - Ohio",
-    "auction": "copart",
-    "port": "Norfolk",
-    "regular": 625,
-    "large": 625,
-    "oversize": 735
-  },
-  {
-    "location": "CLEVELAND WEST - Ohio",
-    "auction": "copart",
-    "port": "Norfolk",
-    "regular": 625,
-    "large": 625,
-    "oversize": 735
-  },
-  {
-    "location": "COLORADO SPRINGS - Colorado",
-    "auction": "copart",
-    "port": "Chicago",
-    "regular": 725,
-    "large": 725,
-    "oversize": 855
-  },
-  {
-    "location": "COLTON - CA",
-    "auction": "copart",
-    "port": "Los Angeles",
     "regular": 275,
     "large": 275,
-    "oversize": 315
+    "oversize": 330
   },
   {
-    "location": "COLUMBIA - SC",
+    "location": "FAYETTEVILLE - Arkansas -",
     "auction": "copart",
-    "port": "Savannah",
-    "regular": 350,
-    "large": 350,
-    "oversize": 405
+    "port": "Houston",
+    "regular": 475,
+    "large": 475,
+    "oversize": 570
   },
   {
-    "location": "COLUMBUS - Ohio",
+    "location": "FLINT - Michigan -",
+    "auction": "copart",
+    "port": "Chicago",
+    "regular": 450,
+    "large": 450,
+    "oversize": 540
+  },
+  {
+    "location": "FORT WAYNE - Indiana -",
+    "auction": "copart",
+    "port": "Chicago",
+    "regular": 300,
+    "large": 300,
+    "oversize": 360
+  },
+  {
+    "location": "FREDERICKSBURG - Virginia -",
     "auction": "copart",
     "port": "Norfolk",
-    "regular": 625,
-    "large": 625,
-    "oversize": 735
+    "regular": 250,
+    "large": 250,
+    "oversize": 300
   },
   {
-    "location": "CONCORD - North Carolina",
+    "location": "FREETOWN - Massachusetts -",
     "auction": "copart",
-    "port": "Norfolk",
+    "port": "New York",
     "regular": 375,
     "large": 375,
-    "oversize": 435
+    "oversize": 450
   },
   {
-    "location": "CORPUS CHRISTI - Texas",
-    "auction": "copart",
-    "port": "Houston",
-    "regular": 350,
-    "large": 350,
-    "oversize": 405
-  },
-  {
-    "location": "CRASHEDTOYS ATLANTA - Georgia",
-    "auction": "copart",
-    "port": "Savannah",
-    "regular": 350,
-    "large": 350,
-    "oversize": 405
-  },
-  {
-    "location": "CRASHEDTOYS DALLAS - Texas",
-    "auction": "copart",
-    "port": "Houston",
-    "regular": 350,
-    "large": 350,
-    "oversize": 405
-  },
-  {
-    "location": "CRASHEDTOYS EAST BETHEL - Minnesota",
-    "auction": "copart",
-    "port": "Chicago",
-    "regular": 0,
-    "large": 0,
-    "oversize": 0
-  },
-  {
-    "location": "CRASHEDTOYS ELDRIDGE - Iowa",
-    "auction": "copart",
-    "port": "Chicago",
-    "regular": 0,
-    "large": 0,
-    "oversize": 0
-  },
-  {
-    "location": "CRASHEDTOYS MINNEAPOLIS - Minnesota",
-    "auction": "copart",
-    "port": "Chicago",
-    "regular": 0,
-    "large": 0,
-    "oversize": 0
-  },
-  {
-    "location": "CRASHEDTOYS SACRAMENTO - California",
+    "location": "FRESNO - California -",
     "auction": "copart",
     "port": "Los Angeles",
-    "regular": 0,
-    "large": 0,
-    "oversize": 0
+    "regular": 375,
+    "large": 375,
+    "oversize": 450
   },
   {
-    "location": "CULPEPER - VA",
+    "location": "FT. PIERCE - Florida -",
+    "auction": "copart",
+    "port": "Miami",
+    "regular": 200,
+    "large": 200,
+    "oversize": 240
+  },
+  {
+    "location": "FT. WORTH - Texas -",
+    "auction": "copart",
+    "port": "Houston",
+    "regular": 275,
+    "large": 275,
+    "oversize": 330
+  },
+  {
+    "location": "GASTONIA - North Carolina -",
     "auction": "copart",
     "port": "Norfolk",
     "regular": 325,
     "large": 325,
-    "oversize": 375
+    "oversize": 390
   },
   {
-    "location": "D&D TOWING INC MAUI - HI",
+    "location": "GLASSBORO EAST - New Jersey -",
     "auction": "copart",
-    "port": "Los Angeles",
-    "regular": 2475,
-    "large": 2475,
-    "oversize": 2955
+    "port": "New York",
+    "regular": 200,
+    "large": 200,
+    "oversize": 240
   },
   {
-    "location": "DALLAS - Texas",
+    "location": "GLASSBORO WEST - New Jersey -",
+    "auction": "copart",
+    "port": "New York",
+    "regular": 200,
+    "large": 200,
+    "oversize": 240
+  },
+  {
+    "location": "GRAHAM - Washington -",
+    "auction": "copart",
+    "port": "Seattle",
+    "regular": 150,
+    "large": 150,
+    "oversize": 180
+  },
+  {
+    "location": "Grenada - Mississippi -",
     "auction": "copart",
     "port": "Houston",
-    "regular": 350,
-    "large": 350,
-    "oversize": 405
-  },
-  {
-    "location": "DALLAS SOUTH - Texas",
-    "auction": "copart",
-    "port": "Houston",
-    "regular": 350,
-    "large": 350,
-    "oversize": 405
-  },
-  {
-    "location": "Dallas/Ft Worth - TX",
-    "auction": "copart",
-    "port": "Houston",
-    "regular": 350,
-    "large": 350,
-    "oversize": 405
-  },
-  {
-    "location": "DANVILLE - Virginia",
-    "auction": "copart",
-    "port": "Norfolk",
-    "regular": 375,
-    "large": 375,
-    "oversize": 435
-  },
-  {
-    "location": "DAVENPORT - 169 Davenport sublot - Iowa",
-    "auction": "copart",
-    "port": "Chicago",
-    "regular": 400,
-    "large": 400,
-    "oversize": 465
-  },
-  {
-    "location": "DAVENPORT - Iowa",
-    "auction": "copart",
-    "port": "Chicago",
-    "regular": 400,
-    "large": 400,
-    "oversize": 465
-  },
-  {
-    "location": "DAYTON - Ohio",
-    "auction": "copart",
-    "port": "Norfolk",
-    "regular": 625,
-    "large": 625,
-    "oversize": 735
-  },
-  {
-    "location": "DC TOWING HILO - HI",
-    "auction": "copart",
-    "port": "Los Angeles",
-    "regular": 2175,
-    "large": 2175,
-    "oversize": 2595
-  },
-  {
-    "location": "DENVER - Colorado",
-    "auction": "copart",
-    "port": "Chicago",
-    "regular": 725,
-    "large": 725,
-    "oversize": 855
-  },
-  {
-    "location": "DENVER CENTRAL - Colorado",
-    "auction": "copart",
-    "port": "Chicago",
-    "regular": 725,
-    "large": 725,
-    "oversize": 855
-  },
-  {
-    "location": "DENVER EAST - CO",
-    "auction": "copart",
-    "port": "Chicago",
-    "regular": 725,
-    "large": 725,
-    "oversize": 855
-  },
-  {
-    "location": "DENVER SOUTH - Colorado",
-    "auction": "copart",
-    "port": "Chicago",
-    "regular": 725,
-    "large": 725,
-    "oversize": 855
-  },
-  {
-    "location": "DES MOINES - Iowa",
-    "auction": "copart",
-    "port": "Chicago",
     "regular": 475,
     "large": 475,
-    "oversize": 555
+    "oversize": 570
   },
   {
-    "location": "DETROIT - Michigan",
-    "auction": "copart",
-    "port": "Chicago",
-    "regular": 475,
-    "large": 475,
-    "oversize": 555
-  },
-  {
-    "location": "DOTHAN - Alabama",
-    "auction": "copart",
-    "port": "Savannah",
-    "regular": 450,
-    "large": 450,
-    "oversize": 525
-  },
-  {
-    "location": "DUNDALK - MD",
-    "auction": "copart",
-    "port": "Norfolk",
-    "regular": 375,
-    "large": 375,
-    "oversize": 435
-  },
-  {
-    "location": "DYER - Indiana",
-    "auction": "copart",
-    "port": "Chicago",
-    "regular": 255,
-    "large": 255,
-    "oversize": 291
-  },
-  {
-    "location": "EARLINGTON - Kentucky",
-    "auction": "copart",
-    "port": "Savannah",
-    "regular": 625,
-    "large": 625,
-    "oversize": 735
-  },
-  {
-    "location": "EAST BAY - CA",
-    "auction": "copart",
-    "port": "Los Angeles",
-    "regular": 475,
-    "large": 475,
-    "oversize": 555
-  },
-  {
-    "location": "EDMONTON - Alberta",
+    "location": "HALIFAX - Nova Scotia -",
     "auction": "copart",
     "port": "Toronto",
-    "regular": 1525,
-    "large": 1525,
-    "oversize": 1725
+    "regular": 1200,
+    "large": 1200,
+    "oversize": 1300
   },
   {
-    "location": "EL PASO - Texas",
+    "location": "HAMPTON - Virginia -",
+    "auction": "copart",
+    "port": "Norfolk",
+    "regular": 150,
+    "large": 150,
+    "oversize": 180
+  },
+  {
+    "location": "HARRISBURG - Pennsylvania -",
+    "auction": "copart",
+    "port": "New York",
+    "regular": 275,
+    "large": 275,
+    "oversize": 330
+  },
+  {
+    "location": "HARTFORD - Connecticut -",
+    "auction": "copart",
+    "port": "New York",
+    "regular": 250,
+    "large": 250,
+    "oversize": 300
+  },
+  {
+    "location": "HARTFORD SPRINGFIELD - Connecticut -",
+    "auction": "copart",
+    "port": "New York",
+    "regular": 250,
+    "large": 250,
+    "oversize": 300
+  },
+  {
+    "location": "HAYWARD - California -",
+    "auction": "copart",
+    "port": "Los Angeles",
+    "regular": 400,
+    "large": 400,
+    "oversize": 480
+  },
+  {
+    "location": "HELENA - Montana -",
+    "auction": "copart",
+    "port": "Seattle",
+    "regular": 750,
+    "large": 750,
+    "oversize": 900
+  },
+  {
+    "location": "HONOLULU - Hawaii -",
+    "auction": "copart",
+    "port": "Honolulu",
+    "regular": 120,
+    "large": 120,
+    "oversize": 144
+  },
+  {
+    "location": "HOUSTON - Texas -",
     "auction": "copart",
     "port": "Houston",
-    "regular": 500,
-    "large": 500,
-    "oversize": 585
+    "regular": 180,
+    "large": 180,
+    "oversize": 216
   },
   {
-    "location": "Englishtown - NJ",
+    "location": "HOUSTON EAST - Texas -",
     "auction": "copart",
-    "port": "New York",
-    "regular": 225,
-    "large": 225,
-    "oversize": 255
+    "port": "Houston",
+    "regular": 180,
+    "large": 180,
+    "oversize": 216
   },
   {
-    "location": "ERIE - PA",
+    "location": "INDIANAPOLIS - Indiana -",
     "auction": "copart",
-    "port": "New York",
-    "regular": 575,
-    "large": 575,
-    "oversize": 675
+    "port": "Chicago",
+    "regular": 300,
+    "large": 300,
+    "oversize": 360
   },
   {
-    "location": "EUGENE - Oregon",
+    "location": "IONIA - Michigan -",
     "auction": "copart",
-    "port": "Sesttle",
-    "regular": 450,
-    "large": 450,
-    "oversize": 525
+    "port": "Chicago",
+    "regular": 400,
+    "large": 400,
+    "oversize": 480
   },
   {
-    "location": "EXETER - Rhode Island",
+    "location": "JACKSON - Mississippi -",
     "auction": "copart",
-    "port": "New York",
+    "port": "Houston",
     "regular": 425,
     "large": 425,
-    "oversize": 495
+    "oversize": 510
   },
   {
-    "location": "FAIRBURN - Georgia",
+    "location": "JACKSONVILLE EAST - Florida -",
     "auction": "copart",
     "port": "Savannah",
-    "regular": 350,
-    "large": 350,
-    "oversize": 405
-  },
-  {
-    "location": "FARGO - ND",
-    "auction": "copart",
-    "port": "Chicago",
-    "regular": 725,
-    "large": 725,
-    "oversize": 855
-  },
-  {
-    "location": "FAYETTEVILLE - Arkansas",
-    "auction": "copart",
-    "port": "Houston",
-    "regular": 550,
-    "large": 550,
-    "oversize": 645
-  },
-  {
-    "location": "FLINT - Michigan",
-    "auction": "copart",
-    "port": "Chicago",
-    "regular": 525,
-    "large": 525,
-    "oversize": 615
-  },
-  {
-    "location": "FONTANA - CA",
-    "auction": "copart",
-    "port": "Los Angeles",
-    "regular": 275,
-    "large": 275,
-    "oversize": 315
-  },
-  {
-    "location": "FORT MYERS - FL",
-    "auction": "copart",
-    "port": "Miami",
-    "regular": 325,
-    "large": 325,
-    "oversize": 375
-  },
-  {
-    "location": "FORT PIERCE - FL",
-    "auction": "copart",
-    "port": "Miami",
-    "regular": 275,
-    "large": 275,
-    "oversize": 315
-  },
-  {
-    "location": "FORT WAYNE - Indiana",
-    "auction": "copart",
-    "port": "Chicago",
-    "regular": 375,
-    "large": 375,
-    "oversize": 435
-  },
-  {
-    "location": "Fort Worth North - TX",
-    "auction": "copart",
-    "port": "Houston",
-    "regular": 350,
-    "large": 350,
-    "oversize": 405
-  },
-  {
-    "location": "FREDERICKSBURG - Virginia",
-    "auction": "copart",
-    "port": "Norfolk",
-    "regular": 325,
-    "large": 325,
-    "oversize": 375
-  },
-  {
-    "location": "Fredericksburg-South - VA",
-    "auction": "copart",
-    "port": "Norfolk",
-    "regular": 325,
-    "large": 325,
-    "oversize": 375
-  },
-  {
-    "location": "FREETOWN - Massachusetts",
-    "auction": "copart",
-    "port": "New York",
-    "regular": 450,
-    "large": 450,
-    "oversize": 525
-  },
-  {
-    "location": "FREMONT - CA",
-    "auction": "copart",
-    "port": "Los Angeles",
-    "regular": 475,
-    "large": 475,
-    "oversize": 555
-  },
-  {
-    "location": "FRESNO - California",
-    "auction": "copart",
-    "port": "Los Angeles",
-    "regular": 450,
-    "large": 450,
-    "oversize": 525
-  },
-  {
-    "location": "FT. PIERCE - Florida",
-    "auction": "copart",
-    "port": "Miami",
-    "regular": 275,
-    "large": 275,
-    "oversize": 315
-  },
-  {
-    "location": "FT. WORTH - Texas",
-    "auction": "copart",
-    "port": "Houston",
-    "regular": 350,
-    "large": 350,
-    "oversize": 405
-  },
-  {
-    "location": "GASTONIA - North Carolina",
-    "auction": "copart",
-    "port": "Norfolk",
-    "regular": 400,
-    "large": 400,
-    "oversize": 465
-  },
-  {
-    "location": "GLASSBORO EAST - New Jersey",
-    "auction": "copart",
-    "port": "New York",
-    "regular": 275,
-    "large": 275,
-    "oversize": 315
-  },
-  {
-    "location": "GLASSBORO WEST - New Jersey",
-    "auction": "copart",
-    "port": "New York",
-    "regular": 275,
-    "large": 275,
-    "oversize": 315
-  },
-  {
-    "location": "GRAHAM - Washington",
-    "auction": "copart",
-    "port": "Sesttle",
     "regular": 225,
     "large": 225,
-    "oversize": 255
+    "oversize": 270
   },
   {
-    "location": "GRAND RAPIDS - MI",
-    "auction": "copart",
-    "port": "Chicago",
-    "regular": 475,
-    "large": 475,
-    "oversize": 555
-  },
-  {
-    "location": "GREENSBORO - NC",
-    "auction": "copart",
-    "port": "Norfolk",
-    "regular": 375,
-    "large": 375,
-    "oversize": 435
-  },
-  {
-    "location": "GREENVILLE - SС",
+    "location": "JACKSONVILLE NORTH - Florida -",
     "auction": "copart",
     "port": "Savannah",
-    "regular": 375,
-    "large": 375,
-    "oversize": 435
+    "regular": 225,
+    "large": 225,
+    "oversize": 270
   },
   {
-    "location": "GREER - South Carolina",
+    "location": "JACKSONVILLE WEST - Florida -",
     "auction": "copart",
     "port": "Savannah",
-    "regular": 0,
-    "large": 0,
-    "oversize": 0
+    "regular": 225,
+    "large": 225,
+    "oversize": 270
   },
   {
-    "location": "Grenada - Mississippi",
-    "auction": "copart",
-    "port": "Houston",
-    "regular": 550,
-    "large": 550,
-    "oversize": 645
-  },
-  {
-    "location": "GULF COAST - MS",
+    "location": "KANSAS CITY - Kansas -",
     "auction": "copart",
     "port": "Savannah",
-    "regular": 550,
-    "large": 550,
-    "oversize": 645
+    "regular": 625,
+    "large": 625,
+    "oversize": 750
   },
   {
-    "location": "HALIFAX - Nova Scotia",
-    "auction": "copart",
-    "port": "Toronto",
-    "regular": 1275,
-    "large": 1275,
-    "oversize": 1375
-  },
-  {
-    "location": "HAMMOND - Indiana",
-    "auction": "copart",
-    "port": "Toronto",
-    "regular": 1275,
-    "large": 1275,
-    "oversize": 1375
-  },
-  {
-    "location": "HAMPTON - Virginia",
-    "auction": "copart",
-    "port": "Toronto",
-    "regular": 1275,
-    "large": 1275,
-    "oversize": 1375
-  },
-  {
-    "location": "HARRISBURG - Pennsylvania",
-    "auction": "copart",
-    "port": "New York",
-    "regular": 350,
-    "large": 350,
-    "oversize": 405
-  },
-  {
-    "location": "HARTFORD SPRINGFIELD - Connecticut",
-    "auction": "copart",
-    "port": "New York",
-    "regular": 325,
-    "large": 325,
-    "oversize": 375
-  },
-  {
-    "location": "HAYWARD - California",
+    "location": "KENS TOWING HILO - Hawaii -",
     "auction": "copart",
     "port": "Los Angeles",
-    "regular": 475,
-    "large": 475,
-    "oversize": 555
+    "regular": 2100,
+    "large": 2100,
+    "oversize": 2520
   },
   {
-    "location": "HELENA - Montana",
-    "auction": "copart",
-    "port": "Sesttle",
-    "regular": 825,
-    "large": 825,
-    "oversize": 975
-  },
-  {
-    "location": "HIGH DESERT - CA",
-    "auction": "copart",
-    "port": "Los Angeles",
-    "regular": 375,
-    "large": 375,
-    "oversize": 435
-  },
-  {
-    "location": "HONOLULU - Hawaii",
-    "auction": "copart",
-    "port": "Honolulu",
-    "regular": 195,
-    "large": 195,
-    "oversize": 219
-  },
-  {
-    "location": "HOUSTON - Texas",
-    "auction": "copart",
-    "port": "Houston",
-    "regular": 255,
-    "large": 255,
-    "oversize": 291
-  },
-  {
-    "location": "HOUSTON EAST - Texas",
-    "auction": "copart",
-    "port": "Houston",
-    "regular": 255,
-    "large": 255,
-    "oversize": 291
-  },
-  {
-    "location": "HOUSTON SOUTH - TX",
-    "auction": "copart",
-    "port": "Houston",
-    "regular": 255,
-    "large": 255,
-    "oversize": 291
-  },
-  {
-    "location": "HUNTSVILLE - AL",
-    "auction": "copart",
-    "port": "Savannah",
-    "regular": 525,
-    "large": 525,
-    "oversize": 615
-  },
-  {
-    "location": "INDIANAPOLIS - Indiana",
+    "location": "KINCHELOE - Michigan -",
     "auction": "copart",
     "port": "Chicago",
-    "regular": 375,
-    "large": 375,
-    "oversize": 435
+    "regular": 750,
+    "large": 750,
+    "oversize": 900
   },
   {
-    "location": "IONIA - Michigan",
-    "auction": "copart",
-    "port": "Chicago",
-    "regular": 475,
-    "large": 475,
-    "oversize": 555
-  },
-  {
-    "location": "JACKSON - Mississippi",
-    "auction": "copart",
-    "port": "Houston",
-    "regular": 500,
-    "large": 500,
-    "oversize": 585
-  },
-  {
-    "location": "JACKSONVILLE - FL",
-    "auction": "copart",
-    "port": "Savannah",
-    "regular": 300,
-    "large": 300,
-    "oversize": 345
-  },
-  {
-    "location": "JACKSONVILLE EAST - Florida",
-    "auction": "copart",
-    "port": "Savannah",
-    "regular": 300,
-    "large": 300,
-    "oversize": 345
-  },
-  {
-    "location": "JACKSONVILLE NORTH - Florida",
-    "auction": "copart",
-    "port": "Savannah",
-    "regular": 300,
-    "large": 300,
-    "oversize": 345
-  },
-  {
-    "location": "JACKSONVILLE WEST - Florida",
-    "auction": "copart",
-    "port": "Savannah",
-    "regular": 300,
-    "large": 300,
-    "oversize": 345
-  },
-  {
-    "location": "KANSAS CITY - Kansas",
-    "auction": "copart",
-    "port": "Savannah",
-    "regular": 700,
-    "large": 700,
-    "oversize": 825
-  },
-  {
-    "location": "KANSAS CITY EAST - Kansas",
-    "auction": "copart",
-    "port": "Savannah",
-    "regular": 0,
-    "large": 0,
-    "oversize": 0
-  },
-  {
-    "location": "KENS TOWING HILO - Hawaii",
+    "location": "KINDAQUICK TOWING LLC - Hawaii -",
     "auction": "copart",
     "port": "Los Angeles",
-    "regular": 2175,
-    "large": 2175,
-    "oversize": 2595
+    "regular": 2750,
+    "large": 2750,
+    "oversize": 3300
   },
   {
-    "location": "KINCHELOE - Michigan",
-    "auction": "copart",
-    "port": "Chicago",
-    "regular": 825,
-    "large": 825,
-    "oversize": 975
-  },
-  {
-    "location": "KINDAQUICK TOWING LLC - Hawaii",
-    "auction": "copart",
-    "port": "Los Angeles",
-    "regular": 1975,
-    "large": 2075,
-    "oversize": 2325
-  },
-  {
-    "location": "KNOXVILLE - Tennessee",
+    "location": "KNOXVILLE - Tennessee -",
     "auction": "copart",
     "port": "Savannah",
-    "regular": 475,
-    "large": 475,
-    "oversize": 555
-  },
-  {
-    "location": "LAFAYETTE - LA",
-    "auction": "copart",
-    "port": "Houston",
-    "regular": 450,
-    "large": 450,
-    "oversize": 525
-  },
-  {
-    "location": "LANSING - Michigan",
-    "auction": "copart",
-    "port": "Chicago",
-    "regular": 475,
-    "large": 475,
-    "oversize": 555
-  },
-  {
-    "location": "LAS VEGAS - Nevada",
-    "auction": "copart",
-    "port": "Los Angeles",
     "regular": 400,
     "large": 400,
-    "oversize": 465
+    "oversize": 480
   },
   {
-    "location": "LAS VEGAS WEST - Nevada",
+    "location": "LANSING - Michigan -",
+    "auction": "copart",
+    "port": "Chicago",
+    "regular": 400,
+    "large": 400,
+    "oversize": 480
+  },
+  {
+    "location": "LAS VEGAS - Nevada -",
     "auction": "copart",
     "port": "Los Angeles",
+    "regular": 325,
+    "large": 325,
+    "oversize": 390
+  },
+  {
+    "location": "LEXINGTON EAST - Kentucky -",
+    "auction": "copart",
+    "port": "Savannah",
+    "regular": 550,
+    "large": 550,
+    "oversize": 660
+  },
+  {
+    "location": "LEXINGTON WEST - Kentucky -",
+    "auction": "copart",
+    "port": "Savannah",
+    "regular": 550,
+    "large": 550,
+    "oversize": 660
+  },
+  {
+    "location": "LINCOLN - Nebraska -",
+    "auction": "copart",
+    "port": "Chicago",
     "regular": 450,
     "large": 450,
-    "oversize": 525
-  },
-  {
-    "location": "LAUREL - MD",
-    "auction": "copart",
-    "port": "Norfolk",
-    "regular": 375,
-    "large": 375,
-    "oversize": 435
-  },
-  {
-    "location": "LEE'S TOWING KAUAI - HI",
-    "auction": "copart",
-    "port": "Honolulu",
-    "regular": 1825,
-    "large": 1975,
-    "oversize": 2325
-  },
-  {
-    "location": "LEE'S TOWING KAUAI - HI",
-    "auction": "copart",
-    "port": "Honolulu",
-    "regular": 1825,
-    "large": 1975,
-    "oversize": 2325
-  },
-  {
-    "location": "Lexington - SC",
-    "auction": "copart",
-    "port": "Savannah",
-    "regular": 375,
-    "large": 375,
-    "oversize": 435
-  },
-  {
-    "location": "LEXINGTON EAST - Kentucky",
-    "auction": "copart",
-    "port": "Savannah",
-    "regular": 625,
-    "large": 625,
-    "oversize": 735
-  },
-  {
-    "location": "LEXINGTON WEST - Kentucky",
-    "auction": "copart",
-    "port": "Savannah",
-    "regular": 625,
-    "large": 625,
-    "oversize": 735
+    "oversize": 540
   },
   {
     "location": "LINCOLN - IL",
     "auction": "copart",
     "port": "Chicago",
-    "regular": 375,
-    "large": 375,
-    "oversize": 435
+    "regular": 300,
+    "large": 300,
+    "oversize": 360
   },
   {
-    "location": "LINCOLN - Nebraska",
-    "auction": "copart",
-    "port": "Chicago",
-    "regular": 525,
-    "large": 525,
-    "oversize": 615
-  },
-  {
-    "location": "LITTLE ROCK - Arkansas",
+    "location": "LITTLE ROCK - Arkansas -",
     "auction": "copart",
     "port": "Houston",
-    "regular": 525,
-    "large": 525,
-    "oversize": 615
+    "regular": 450,
+    "large": 450,
+    "oversize": 540
   },
   {
-    "location": "LONDON - Ontario",
+    "location": "LONDON - Ontario -",
     "auction": "copart",
     "port": "Toronto",
-    "regular": 325,
-    "large": 325,
-    "oversize": 425
+    "regular": 250,
+    "large": 250,
+    "oversize": 350
   },
   {
-    "location": "LONG BEACH - California",
+    "location": "LONG BEACH - California -",
     "auction": "copart",
     "port": "Los Angeles",
-    "regular": 225,
-    "large": 225,
-    "oversize": 255
+    "regular": 150,
+    "large": 150,
+    "oversize": 180
   },
   {
-    "location": "LONG ISLAND - NY",
+    "location": "LONG ISLAND - New York -",
     "auction": "copart",
     "port": "New York",
-    "regular": 325,
-    "large": 325,
-    "oversize": 375
+    "regular": 250,
+    "large": 250,
+    "oversize": 300
   },
   {
-    "location": "LONGVIEW - Texas",
+    "location": "LONGVIEW - Texas -",
     "auction": "copart",
     "port": "Houston",
-    "regular": 350,
-    "large": 350,
-    "oversize": 405
+    "regular": 275,
+    "large": 275,
+    "oversize": 330
   },
   {
-    "location": "LOS ANGELES - California",
+    "location": "LOS ANGELES - California -",
     "auction": "copart",
     "port": "Los Angeles",
-    "regular": 235,
-    "large": 235,
-    "oversize": 267
+    "regular": 160,
+    "large": 160,
+    "oversize": 192
   },
   {
-    "location": "Los Angeles South - CA",
+    "location": "LOS ANGELES south",
     "auction": "copart",
     "port": "Los Angeles",
-    "regular": 225,
-    "large": 225,
-    "oversize": 255
+    "regular": 150,
+    "large": 150,
+    "oversize": 180
   },
   {
-    "location": "LOUISVILLE - Kentucky",
+    "location": "LOUISVILLE - Kentucky -",
     "auction": "copart",
     "port": "Savannah",
-    "regular": 625,
-    "large": 625,
-    "oversize": 735
-  },
-  {
-    "location": "LOUISVILLE NORTH - KY",
-    "auction": "copart",
-    "port": "Savannah",
-    "regular": 625,
-    "large": 625,
-    "oversize": 735
-  },
-  {
-    "location": "LUBBOCK - TX",
-    "auction": "copart",
-    "port": "Houston",
-    "regular": 525,
-    "large": 525,
-    "oversize": 615
-  },
-  {
-    "location": "LUFKIN - Texas",
-    "auction": "copart",
-    "port": "Houston",
-    "regular": 350,
-    "large": 350,
-    "oversize": 405
-  },
-  {
-    "location": "LUMBERTON - North Carolina",
-    "auction": "copart",
-    "port": "Norfolk",
-    "regular": 375,
-    "large": 375,
-    "oversize": 435
-  },
-  {
-    "location": "LYMAN - Maine",
-    "auction": "copart",
-    "port": "New York",
     "regular": 550,
     "large": 550,
-    "oversize": 645
+    "oversize": 660
   },
   {
-    "location": "MACON - Georgia",
+    "location": "LOUISVILLE NORTH",
     "auction": "copart",
     "port": "Savannah",
-    "regular": 325,
-    "large": 325,
-    "oversize": 375
+    "regular": 550,
+    "large": 550,
+    "oversize": 660
   },
   {
-    "location": "MADISON - Wisconsin",
-    "auction": "copart",
-    "port": "Chicago",
-    "regular": 375,
-    "large": 375,
-    "oversize": 435
-  },
-  {
-    "location": "MADISON SOUTH - Wisconsin",
-    "auction": "copart",
-    "port": "Chicago",
-    "regular": 375,
-    "large": 375,
-    "oversize": 435
-  },
-  {
-    "location": "MANCHESTER - NH",
-    "auction": "copart",
-    "port": "New York",
-    "regular": 475,
-    "large": 475,
-    "oversize": 555
-  },
-  {
-    "location": "MARTINEZ - California",
-    "auction": "copart",
-    "port": "Los Angeles",
-    "regular": 475,
-    "large": 475,
-    "oversize": 555
-  },
-  {
-    "location": "MCALLEN - Texas",
+    "location": "LUFKIN - Texas -",
     "auction": "copart",
     "port": "Houston",
-    "regular": 425,
-    "large": 425,
-    "oversize": 495
+    "regular": 275,
+    "large": 275,
+    "oversize": 330
   },
   {
-    "location": "MEBANE - North Carolina",
+    "location": "LUMBERTON - North Carolina -",
     "auction": "copart",
     "port": "Norfolk",
-    "regular": 375,
-    "large": 375,
-    "oversize": 435
+    "regular": 300,
+    "large": 300,
+    "oversize": 360
   },
   {
-    "location": "MEMPHIS - Tennessee",
+    "location": "LYMAN - Maine -",
+    "auction": "copart",
+    "port": "New York",
+    "regular": 475,
+    "large": 475,
+    "oversize": 570
+  },
+  {
+    "location": "MACON - Georgia -",
     "auction": "copart",
     "port": "Savannah",
-    "regular": 575,
-    "large": 575,
-    "oversize": 675
+    "regular": 250,
+    "large": 250,
+    "oversize": 300
   },
   {
-    "location": "MENTONE - California",
+    "location": "MADISON - Wisconsin -",
+    "auction": "copart",
+    "port": "Chicago",
+    "regular": 300,
+    "large": 300,
+    "oversize": 360
+  },
+  {
+    "location": "MADISON SOUTH - Wisconsin -",
+    "auction": "copart",
+    "port": "Chicago",
+    "regular": 300,
+    "large": 300,
+    "oversize": 360
+  },
+  {
+    "location": "MARTINEZ - California -",
     "auction": "copart",
     "port": "Los Angeles",
-    "regular": 375,
-    "large": 375,
-    "oversize": 435
+    "regular": 400,
+    "large": 400,
+    "oversize": 480
   },
   {
-    "location": "METRO DC - MD",
-    "auction": "copart",
-    "port": "Norfolk",
-    "regular": 375,
-    "large": 375,
-    "oversize": 435
-  },
-  {
-    "location": "MIAMI CENTRAL - Florida",
-    "auction": "copart",
-    "port": "Miami",
-    "regular": 200,
-    "large": 200,
-    "oversize": 225
-  },
-  {
-    "location": "MIAMI NORTH - Florida",
-    "auction": "copart",
-    "port": "Miami",
-    "regular": 200,
-    "large": 200,
-    "oversize": 225
-  },
-  {
-    "location": "MIAMI SOUTH - Florida",
-    "auction": "copart",
-    "port": "Miami",
-    "regular": 225,
-    "large": 225,
-    "oversize": 255
-  },
-  {
-    "location": "MILWAUKEE - Wisconsin",
-    "auction": "copart",
-    "port": "Chicago",
-    "regular": 300,
-    "large": 300,
-    "oversize": 345
-  },
-  {
-    "location": "MILWAUKEE NORTH - Wisconsin",
-    "auction": "copart",
-    "port": "Chicago",
-    "regular": 300,
-    "large": 300,
-    "oversize": 345
-  },
-  {
-    "location": "MILWAUKEE SOUTH - Wisconsin",
-    "auction": "copart",
-    "port": "Chicago",
-    "regular": 300,
-    "large": 300,
-    "oversize": 345
-  },
-  {
-    "location": "MINNEAPOLIS - Minnesota",
-    "auction": "copart",
-    "port": "Chicago",
-    "regular": 525,
-    "large": 525,
-    "oversize": 615
-  },
-  {
-    "location": "MINNEAPOLIS NORTH - Minnesota",
-    "auction": "copart",
-    "port": "Chicago",
-    "regular": 525,
-    "large": 525,
-    "oversize": 615
-  },
-  {
-    "location": "MINNEAPOLIS/ST. PAUL - MN",
-    "auction": "copart",
-    "port": "Chicago",
-    "regular": 525,
-    "large": 525,
-    "oversize": 615
-  },
-  {
-    "location": "MISSOULA - MT",
-    "auction": "copart",
-    "port": "Sesttle",
-    "regular": 675,
-    "large": 675,
-    "oversize": 795
-  },
-  {
-    "location": "MO - COLUMBIA - Missouri",
-    "auction": "copart",
-    "port": "Savannah",
-    "regular": 700,
-    "large": 700,
-    "oversize": 825
-  },
-  {
-    "location": "MOBILE - Alabama",
-    "auction": "copart",
-    "port": "Savannah",
-    "regular": 475,
-    "large": 475,
-    "oversize": 555
-  },
-  {
-    "location": "MOBILE SOUTH - Alabama",
-    "auction": "copart",
-    "port": "Savannah",
-    "regular": 475,
-    "large": 475,
-    "oversize": 555
-  },
-  {
-    "location": "MOCKSVILLE - North Carolina",
-    "auction": "copart",
-    "port": "Norfolk",
-    "regular": 375,
-    "large": 375,
-    "oversize": 435
-  },
-  {
-    "location": "MONCTON - New Brunswick",
-    "auction": "copart",
-    "port": "Toronto",
-    "regular": 1350,
-    "large": 1350,
-    "oversize": 1450
-  },
-  {
-    "location": "MONTGOMERY - Alabama",
-    "auction": "copart",
-    "port": "Savannah",
-    "regular": 475,
-    "large": 475,
-    "oversize": 555
-  },
-  {
-    "location": "MONTREAL - Quebec",
-    "auction": "copart",
-    "port": "Toronto",
-    "regular": 575,
-    "large": 575,
-    "oversize": 675
-  },
-  {
-    "location": "N.Boston-ROWLEY Sublot - Massachusetts",
-    "auction": "copart",
-    "port": "New York",
-    "regular": 525,
-    "large": 525,
-    "oversize": 615
-  },
-  {
-    "location": "NASHVILLE - Tennessee",
-    "auction": "copart",
-    "port": "Savannah",
-    "regular": 475,
-    "large": 475,
-    "oversize": 555
-  },
-  {
-    "location": "NEW CASTLE - DE",
-    "auction": "copart",
-    "port": "New York",
-    "regular": 325,
-    "large": 325,
-    "oversize": 375
-  },
-  {
-    "location": "NEW ORLEANS - Louisiana",
+    "location": "MCALLEN - Texas -",
     "auction": "copart",
     "port": "Houston",
-    "regular": 475,
-    "large": 475,
-    "oversize": 555
+    "regular": 350,
+    "large": 350,
+    "oversize": 420
   },
   {
-    "location": "New Orleans and Louisiana Flood - LA",
+    "location": "MEBANE - North Carolina -",
+    "auction": "copart",
+    "port": "Norfolk",
+    "regular": 300,
+    "large": 300,
+    "oversize": 360
+  },
+  {
+    "location": "MEMPHIS - Tennessee -",
     "auction": "copart",
     "port": "Savannah",
     "regular": 500,
     "large": 500,
-    "oversize": 585
+    "oversize": 600
   },
   {
-    "location": "NEW ORLEANS EAST - LA",
+    "location": "MENTONE - California -",
     "auction": "copart",
-    "port": "Savannah",
-    "regular": 475,
-    "large": 475,
-    "oversize": 555
-  },
-  {
-    "location": "NEWBURGH - New York",
-    "auction": "copart",
-    "port": "New York",
+    "port": "Los Angeles",
     "regular": 300,
     "large": 300,
-    "oversize": 345
+    "oversize": 360
   },
   {
-    "location": "NORTH AUSTIN - Texas",
+    "location": "MIAMI CENTRAL - Florida -",
     "auction": "copart",
-    "port": "Houston",
-    "regular": 400,
-    "large": 400,
-    "oversize": 400
+    "port": "Miami",
+    "regular": 125,
+    "large": 125,
+    "oversize": 150
   },
   {
-    "location": "NORTH BOSTON - Massachusetts",
+    "location": "MIAMI NORTH - Florida -",
     "auction": "copart",
-    "port": "New York",
+    "port": "Miami",
+    "regular": 125,
+    "large": 125,
+    "oversize": 150
+  },
+  {
+    "location": "MIAMI SOUTH - Florida -",
+    "auction": "copart",
+    "port": "Miami",
+    "regular": 150,
+    "large": 150,
+    "oversize": 180
+  },
+  {
+    "location": "MILWAUKEE - Wisconsin -",
+    "auction": "copart",
+    "port": "Chicago",
+    "regular": 225,
+    "large": 225,
+    "oversize": 270
+  },
+  {
+    "location": "MILWAUKEE NORTH - Wisconsin -",
+    "auction": "copart",
+    "port": "Chicago",
+    "regular": 225,
+    "large": 225,
+    "oversize": 270
+  },
+  {
+    "location": "MILWAUKEE SOUTH - Wisconsin -",
+    "auction": "copart",
+    "port": "Chicago",
+    "regular": 225,
+    "large": 225,
+    "oversize": 270
+  },
+  {
+    "location": "MINNEAPOLIS - Minnesota -",
+    "auction": "copart",
+    "port": "Chicago",
     "regular": 450,
     "large": 450,
-    "oversize": 525
+    "oversize": 540
   },
   {
-    "location": "NORTH CHARLESTON - South Carolina",
+    "location": "MINNEAPOLIS NORTH - Minnesota -",
+    "auction": "copart",
+    "port": "Chicago",
+    "regular": 450,
+    "large": 450,
+    "oversize": 540
+  },
+  {
+    "location": "MO - COLUMBIA - Missouri -",
     "auction": "copart",
     "port": "Savannah",
-    "regular": 350,
-    "large": 350,
-    "oversize": 405
+    "regular": 625,
+    "large": 625,
+    "oversize": 750
   },
   {
-    "location": "NORTH HOLLYWOOD - CA",
+    "location": "MOBILE - Alabama -",
     "auction": "copart",
-    "port": "Los Angeles",
-    "regular": 275,
-    "large": 275,
-    "oversize": 315
+    "port": "Savannah",
+    "regular": 400,
+    "large": 400,
+    "oversize": 480
   },
   {
-    "location": "NORTH SEATTLE - Washington",
+    "location": "MOBILE SOUTH - Alabama -",
     "auction": "copart",
-    "port": "Sesttle",
+    "port": "Savannah",
+    "regular": 400,
+    "large": 400,
+    "oversize": 480
+  },
+  {
+    "location": "MOCKSVILLE - North Carolina -",
+    "auction": "copart",
+    "port": "Norfolk",
     "regular": 300,
     "large": 300,
-    "oversize": 345
+    "oversize": 360
   },
   {
-    "location": "NORTHERN NEW JERSEY - NJ",
-    "auction": "copart",
-    "port": "New York",
-    "regular": 200,
-    "large": 200,
-    "oversize": 225
-  },
-  {
-    "location": "NORTHERN VIRGINIA - VA",
-    "auction": "copart",
-    "port": "Norfolk",
-    "regular": 325,
-    "large": 325,
-    "oversize": 375
-  },
-  {
-    "location": "OCALA - Florida",
-    "auction": "copart",
-    "port": "Miami",
-    "regular": 375,
-    "large": 375,
-    "oversize": 435
-  },
-  {
-    "location": "OGDEN - Utah",
-    "auction": "copart",
-    "port": "Los Angeles",
-    "regular": 625,
-    "large": 625,
-    "oversize": 735
-  },
-  {
-    "location": "OKLAHOMA CITY - Oklahoma",
-    "auction": "copart",
-    "port": "Houston",
-    "regular": 475,
-    "large": 475,
-    "oversize": 555
-  },
-  {
-    "location": "OMAHA - NE",
-    "auction": "copart",
-    "port": "Chicago",
-    "regular": 525,
-    "large": 525,
-    "oversize": 615
-  },
-  {
-    "location": "ORLANDO - Florida",
-    "auction": "copart",
-    "port": "Miami",
-    "regular": 325,
-    "large": 325,
-    "oversize": 375
-  },
-  {
-    "location": "ORLANDO NORTH - Florida",
-    "auction": "copart",
-    "port": "Miami",
-    "regular": 325,
-    "large": 325,
-    "oversize": 375
-  },
-  {
-    "location": "ORLANDO SOUTH - Florida",
-    "auction": "copart",
-    "port": "Miami",
-    "regular": 325,
-    "large": 325,
-    "oversize": 375
-  },
-  {
-    "location": "OTTAWA - Ontario",
+    "location": "MONCTON - New Brunswick -",
     "auction": "copart",
     "port": "Toronto",
-    "regular": 550,
-    "large": 550,
-    "oversize": 650
+    "regular": 1275,
+    "large": 1275,
+    "oversize": 1530
   },
   {
-    "location": "PASCO - Washington",
-    "auction": "copart",
-    "port": "Sesttle",
-    "regular": 425,
-    "large": 425,
-    "oversize": 495
-  },
-  {
-    "location": "PENSACOLA - FL",
-    "auction": "copart",
-    "port": "Miami",
-    "regular": 475,
-    "large": 475,
-    "oversize": 555
-  },
-  {
-    "location": "PEORIA - Illinois",
-    "auction": "copart",
-    "port": "Chicago",
-    "regular": 375,
-    "large": 375,
-    "oversize": 435
-  },
-  {
-    "location": "PERMIAN BASIN - TX",
-    "auction": "copart",
-    "port": "Houston",
-    "regular": 525,
-    "large": 525,
-    "oversize": 615
-  },
-  {
-    "location": "PHILADELPHIA - Pennsylvania",
-    "auction": "copart",
-    "port": "New York",
-    "regular": 275,
-    "large": 275,
-    "oversize": 315
-  },
-  {
-    "location": "PHILADELPHIA EAST - PA",
-    "auction": "copart",
-    "port": "New York",
-    "regular": 275,
-    "large": 275,
-    "oversize": 315
-  },
-  {
-    "location": "PHILADELPHIA EAST-SUBLOT - Pennsylvania",
-    "auction": "copart",
-    "port": "New York",
-    "regular": 275,
-    "large": 275,
-    "oversize": 315
-  },
-  {
-    "location": "PHOENIX - Arizona",
-    "auction": "copart",
-    "port": "Los Angeles",
-    "regular": 425,
-    "large": 425,
-    "oversize": 495
-  },
-  {
-    "location": "Phoenix North - Arizona",
-    "auction": "copart",
-    "port": "Los Angeles",
-    "regular": 550,
-    "large": 550,
-    "oversize": 645
-  },
-  {
-    "location": "PITTSBURGH EAST - Pennsylvania",
-    "auction": "copart",
-    "port": "New York",
-    "regular": 475,
-    "large": 475,
-    "oversize": 555
-  },
-  {
-    "location": "PITTSBURGH NORTH - Pennsylvania",
-    "auction": "copart",
-    "port": "New York",
-    "regular": 525,
-    "large": 525,
-    "oversize": 615
-  },
-  {
-    "location": "PITTSBURGH SOUTH - Pennsylvania",
-    "auction": "copart",
-    "port": "New York",
-    "regular": 525,
-    "large": 525,
-    "oversize": 615
-  },
-  {
-    "location": "PITTSBURGH WEST - Pennsylvania",
-    "auction": "copart",
-    "port": "New York",
-    "regular": 525,
-    "large": 525,
-    "oversize": 615
-  },
-  {
-    "location": "PORTLAND NORTH - Oregon",
-    "auction": "copart",
-    "port": "Sesttle",
-    "regular": 325,
-    "large": 325,
-    "oversize": 375
-  },
-  {
-    "location": "PORTLAND SOUTH - Oregon",
-    "auction": "copart",
-    "port": "Sesttle",
-    "regular": 375,
-    "large": 375,
-    "oversize": 435
-  },
-  {
-    "location": "Portland West - OR",
-    "auction": "copart",
-    "port": "Sesttle",
-    "regular": 325,
-    "large": 325,
-    "oversize": 375
-  },
-  {
-    "location": "PROVIDENCE - RI",
-    "auction": "copart",
-    "port": "New York",
-    "regular": 425,
-    "large": 425,
-    "oversize": 495
-  },
-  {
-    "location": "PULASKI - VA",
-    "auction": "copart",
-    "port": "Norfolk",
-    "regular": 475,
-    "large": 475,
-    "oversize": 555
-  },
-  {
-    "location": "PUNTA GORDA - Florida",
-    "auction": "copart",
-    "port": "Miami",
-    "regular": 325,
-    "large": 325,
-    "oversize": 375
-  },
-  {
-    "location": "PUNTA GORDA SOUTH - Florida",
-    "auction": "copart",
-    "port": "Miami",
-    "regular": 350,
-    "large": 350,
-    "oversize": 405
-  },
-  {
-    "location": "RALEIGH - North Carolina",
-    "auction": "copart",
-    "port": "Norfolk",
-    "regular": 375,
-    "large": 375,
-    "oversize": 435
-  },
-  {
-    "location": "RANCHO CUCAMONGA - California",
-    "auction": "copart",
-    "port": "Los Angeles",
-    "regular": 275,
-    "large": 275,
-    "oversize": 315
-  },
-  {
-    "location": "RAPID CITY - South Dakota",
-    "auction": "copart",
-    "port": "Chicago",
-    "regular": 0,
-    "large": 0,
-    "oversize": 0
-  },
-  {
-    "location": "REDDING - California",
-    "auction": "copart",
-    "port": "Los Angeles",
-    "regular": 875,
-    "large": 875,
-    "oversize": 1035
-  },
-  {
-    "location": "RENO - Nevada",
-    "auction": "copart",
-    "port": "Los Angeles",
-    "regular": 625,
-    "large": 625,
-    "oversize": 735
-  },
-  {
-    "location": "RICHMOND - Virginia",
-    "auction": "copart",
-    "port": "Norfolk",
-    "regular": 250,
-    "large": 250,
-    "oversize": 285
-  },
-  {
-    "location": "RICHMOND EAST - Virginia",
-    "auction": "copart",
-    "port": "Norfolk",
-    "regular": 250,
-    "large": 250,
-    "oversize": 285
-  },
-  {
-    "location": "ROANOKE - VA",
-    "auction": "copart",
-    "port": "Norfolk",
-    "regular": 450,
-    "large": 450,
-    "oversize": 525
-  },
-  {
-    "location": "ROCHESTER - New York",
-    "auction": "copart",
-    "port": "New York",
-    "regular": 525,
-    "large": 525,
-    "oversize": 615
-  },
-  {
-    "location": "ROSEDALE - MD",
-    "auction": "copart",
-    "port": "Norfolk",
-    "regular": 425,
-    "large": 425,
-    "oversize": 495
-  },
-  {
-    "location": "RUTLAND - Vermont",
-    "auction": "copart",
-    "port": "New York",
-    "regular": 575,
-    "large": 575,
-    "oversize": 675
-  },
-  {
-    "location": "SACRAMENTO - California",
-    "auction": "copart",
-    "port": "Los Angeles",
-    "regular": 475,
-    "large": 475,
-    "oversize": 555
-  },
-  {
-    "location": "SALT LAKE CITY - Utah",
-    "auction": "copart",
-    "port": "Los Angeles",
-    "regular": 725,
-    "large": 725,
-    "oversize": 855
-  },
-  {
-    "location": "SALT LAKE CITY NORTH - Utah",
-    "auction": "copart",
-    "port": "Los Angeles",
-    "regular": 625,
-    "large": 625,
-    "oversize": 735
-  },
-  {
-    "location": "SAN ANTONIO - Texas",
-    "auction": "copart",
-    "port": "Houston",
-    "regular": 375,
-    "large": 375,
-    "oversize": 435
-  },
-  {
-    "location": "SAN BERNARDINO - California",
-    "auction": "copart",
-    "port": "Los Angeles",
-    "regular": 275,
-    "large": 275,
-    "oversize": 315
-  },
-  {
-    "location": "SAN DIEGO - California",
-    "auction": "copart",
-    "port": "Los Angeles",
-    "regular": 375,
-    "large": 375,
-    "oversize": 435
-  },
-  {
-    "location": "SAN JOSE - California",
-    "auction": "copart",
-    "port": "Los Angeles",
-    "regular": 475,
-    "large": 475,
-    "oversize": 555
-  },
-  {
-    "location": "SAVANNAH - Georgia",
+    "location": "MONTGOMERY - Alabama -",
     "auction": "copart",
     "port": "Savannah",
-    "regular": 200,
-    "large": 200,
-    "oversize": 225
-  },
-  {
-    "location": "SAVANNAH / VERTIA SUBLOT-Georgia Copart - Georgia",
-    "auction": "copart",
-    "port": "Savannah",
-    "regular": 250,
-    "large": 250,
-    "oversize": 285
-  },
-  {
-    "location": "Sayreville - NJ",
-    "auction": "copart",
-    "port": "New York",
-    "regular": 225,
-    "large": 225,
-    "oversize": 255
-  },
-  {
-    "location": "SC - COLUMBIA - South Carolina",
-    "auction": "copart",
-    "port": "Savannah",
-    "regular": 350,
-    "large": 350,
-    "oversize": 405
-  },
-  {
-    "location": "SCRANTON - Pennsylvania",
-    "auction": "copart",
-    "port": "New York",
-    "regular": 325,
-    "large": 325,
-    "oversize": 375
-  },
-  {
-    "location": "SEAFORD - Delaware",
-    "auction": "copart",
-    "port": "New York",
     "regular": 400,
     "large": 400,
-    "oversize": 465
+    "oversize": 480
   },
   {
-    "location": "SEATTLE - WA",
-    "auction": "copart",
-    "port": "Sesttle",
-    "regular": 250,
-    "large": 250,
-    "oversize": 285
-  },
-  {
-    "location": "SHADY SPRING - WV",
-    "auction": "copart",
-    "port": "Norfolk",
-    "regular": 700,
-    "large": 700,
-    "oversize": 825
-  },
-  {
-    "location": "SHREVEPORT - Louisiana",
-    "auction": "copart",
-    "port": "Houston",
-    "regular": 390,
-    "large": 390,
-    "oversize": 453
-  },
-  {
-    "location": "SIKESTON - Missouri",
-    "auction": "copart",
-    "port": "Chicago",
-    "regular": 550,
-    "large": 550,
-    "oversize": 645
-  },
-  {
-    "location": "SIOUX FALLS - SD",
-    "auction": "copart",
-    "port": "Chicago",
-    "regular": 725,
-    "large": 725,
-    "oversize": 855
-  },
-  {
-    "location": "SO SACRAMENTO - California",
-    "auction": "copart",
-    "port": "Los Angeles",
-    "regular": 475,
-    "large": 475,
-    "oversize": 555
-  },
-  {
-    "location": "SOMERVILLE - New Jersey",
-    "auction": "copart",
-    "port": "New York",
-    "regular": 225,
-    "large": 225,
-    "oversize": 255
-  },
-  {
-    "location": "SOUTH BEND - IN",
-    "auction": "copart",
-    "port": "Chicago",
-    "regular": 325,
-    "large": 325,
-    "oversize": 375
-  },
-  {
-    "location": "SOUTH BEND - IN",
-    "auction": "copart",
-    "port": "Chicago",
-    "regular": 325,
-    "large": 325,
-    "oversize": 375
-  },
-  {
-    "location": "SOUTH BOSTON - Massachusetts",
-    "auction": "copart",
-    "port": "New York",
-    "regular": 450,
-    "large": 450,
-    "oversize": 525
-  },
-  {
-    "location": "Southern Illinois - Illinois",
-    "auction": "copart",
-    "port": "Savannah",
-    "regular": 650,
-    "large": 650,
-    "oversize": 765
-  },
-  {
-    "location": "SOUTHERN NEW JERSEY - NJ",
-    "auction": "copart",
-    "port": "New York",
-    "regular": 275,
-    "large": 275,
-    "oversize": 315
-  },
-  {
-    "location": "SPARTANBURG - South Carolina",
-    "auction": "copart",
-    "port": "Savannah",
-    "regular": 375,
-    "large": 375,
-    "oversize": 435
-  },
-  {
-    "location": "SPOKANE - Washington",
-    "auction": "copart",
-    "port": "Sesttle",
-    "regular": 425,
-    "large": 425,
-    "oversize": 495
-  },
-  {
-    "location": "SPRINGFIELD - Missouri",
-    "auction": "copart",
-    "port": "Savannah",
-    "regular": 700,
-    "large": 700,
-    "oversize": 825
-  },
-  {
-    "location": "ST. CLOUD - Minnesota",
-    "auction": "copart",
-    "port": "Chicago",
-    "regular": 575,
-    "large": 575,
-    "oversize": 675
-  },
-  {
-    "location": "ST. JOHN'S - Newfoundland and Lab",
+    "location": "MONTREAL - Quebec -",
     "auction": "copart",
     "port": "Toronto",
-    "regular": 1925,
-    "large": 1925,
-    "oversize": 2025
-  },
-  {
-    "location": "ST. LOUIS - Missouri",
-    "auction": "copart",
-    "port": "Savannah",
-    "regular": 650,
-    "large": 650,
-    "oversize": 765
-  },
-  {
-    "location": "Suffolk - VA",
-    "auction": "copart",
-    "port": "Norfolk",
-    "regular": 225,
-    "large": 225,
-    "oversize": 255
-  },
-  {
-    "location": "SUN VALLEY - California",
-    "auction": "copart",
-    "port": "Los Angeles",
-    "regular": 275,
-    "large": 275,
-    "oversize": 315
-  },
-  {
-    "location": "SYRACUSE - New York",
-    "auction": "copart",
-    "port": "New York",
-    "regular": 400,
-    "large": 400,
-    "oversize": 465
-  },
-  {
-    "location": "TALLAHASSEE - Florida",
-    "auction": "copart",
-    "port": "Savannah",
-    "regular": 400,
-    "large": 400,
-    "oversize": 465
-  },
-  {
-    "location": "Tampa North - FL",
-    "auction": "copart",
-    "port": "Miami",
-    "regular": 350,
-    "large": 350,
-    "oversize": 405
-  },
-  {
-    "location": "TAMPA SOUTH - Florida",
-    "auction": "copart",
-    "port": "Miami",
-    "regular": 350,
-    "large": 350,
-    "oversize": 405
-  },
-  {
-    "location": "TAMPA SOUTH - Mulberry Sublot - Florida",
-    "auction": "copart",
-    "port": "Miami",
-    "regular": 350,
-    "large": 350,
-    "oversize": 405
-  },
-  {
-    "location": "TANNER - Alabama",
-    "auction": "copart",
-    "port": "Savannah",
     "regular": 500,
     "large": 500,
-    "oversize": 585
+    "oversize": 600
   },
   {
-    "location": "TAUNTON - MA",
+    "location": "N.Boston-ROWLEY Sublot - Massachusetts -",
     "auction": "copart",
     "port": "New York",
     "regular": 450,
     "large": 450,
-    "oversize": 525
+    "oversize": 540
   },
   {
-    "location": "Templeton - MA",
+    "location": "NAPA - California -",
     "auction": "copart",
-    "port": "New York",
-    "regular": 450,
-    "large": 450,
-    "oversize": 525
+    "port": "Los Angeles",
+    "regular": 475,
+    "large": 475,
+    "oversize": 570
   },
   {
-    "location": "TIDEWATER - VA",
-    "auction": "copart",
-    "port": "Norfolk",
-    "regular": 225,
-    "large": 225,
-    "oversize": 255
-  },
-  {
-    "location": "TIFTON - Georgia",
+    "location": "NASHVILLE - Tennessee -",
     "auction": "copart",
     "port": "Savannah",
-    "regular": 350,
-    "large": 350,
-    "oversize": 405
+    "regular": 400,
+    "large": 400,
+    "oversize": 480
   },
   {
-    "location": "TORONTO - Ontario",
-    "auction": "copart",
-    "port": "Toronto",
-    "regular": 300,
-    "large": 300,
-    "oversize": 400
-  },
-  {
-    "location": "TOW GUYS KAMUELA - Hawaii",
-    "auction": "copart",
-    "port": "Los Angeles",
-    "regular": 2375,
-    "large": 2375,
-    "oversize": 2835
-  },
-  {
-    "location": "TRENTON - New Jersey",
-    "auction": "copart",
-    "port": "New York",
-    "regular": 225,
-    "large": 225,
-    "oversize": 255
-  },
-  {
-    "location": "TUCSON - Arizona",
-    "auction": "copart",
-    "port": "Los Angeles",
-    "regular": 475,
-    "large": 475,
-    "oversize": 555
-  },
-  {
-    "location": "TULSA - Oklahoma",
-    "auction": "copart",
-    "port": "Houston",
-    "regular": 550,
-    "large": 550,
-    "oversize": 645
-  },
-  {
-    "location": "VALLEJO - California",
-    "auction": "copart",
-    "port": "Los Angeles",
-    "regular": 475,
-    "large": 475,
-    "oversize": 555
-  },
-  {
-    "location": "VAN NUYS - California",
-    "auction": "copart",
-    "port": "Los Angeles",
-    "regular": 275,
-    "large": 275,
-    "oversize": 315
-  },
-  {
-    "location": "WACO - Texas",
+    "location": "NEW ORLEANS - Louisiana -",
     "auction": "copart",
     "port": "Houston",
     "regular": 400,
     "large": 400,
-    "oversize": 465
+    "oversize": 480
   },
   {
-    "location": "WALTON - Kentucky",
+    "location": "NEW ORLEANS and Louisiana Flood",
+    "auction": "copart",
+    "port": "Savannah",
+    "regular": 425,
+    "large": 425,
+    "oversize": 510
+  },
+  {
+    "location": "NEW ORLEANS EAST",
+    "auction": "copart",
+    "port": "Savannah",
+    "regular": 400,
+    "large": 400,
+    "oversize": 480
+  },
+  {
+    "location": "NEWBURGH - New York -",
+    "auction": "copart",
+    "port": "New York",
+    "regular": 225,
+    "large": 225,
+    "oversize": 270
+  },
+  {
+    "location": "NORTH AUSTIN - Texas -",
+    "auction": "copart",
+    "port": "Houston",
+    "regular": 325,
+    "large": 325,
+    "oversize": 325
+  },
+  {
+    "location": "NORTH BOSTON - Massachusetts -",
+    "auction": "copart",
+    "port": "New York",
+    "regular": 375,
+    "large": 375,
+    "oversize": 450
+  },
+  {
+    "location": "NORTH CHARLESTON - South Carolina -",
+    "auction": "copart",
+    "port": "Savannah",
+    "regular": 275,
+    "large": 275,
+    "oversize": 330
+  },
+  {
+    "location": "NORTH SEATTLE - Washington -",
+    "auction": "copart",
+    "port": "Seattle",
+    "regular": 225,
+    "large": 225,
+    "oversize": 270
+  },
+  {
+    "location": "OCALA - Florida -",
+    "auction": "copart",
+    "port": "Miami",
+    "regular": 300,
+    "large": 300,
+    "oversize": 360
+  },
+  {
+    "location": "OGDEN - Utah -",
+    "auction": "copart",
+    "port": "Los Angeles",
+    "regular": 550,
+    "large": 550,
+    "oversize": 660
+  },
+  {
+    "location": "OKLAHOMA CITY - Oklahoma -",
+    "auction": "copart",
+    "port": "Houston",
+    "regular": 400,
+    "large": 400,
+    "oversize": 480
+  },
+  {
+    "location": "ORLANDO - Florida -",
+    "auction": "copart",
+    "port": "Miami",
+    "regular": 250,
+    "large": 250,
+    "oversize": 300
+  },
+  {
+    "location": "ORLANDO NORTH - Florida -",
+    "auction": "copart",
+    "port": "Miami",
+    "regular": 250,
+    "large": 250,
+    "oversize": 300
+  },
+  {
+    "location": "ORLANDO SOUTH - Florida -",
+    "auction": "copart",
+    "port": "Miami",
+    "regular": 250,
+    "large": 250,
+    "oversize": 300
+  },
+  {
+    "location": "OTTAWA - Ontario -",
+    "auction": "copart",
+    "port": "Toronto",
+    "regular": 475,
+    "large": 475,
+    "oversize": 575
+  },
+  {
+    "location": "PASCO - Washington -",
+    "auction": "copart",
+    "port": "Seattle",
+    "regular": 350,
+    "large": 350,
+    "oversize": 420
+  },
+  {
+    "location": "PEORIA - Illinois -",
+    "auction": "copart",
+    "port": "Chicago",
+    "regular": 300,
+    "large": 300,
+    "oversize": 360
+  },
+  {
+    "location": "PHILADELPHIA - Pennsylvania -",
+    "auction": "copart",
+    "port": "New York",
+    "regular": 200,
+    "large": 200,
+    "oversize": 240
+  },
+  {
+    "location": "PHILADELPHIA EAST-SUBLOT - Pennsylvania -",
+    "auction": "copart",
+    "port": "New York",
+    "regular": 200,
+    "large": 200,
+    "oversize": 240
+  },
+  {
+    "location": "PHOENIX - Arizona -",
+    "auction": "copart",
+    "port": "Los Angeles",
+    "regular": 350,
+    "large": 350,
+    "oversize": 420
+  },
+  {
+    "location": "PITTSBURGH EAST - Pennsylvania -",
+    "auction": "copart",
+    "port": "New York",
+    "regular": 400,
+    "large": 400,
+    "oversize": 480
+  },
+  {
+    "location": "PITTSBURGH NORTH - Pennsylvania -",
+    "auction": "copart",
+    "port": "New York",
+    "regular": 450,
+    "large": 450,
+    "oversize": 540
+  },
+  {
+    "location": "PITTSBURGH SOUTH - Pennsylvania -",
+    "auction": "copart",
+    "port": "New York",
+    "regular": 450,
+    "large": 450,
+    "oversize": 540
+  },
+  {
+    "location": "PITTSBURGH WEST - Pennsylvania -",
+    "auction": "copart",
+    "port": "New York",
+    "regular": 450,
+    "large": 450,
+    "oversize": 540
+  },
+  {
+    "location": "PORTLAND NORTH - Oregon -",
+    "auction": "copart",
+    "port": "Seattle",
+    "regular": 250,
+    "large": 250,
+    "oversize": 300
+  },
+  {
+    "location": "PORTLAND SOUTH - Oregon -",
+    "auction": "copart",
+    "port": "Seattle",
+    "regular": 300,
+    "large": 300,
+    "oversize": 360
+  },
+  {
+    "location": "PUNTA GORDA - Florida -",
+    "auction": "copart",
+    "port": "Miami",
+    "regular": 275,
+    "large": 275,
+    "oversize": 300
+  },
+  {
+    "location": "PUNTA GORDA SOUTH - Florida -",
+    "auction": "copart",
+    "port": "Miami",
+    "regular": 275,
+    "large": 275,
+    "oversize": 330
+  },
+  {
+    "location": "Phoenix North - Arizona -",
+    "auction": "copart",
+    "port": "Los Angeles",
+    "regular": 475,
+    "large": 475,
+    "oversize": 570
+  },
+  {
+    "location": "RALEIGH - North Carolina -",
+    "auction": "copart",
+    "port": "Norfolk",
+    "regular": 300,
+    "large": 300,
+    "oversize": 360
+  },
+  {
+    "location": "RANCHO CUCAMONGA - California -",
+    "auction": "copart",
+    "port": "Los Angeles",
+    "regular": 200,
+    "large": 200,
+    "oversize": 240
+  },
+  {
+    "location": "RAPID CITY - South Dakota -",
+    "auction": "copart",
+    "port": "Chicago",
+    "regular": 850,
+    "large": 850,
+    "oversize": 1020
+  },
+  {
+    "location": "REDDING - California -",
+    "auction": "copart",
+    "port": "Los Angeles",
+    "regular": 800,
+    "large": 800,
+    "oversize": 960
+  },
+  {
+    "location": "RENO - Nevada -",
+    "auction": "copart",
+    "port": "Los Angeles",
+    "regular": 550,
+    "large": 550,
+    "oversize": 660
+  },
+  {
+    "location": "RICHMOND - Virginia -",
+    "auction": "copart",
+    "port": "Norfolk",
+    "regular": 175,
+    "large": 175,
+    "oversize": 210
+  },
+  {
+    "location": "RICHMOND EAST - Virginia -",
+    "auction": "copart",
+    "port": "Norfolk",
+    "regular": 175,
+    "large": 175,
+    "oversize": 210
+  },
+  {
+    "location": "ROCHESTER - New York -",
+    "auction": "copart",
+    "port": "New York",
+    "regular": 450,
+    "large": 450,
+    "oversize": 540
+  },
+  {
+    "location": "RUTLAND - Vermont -",
+    "auction": "copart",
+    "port": "New York",
+    "regular": 500,
+    "large": 500,
+    "oversize": 600
+  },
+  {
+    "location": "SACRAMENTO - California -",
+    "auction": "copart",
+    "port": "Los Angeles",
+    "regular": 400,
+    "large": 400,
+    "oversize": 480
+  },
+  {
+    "location": "SALT LAKE CITY - Utah -",
+    "auction": "copart",
+    "port": "Los Angeles",
+    "regular": 650,
+    "large": 650,
+    "oversize": 780
+  },
+  {
+    "location": "SALT LAKE CITY NORTH - Utah -",
+    "auction": "copart",
+    "port": "Los Angeles",
+    "regular": 550,
+    "large": 550,
+    "oversize": 660
+  },
+  {
+    "location": "SAN ANTONIO - Texas -",
+    "auction": "copart",
+    "port": "Houston",
+    "regular": 300,
+    "large": 300,
+    "oversize": 360
+  },
+  {
+    "location": "SAN BERNARDINO - California -",
+    "auction": "copart",
+    "port": "Los Angeles",
+    "regular": 200,
+    "large": 200,
+    "oversize": 240
+  },
+  {
+    "location": "SAN DIEGO - California -",
+    "auction": "copart",
+    "port": "Los Angeles",
+    "regular": 300,
+    "large": 300,
+    "oversize": 360
+  },
+  {
+    "location": "SAN JOSE - California -",
+    "auction": "copart",
+    "port": "Los Angeles",
+    "regular": 400,
+    "large": 400,
+    "oversize": 480
+  },
+  {
+    "location": "SAVANNAH - Georgia -",
+    "auction": "copart",
+    "port": "Savannah",
+    "regular": 125,
+    "large": 125,
+    "oversize": 150
+  },
+  {
+    "location": "SAVANNAH / VERTIA SUBLOT-Georgia Copart - Georgia-",
+    "auction": "copart",
+    "port": "Savannah",
+    "regular": 175,
+    "large": 175,
+    "oversize": 210
+  },
+  {
+    "location": "SC - COLUMBIA - South Carolina -",
+    "auction": "copart",
+    "port": "Savannah",
+    "regular": 275,
+    "large": 275,
+    "oversize": 330
+  },
+  {
+    "location": "SCRANTON - Pennsylvania -",
+    "auction": "copart",
+    "port": "New York",
+    "regular": 250,
+    "large": 250,
+    "oversize": 300
+  },
+  {
+    "location": "SEAFORD - Delaware -",
+    "auction": "copart",
+    "port": "New York",
+    "regular": 325,
+    "large": 325,
+    "oversize": 390
+  },
+  {
+    "location": "SHREVEPORT - Louisiana -",
+    "auction": "copart",
+    "port": "Houston",
+    "regular": 315,
+    "large": 315,
+    "oversize": 378
+  },
+  {
+    "location": "SIKESTON - Missouri -",
+    "auction": "copart",
+    "port": "Chicago",
+    "regular": 475,
+    "large": 475,
+    "oversize": 570
+  },
+  {
+    "location": "SO SACRAMENTO - California -",
+    "auction": "copart",
+    "port": "Los Angeles",
+    "regular": 400,
+    "large": 400,
+    "oversize": 480
+  },
+  {
+    "location": "SOMERVILLE - New Jersey -",
+    "auction": "copart",
+    "port": "New York",
+    "regular": 150,
+    "large": 150,
+    "oversize": 180
+  },
+  {
+    "location": "SOUTH BOSTON - Massachusetts -",
+    "auction": "copart",
+    "port": "New York",
+    "regular": 375,
+    "large": 375,
+    "oversize": 450
+  },
+  {
+    "location": "SPARTANBURG - South Carolina -",
+    "auction": "copart",
+    "port": "Savannah",
+    "regular": 300,
+    "large": 300,
+    "oversize": 360
+  },
+  {
+    "location": "SPOKANE - Washington -",
+    "auction": "copart",
+    "port": "Seattle",
+    "regular": 350,
+    "large": 350,
+    "oversize": 420
+  },
+  {
+    "location": "SPRINGFIELD - Missouri -",
     "auction": "copart",
     "port": "Savannah",
     "regular": 625,
     "large": 625,
-    "oversize": 735
+    "oversize": 750
   },
   {
-    "location": "WASHINGTON DC - Maryland",
-    "auction": "copart",
-    "port": "Norfolk",
-    "regular": 375,
-    "large": 375,
-    "oversize": 435
-  },
-  {
-    "location": "WAYLAND - Michigan",
+    "location": "ST. CLOUD - Minnesota -",
     "auction": "copart",
     "port": "Chicago",
-    "regular": 475,
-    "large": 475,
-    "oversize": 555
+    "regular": 500,
+    "large": 500,
+    "oversize": 600
   },
   {
-    "location": "WEBSTER - New Hampshire",
+    "location": "ST. JOHN'S - Newfoundland and Lab -",
     "auction": "copart",
-    "port": "New York",
-    "regular": 475,
-    "large": 475,
-    "oversize": 555
+    "port": "Toronto",
+    "regular": 1850,
+    "large": 1850,
+    "oversize": 1950
   },
   {
-    "location": "WEST PALM BEACH - Florida",
+    "location": "ST. LOUIS - Missouri -",
     "auction": "copart",
-    "port": "Miami",
-    "regular": 245,
-    "large": 245,
-    "oversize": 279
+    "port": "Savannah",
+    "regular": 575,
+    "large": 575,
+    "oversize": 690
   },
   {
-    "location": "WEST WARREN - Massachusetts",
+    "location": "SUN VALLEY - California -",
     "auction": "copart",
-    "port": "New York",
-    "regular": 450,
-    "large": 450,
-    "oversize": 525
-  },
-  {
-    "location": "WHEELING - Illinois",
-    "auction": "copart",
-    "port": "Chicago",
-    "regular": 255,
-    "large": 255,
-    "oversize": 291
-  },
-  {
-    "location": "WICHITA - Kansas",
-    "auction": "copart",
-    "port": "Houston",
-    "regular": 625,
-    "large": 625,
-    "oversize": 735
-  },
-  {
-    "location": "WILMINGTON - NC",
-    "auction": "copart",
-    "port": "Norfolk",
-    "regular": 450,
-    "large": 450,
-    "oversize": 525
-  },
-  {
-    "location": "Windham - Maine",
-    "auction": "copart",
-    "port": "New York",
-    "regular": 550,
-    "large": 550,
-    "oversize": 645
-  },
-  {
-    "location": "YORK HAVEN - Pennsylvania",
-    "auction": "copart",
-    "port": "New York",
-    "regular": 350,
-    "large": 350,
-    "oversize": 405
-  },
-  {
-    "location": "ABILENE - TX",
-    "auction": "iaai",
-    "port": "Houston",
-    "regular": 425,
-    "large": 425,
-    "oversize": 495
-  },
-  {
-    "location": "ACE - Carson - CA",
-    "auction": "iaai",
     "port": "Los Angeles",
-    "regular": 235,
-    "large": 235,
-    "oversize": 267
+    "regular": 200,
+    "large": 200,
+    "oversize": 240
   },
   {
-    "location": "ACE - Perris - CA",
-    "auction": "iaai",
-    "port": "Los Angeles",
+    "location": "SYRACUSE - New York -",
+    "auction": "copart",
+    "port": "New York",
     "regular": 325,
     "large": 325,
-    "oversize": 375
+    "oversize": 390
   },
   {
-    "location": "ACE - PERRIS 2 - CA",
-    "auction": "iaai",
+    "location": "Southern Illinois - Illinois -",
+    "auction": "copart",
+    "port": "Savannah",
+    "regular": 575,
+    "large": 575,
+    "oversize": 690
+  },
+  {
+    "location": "TALLAHASSEE - Florida -",
+    "auction": "copart",
+    "port": "Savannah",
+    "regular": 325,
+    "large": 325,
+    "oversize": 390
+  },
+  {
+    "location": "TAMPA SOUTH - Florida -",
+    "auction": "copart",
+    "port": "Miami",
+    "regular": 275,
+    "large": 275,
+    "oversize": 330
+  },
+  {
+    "location": "TAMPA SOUTH - Mulberry Sublot - Florida -",
+    "auction": "copart",
+    "port": "Miami",
+    "regular": 275,
+    "large": 275,
+    "oversize": 330
+  },
+  {
+    "location": "TANNER - Alabama -",
+    "auction": "copart",
+    "port": "Savannah",
+    "regular": 425,
+    "large": 425,
+    "oversize": 510
+  },
+  {
+    "location": "TIFTON - Georgia -",
+    "auction": "copart",
+    "port": "Savannah",
+    "regular": 275,
+    "large": 275,
+    "oversize": 330
+  },
+  {
+    "location": "TORONTO - Ontario -",
+    "auction": "copart",
+    "port": "Toronto",
+    "regular": 225,
+    "large": 225,
+    "oversize": 325
+  },
+  {
+    "location": "TOW GUYS KAMUELA - Hawaii -",
+    "auction": "copart",
     "port": "Los Angeles",
-    "regular": 350,
-    "large": 350,
-    "oversize": 405
+    "regular": 2300,
+    "large": 2300,
+    "oversize": 2760
   },
   {
-    "location": "AKRON-CANTON - OH",
-    "auction": "iaai",
-    "port": "Norfolk",
-    "regular": 625,
-    "large": 625,
-    "oversize": 735
-  },
-  {
-    "location": "ALBANY - NY",
-    "auction": "iaai",
+    "location": "TRENTON - New Jersey -",
+    "auction": "copart",
     "port": "New York",
-    "regular": 350,
-    "large": 350,
-    "oversize": 405
+    "regular": 150,
+    "large": 150,
+    "oversize": 180
   },
   {
-    "location": "ALBUQUERQUE - NM",
+    "location": "TUCSON - Arizona -",
+    "auction": "copart",
+    "port": "Los Angeles",
+    "regular": 400,
+    "large": 400,
+    "oversize": 480
+  },
+  {
+    "location": "TULSA - Oklahoma -",
+    "auction": "copart",
+    "port": "Houston",
+    "regular": 475,
+    "large": 475,
+    "oversize": 570
+  },
+  {
+    "location": "VALLEJO - California -",
+    "auction": "copart",
+    "port": "Los Angeles",
+    "regular": 400,
+    "large": 400,
+    "oversize": 480
+  },
+  {
+    "location": "VAN NUYS - California -",
+    "auction": "copart",
+    "port": "Los Angeles",
+    "regular": 200,
+    "large": 200,
+    "oversize": 240
+  },
+  {
+    "location": "WACO - Texas -",
+    "auction": "copart",
+    "port": "Houston",
+    "regular": 325,
+    "large": 325,
+    "oversize": 390
+  },
+  {
+    "location": "WALTON - Kentucky -",
+    "auction": "copart",
+    "port": "Savannah",
+    "regular": 550,
+    "large": 550,
+    "oversize": 660
+  },
+  {
+    "location": "WASHINGTON DC - Maryland -",
+    "auction": "copart",
+    "port": "Norfolk",
+    "regular": 300,
+    "large": 300,
+    "oversize": 360
+  },
+  {
+    "location": "WAYLAND - Michigan -",
+    "auction": "copart",
+    "port": "Chicago",
+    "regular": 400,
+    "large": 400,
+    "oversize": 480
+  },
+  {
+    "location": "WEBSTER - New Hampshire -",
+    "auction": "copart",
+    "port": "New York",
+    "regular": 400,
+    "large": 400,
+    "oversize": 480
+  },
+  {
+    "location": "WEST PALM BEACH - Florida -",
+    "auction": "copart",
+    "port": "Miami",
+    "regular": 170,
+    "large": 170,
+    "oversize": 204
+  },
+  {
+    "location": "WEST WARREN - Massachusetts -",
+    "auction": "copart",
+    "port": "New York",
+    "regular": 375,
+    "large": 375,
+    "oversize": 450
+  },
+  {
+    "location": "WHEELING - Illinois -",
+    "auction": "copart",
+    "port": "Chicago",
+    "regular": 180,
+    "large": 180,
+    "oversize": 216
+  },
+  {
+    "location": "WICHITA - Kansas -",
+    "auction": "copart",
+    "port": "Houston",
+    "regular": 550,
+    "large": 550,
+    "oversize": 660
+  },
+  {
+    "location": "Windham - Maine -",
+    "auction": "copart",
+    "port": "New York",
+    "regular": 475,
+    "large": 475,
+    "oversize": 570
+  },
+  {
+    "location": "YORK HAVEN - Pennsylvania -",
+    "auction": "copart",
+    "port": "New York",
+    "regular": 275,
+    "large": 275,
+    "oversize": 330
+  },
+  {
+    "location": "ABILENE - Texas -",
     "auction": "iaai",
     "port": "Houston",
-    "regular": 675,
-    "large": 675,
-    "oversize": 795
+    "regular": 350,
+    "large": 350,
+    "oversize": 420
   },
   {
-    "location": "ALTOONA - PA",
+    "location": "ACE - Carson - California -",
+    "auction": "iaai",
+    "port": "Los Angeles",
+    "regular": 160,
+    "large": 160,
+    "oversize": 192
+  },
+  {
+    "location": "ACE - PERRIS 2 - California -",
+    "auction": "iaai",
+    "port": "Los Angeles",
+    "regular": 275,
+    "large": 275,
+    "oversize": 330
+  },
+  {
+    "location": "ACE - Perris - California -",
+    "auction": "iaai",
+    "port": "Los Angeles",
+    "regular": 250,
+    "large": 250,
+    "oversize": 300
+  },
+  {
+    "location": "AKRON-CANTON - Ohio -",
+    "auction": "iaai",
+    "port": "Norfolk",
+    "regular": 550,
+    "large": 550,
+    "oversize": 660
+  },
+  {
+    "location": "ALBANY - New York -",
     "auction": "iaai",
     "port": "New York",
-    "regular": 525,
-    "large": 525,
-    "oversize": 615
+    "regular": 275,
+    "large": 275,
+    "oversize": 330
   },
   {
-    "location": "AMARILLO - TX",
+    "location": "ALBUQUERQUE - New Mexico -",
     "auction": "iaai",
     "port": "Houston",
     "regular": 600,
     "large": 600,
-    "oversize": 705
+    "oversize": 720
   },
   {
-    "location": "ANAHEIM - CA",
-    "auction": "iaai",
-    "port": "Los Angeles",
-    "regular": 275,
-    "large": 275,
-    "oversize": 315
-  },
-  {
-    "location": "APPLETON - WI",
-    "auction": "iaai",
-    "port": "Chicago",
-    "regular": 400,
-    "large": 400,
-    "oversize": 465
-  },
-  {
-    "location": "ASHEVILLE - NC",
-    "auction": "iaai",
-    "port": "Norfolk",
-    "regular": 475,
-    "large": 475,
-    "oversize": 555
-  },
-  {
-    "location": "ATLANTA - GA",
-    "auction": "iaai",
-    "port": "Savannah",
-    "regular": 375,
-    "large": 375,
-    "oversize": 435
-  },
-  {
-    "location": "ATLANTA EAST - GA",
-    "auction": "iaai",
-    "port": "Savannah",
-    "regular": 400,
-    "large": 400,
-    "oversize": 465
-  },
-  {
-    "location": "ATLANTA NORTH - GA",
-    "auction": "iaai",
-    "port": "Savannah",
-    "regular": 375,
-    "large": 375,
-    "oversize": 435
-  },
-  {
-    "location": "ATLANTA SOUTH - GA",
-    "auction": "iaai",
-    "port": "Savannah",
-    "regular": 375,
-    "large": 375,
-    "oversize": 435
-  },
-  {
-    "location": "AUSTIN - TX",
-    "auction": "iaai",
-    "port": "Houston",
-    "regular": 325,
-    "large": 325,
-    "oversize": 375
-  },
-  {
-    "location": "AVENEL NEW JERSEY - NJ",
+    "location": "ALTOONA - Pennsylvania -",
     "auction": "iaai",
     "port": "New York",
+    "regular": 450,
+    "large": 450,
+    "oversize": 450
+  },
+  {
+    "location": "AMARILLO - Texas -",
+    "auction": "iaai",
+    "port": "Houston",
+    "regular": 525,
+    "large": 525,
+    "oversize": 630
+  },
+  {
+    "location": "ANAHEIM - California -",
+    "auction": "iaai",
+    "port": "Los Angeles",
     "regular": 200,
     "large": 200,
-    "oversize": 225
+    "oversize": 240
   },
   {
-    "location": "BALTIMORE - MD",
-    "auction": "iaai",
-    "port": "Norfolk",
-    "regular": 425,
-    "large": 425,
-    "oversize": 495
-  },
-  {
-    "location": "BATON ROUGE - LA",
-    "auction": "iaai",
-    "port": "Houston",
-    "regular": 425,
-    "large": 425,
-    "oversize": 495
-  },
-  {
-    "location": "BILLINGS - MT",
-    "auction": "iaai",
-    "port": "Seattle",
-    "regular": 925,
-    "large": 925,
-    "oversize": 1095
-  },
-  {
-    "location": "BIRMINGHAM - AL",
-    "auction": "iaai",
-    "port": "Savannah",
-    "regular": 450,
-    "large": 450,
-    "oversize": 525
-  },
-  {
-    "location": "BOISE - ID",
-    "auction": "iaai",
-    "port": "Seattle",
-    "regular": 525,
-    "large": 525,
-    "oversize": 615
-  },
-  {
-    "location": "BOSTON - SHIRLEY - MA",
-    "auction": "iaai",
-    "port": "New York",
-    "regular": 450,
-    "large": 450,
-    "oversize": 525
-  },
-  {
-    "location": "BRIDGEPORT - PA",
-    "auction": "iaai",
-    "port": "New York",
-    "regular": 275,
-    "large": 275,
-    "oversize": 315
-  },
-  {
-    "location": "BUCKHANNON - WV",
-    "auction": "iaai",
-    "port": "Norfolk",
-    "regular": 700,
-    "large": 700,
-    "oversize": 825
-  },
-  {
-    "location": "BUFFALO - NY",
-    "auction": "iaai",
-    "port": "New York",
-    "regular": 575,
-    "large": 575,
-    "oversize": 675
-  },
-  {
-    "location": "BURLINGTON - VT",
-    "auction": "iaai",
-    "port": "New York",
-    "regular": 575,
-    "large": 575,
-    "oversize": 675
-  },
-  {
-    "location": "CENTRAL NEW JERSEY - NJ",
-    "auction": "iaai",
-    "port": "New York",
-    "regular": 225,
-    "large": 225,
-    "oversize": 255
-  },
-  {
-    "location": "CHARLESTON - SC",
-    "auction": "iaai",
-    "port": "Savannah",
-    "regular": 350,
-    "large": 350,
-    "oversize": 405
-  },
-  {
-    "location": "CHARLOTTE - NC",
-    "auction": "iaai",
-    "port": "Norfolk",
-    "regular": 375,
-    "large": 375,
-    "oversize": 435
-  },
-  {
-    "location": "CHATTANOOGA - TN",
-    "auction": "iaai",
-    "port": "Savannah",
-    "regular": 550,
-    "large": 550,
-    "oversize": 645
-  },
-  {
-    "location": "CHICAGO NORTH - IL",
+    "location": "APPLETON - Wisconsin -",
     "auction": "iaai",
     "port": "Chicago",
-    "regular": 255,
-    "large": 255,
-    "oversize": 291
-  },
-  {
-    "location": "CHICAGO SOUTH - IL",
-    "auction": "iaai",
-    "port": "Chicago",
-    "regular": 255,
-    "large": 255,
-    "oversize": 291
-  },
-  {
-    "location": "CHICAGO-WEST - IL",
-    "auction": "iaai",
-    "port": "Chicago",
-    "regular": 255,
-    "large": 255,
-    "oversize": 291
-  },
-  {
-    "location": "CINCINNATI - OH",
-    "auction": "iaai",
-    "port": "Norfolk",
-    "regular": 625,
-    "large": 625,
-    "oversize": 735
-  },
-  {
-    "location": "CINCINNATI SOUTH - OH",
-    "auction": "iaai",
-    "port": "Norfolk",
-    "regular": 625,
-    "large": 625,
-    "oversize": 735
-  },
-  {
-    "location": "CLEARWATER - FL",
-    "auction": "iaai",
-    "port": "Miami",
     "regular": 325,
     "large": 325,
-    "oversize": 375
+    "oversize": 390
   },
   {
-    "location": "CLEVELAND - OH",
+    "location": "ASHEVILLE - North Carolina -",
     "auction": "iaai",
     "port": "Norfolk",
-    "regular": 625,
-    "large": 625,
-    "oversize": 735
-  },
-  {
-    "location": "COLORADO SPRINGS - CO",
-    "auction": "iaai",
-    "port": "Chicago",
-    "regular": 725,
-    "large": 725,
-    "oversize": 855
-  },
-  {
-    "location": "COLTON - CA",
-    "auction": "iaai",
-    "port": "Los Angeles",
-    "regular": 275,
-    "large": 275,
-    "oversize": 315
-  },
-  {
-    "location": "COLUMBIA - SC",
-    "auction": "iaai",
-    "port": "Savannah",
-    "regular": 350,
-    "large": 350,
-    "oversize": 405
-  },
-  {
-    "location": "COLUMBUS - OH",
-    "auction": "iaai",
-    "port": "Norfolk",
-    "regular": 625,
-    "large": 625,
-    "oversize": 735
-  },
-  {
-    "location": "CONCORD - NC",
-    "auction": "iaai",
-    "port": "Norfolk",
-    "regular": 375,
-    "large": 375,
-    "oversize": 435
-  },
-  {
-    "location": "CORPUS CHRISTI - TX",
-    "auction": "iaai",
-    "port": "Houston",
-    "regular": 350,
-    "large": 350,
-    "oversize": 405
-  },
-  {
-    "location": "CULPEPER - VA",
-    "auction": "iaai",
-    "port": "Norfolk",
-    "regular": 325,
-    "large": 325,
-    "oversize": 375
-  },
-  {
-    "location": "D&D TOWING INC MAUI - HI",
-    "auction": "iaai",
-    "port": "Los Angeles",
-    "regular": 2475,
-    "large": 2475,
-    "oversize": 2955
-  },
-  {
-    "location": "DALLAS - TX",
-    "auction": "iaai",
-    "port": "Houston",
-    "regular": 350,
-    "large": 350,
-    "oversize": 405
-  },
-  {
-    "location": "Dallas/Ft Worth - TX",
-    "auction": "iaai",
-    "port": "Houston",
-    "regular": 350,
-    "large": 350,
-    "oversize": 405
-  },
-  {
-    "location": "DAVENPORT - IA",
-    "auction": "iaai",
-    "port": "Chicago",
     "regular": 400,
     "large": 400,
-    "oversize": 465
+    "oversize": 480
   },
   {
-    "location": "DAYTON - OH",
-    "auction": "iaai",
-    "port": "Norfolk",
-    "regular": 625,
-    "large": 625,
-    "oversize": 735
-  },
-  {
-    "location": "DC TOWING HILO - HI",
-    "auction": "iaai",
-    "port": "Los Angeles",
-    "regular": 2175,
-    "large": 2175,
-    "oversize": 2595
-  },
-  {
-    "location": "DENVER - CO",
-    "auction": "iaai",
-    "port": "Chicago",
-    "regular": 725,
-    "large": 725,
-    "oversize": 855
-  },
-  {
-    "location": "DENVER EAST - CO",
-    "auction": "iaai",
-    "port": "Chicago",
-    "regular": 725,
-    "large": 725,
-    "oversize": 855
-  },
-  {
-    "location": "DES MOINES - IA",
-    "auction": "iaai",
-    "port": "Chicago",
-    "regular": 475,
-    "large": 475,
-    "oversize": 555
-  },
-  {
-    "location": "DETROIT - MI",
-    "auction": "iaai",
-    "port": "Chicago",
-    "regular": 475,
-    "large": 475,
-    "oversize": 555
-  },
-  {
-    "location": "DOTHAN - AL",
-    "auction": "iaai",
-    "port": "Savannah",
-    "regular": 450,
-    "large": 450,
-    "oversize": 525
-  },
-  {
-    "location": "DUNDALK - MD",
-    "auction": "iaai",
-    "port": "Norfolk",
-    "regular": 375,
-    "large": 375,
-    "oversize": 435
-  },
-  {
-    "location": "EAST BAY - CA",
-    "auction": "iaai",
-    "port": "Los Angeles",
-    "regular": 475,
-    "large": 475,
-    "oversize": 555
-  },
-  {
-    "location": "EL PASO - TX",
-    "auction": "iaai",
-    "port": "Houston",
-    "regular": 500,
-    "large": 500,
-    "oversize": 585
-  },
-  {
-    "location": "Elkton - MD",
-    "auction": "iaai",
-    "port": "Norfolk",
-    "regular": 425,
-    "large": 425,
-    "oversize": 495
-  },
-  {
-    "location": "Englishtown - NJ",
-    "auction": "iaai",
-    "port": "New York",
-    "regular": 225,
-    "large": 225,
-    "oversize": 255
-  },
-  {
-    "location": "ERIE - PA",
-    "auction": "iaai",
-    "port": "New York",
-    "regular": 575,
-    "large": 575,
-    "oversize": 675
-  },
-  {
-    "location": "EUGENE - OR",
-    "auction": "iaai",
-    "port": "Seattle",
-    "regular": 450,
-    "large": 450,
-    "oversize": 525
-  },
-  {
-    "location": "FARGO - ND",
-    "auction": "iaai",
-    "port": "Chicago",
-    "regular": 725,
-    "large": 725,
-    "oversize": 855
-  },
-  {
-    "location": "FAYETTEVILLE - AR",
-    "auction": "iaai",
-    "port": "Houston",
-    "regular": 550,
-    "large": 550,
-    "oversize": 645
-  },
-  {
-    "location": "FLINT - MI",
-    "auction": "iaai",
-    "port": "Chicago",
-    "regular": 525,
-    "large": 525,
-    "oversize": 615
-  },
-  {
-    "location": "FONTANA - CA",
-    "auction": "iaai",
-    "port": "Los Angeles",
-    "regular": 275,
-    "large": 275,
-    "oversize": 315
-  },
-  {
-    "location": "FORT MYERS - FL",
-    "auction": "iaai",
-    "port": "Miami",
-    "regular": 325,
-    "large": 325,
-    "oversize": 375
-  },
-  {
-    "location": "FORT PIERCE - FL",
-    "auction": "iaai",
-    "port": "Miami",
-    "regular": 275,
-    "large": 275,
-    "oversize": 315
-  },
-  {
-    "location": "Fort Worth North - TX",
-    "auction": "iaai",
-    "port": "Houston",
-    "regular": 350,
-    "large": 350,
-    "oversize": 405
-  },
-  {
-    "location": "Fredericksburg-South - VA",
-    "auction": "iaai",
-    "port": "Norfolk",
-    "regular": 325,
-    "large": 325,
-    "oversize": 375
-  },
-  {
-    "location": "FREMONT - CA",
-    "auction": "iaai",
-    "port": "Los Angeles",
-    "regular": 475,
-    "large": 475,
-    "oversize": 555
-  },
-  {
-    "location": "FRESNO - CA",
-    "auction": "iaai",
-    "port": "Los Angeles",
-    "regular": 450,
-    "large": 450,
-    "oversize": 525
-  },
-  {
-    "location": "GRAND RAPIDS - MI",
-    "auction": "iaai",
-    "port": "Chicago",
-    "regular": 475,
-    "large": 475,
-    "oversize": 555
-  },
-  {
-    "location": "GREENSBORO - NC",
-    "auction": "iaai",
-    "port": "Norfolk",
-    "regular": 375,
-    "large": 375,
-    "oversize": 435
-  },
-  {
-    "location": "GREENVILLE - SС",
-    "auction": "iaai",
-    "port": "Savannah",
-    "regular": 375,
-    "large": 375,
-    "oversize": 435
-  },
-  {
-    "location": "GRENADA - MS",
-    "auction": "iaai",
-    "port": "Houston",
-    "regular": 550,
-    "large": 550,
-    "oversize": 645
-  },
-  {
-    "location": "GULF COAST - MS",
-    "auction": "iaai",
-    "port": "Savannah",
-    "regular": 550,
-    "large": 550,
-    "oversize": 645
-  },
-  {
-    "location": "HARTFORD-SOUTH - CT",
-    "auction": "iaai",
-    "port": "New York",
-    "regular": 300,
-    "large": 300,
-    "oversize": 345
-  },
-  {
-    "location": "HIGH DESERT - CA",
-    "auction": "iaai",
-    "port": "Los Angeles",
-    "regular": 375,
-    "large": 375,
-    "oversize": 435
-  },
-  {
-    "location": "HONOLULU - HI",
-    "auction": "iaai",
-    "port": "Honolulu",
-    "regular": 195,
-    "large": 195,
-    "oversize": 219
-  },
-  {
-    "location": "HOUSTON - TX",
-    "auction": "iaai",
-    "port": "Houston",
-    "regular": 255,
-    "large": 255,
-    "oversize": 291
-  },
-  {
-    "location": "HOUSTON SOUTH - TX",
-    "auction": "iaai",
-    "port": "Houston",
-    "regular": 255,
-    "large": 255,
-    "oversize": 291
-  },
-  {
-    "location": "HUNTSVILLE - AL",
-    "auction": "iaai",
-    "port": "Savannah",
-    "regular": 525,
-    "large": 525,
-    "oversize": 615
-  },
-  {
-    "location": "IAA CAT HOUSTON - TX",
-    "auction": "iaai",
-    "port": "Houston",
-    "regular": 0,
-    "large": 0,
-    "oversize": 0
-  },
-  {
-    "location": "INDIANAPOLIS - IN",
-    "auction": "iaai",
-    "port": "Chicago",
-    "regular": 375,
-    "large": 375,
-    "oversize": 435
-  },
-  {
-    "location": "INDIANAPOLIS SOUTH - IN",
-    "auction": "iaai",
-    "port": "Savannah",
-    "regular": 675,
-    "large": 675,
-    "oversize": 795
-  },
-  {
-    "location": "JACKSON - MS",
-    "auction": "iaai",
-    "port": "Houston",
-    "regular": 500,
-    "large": 500,
-    "oversize": 585
-  },
-  {
-    "location": "JACKSONVILLE - FL",
+    "location": "ATLANTA - Georgia -",
     "auction": "iaai",
     "port": "Savannah",
     "regular": 300,
     "large": 300,
-    "oversize": 345
+    "oversize": 360
   },
   {
-    "location": "KANSAS CITY - KS",
+    "location": "ATLANTA EAST - Georgia -",
     "auction": "iaai",
     "port": "Savannah",
-    "regular": 700,
-    "large": 700,
-    "oversize": 825
-  },
-  {
-    "location": "Kansas City East - MO",
-    "auction": "iaai",
-    "port": "Savannah",
-    "regular": 700,
-    "large": 700,
-    "oversize": 825
-  },
-  {
-    "location": "KNOXVILLE - TN",
-    "auction": "iaai",
-    "port": "Savannah",
-    "regular": 475,
-    "large": 475,
-    "oversize": 555
-  },
-  {
-    "location": "LAFAYETTE - LA",
-    "auction": "iaai",
-    "port": "Houston",
-    "regular": 450,
-    "large": 450,
-    "oversize": 525
-  },
-  {
-    "location": "LAUREL - MD",
-    "auction": "iaai",
-    "port": "Norfolk",
-    "regular": 375,
-    "large": 375,
-    "oversize": 435
-  },
-  {
-    "location": "LEE'S TOWING KAUAI - HI",
-    "auction": "iaai",
-    "port": "Honolulu",
-    "regular": 1825,
-    "large": 1975,
-    "oversize": 2325
-  },
-  {
-    "location": "Lexington - SC",
-    "auction": "iaai",
-    "port": "Savannah",
-    "regular": 375,
-    "large": 375,
-    "oversize": 435
-  },
-  {
-    "location": "LINCOLN - IL",
-    "auction": "iaai",
-    "port": "Chicago",
-    "regular": 375,
-    "large": 375,
-    "oversize": 435
-  },
-  {
-    "location": "LITTLE ROCK - AR",
-    "auction": "iaai",
-    "port": "Houston",
-    "regular": 525,
-    "large": 525,
-    "oversize": 615
-  },
-  {
-    "location": "LONG ISLAND - NY",
-    "auction": "iaai",
-    "port": "New York",
     "regular": 325,
     "large": 325,
-    "oversize": 375
+    "oversize": 390
   },
   {
-    "location": "LONGVIEW - TX",
-    "auction": "iaai",
-    "port": "Houston",
-    "regular": 350,
-    "large": 350,
-    "oversize": 405
-  },
-  {
-    "location": "LOS ANGELES - CA",
-    "auction": "iaai",
-    "port": "Los Angeles",
-    "regular": 235,
-    "large": 235,
-    "oversize": 267
-  },
-  {
-    "location": "Los Angeles South - CA",
-    "auction": "iaai",
-    "port": "Los Angeles",
-    "regular": 225,
-    "large": 225,
-    "oversize": 255
-  },
-  {
-    "location": "LOUISVILLE - KY",
+    "location": "ATLANTA NORTH - Georgia -",
     "auction": "iaai",
     "port": "Savannah",
-    "regular": 625,
-    "large": 625,
-    "oversize": 735
-  },
-  {
-    "location": "LOUISVILLE NORTH - KY",
-    "auction": "iaai",
-    "port": "Savannah",
-    "regular": 625,
-    "large": 625,
-    "oversize": 735
-  },
-  {
-    "location": "LUBBOCK - TX",
-    "auction": "iaai",
-    "port": "Houston",
-    "regular": 525,
-    "large": 525,
-    "oversize": 615
-  },
-  {
-    "location": "MACON - GA",
-    "auction": "iaai",
-    "port": "Savannah",
-    "regular": 350,
-    "large": 350,
-    "oversize": 405
-  },
-  {
-    "location": "MANCHESTER - NH",
-    "auction": "iaai",
-    "port": "New York",
-    "regular": 475,
-    "large": 475,
-    "oversize": 555
-  },
-  {
-    "location": "MCALLEN - TX",
-    "auction": "iaai",
-    "port": "Houston",
-    "regular": 425,
-    "large": 425,
-    "oversize": 495
-  },
-  {
-    "location": "MEMPHIS - TN",
-    "auction": "iaai",
-    "port": "Savannah",
-    "regular": 575,
-    "large": 575,
-    "oversize": 675
-  },
-  {
-    "location": "METRO DC - MD",
-    "auction": "iaai",
-    "port": "Norfolk",
-    "regular": 375,
-    "large": 375,
-    "oversize": 435
-  },
-  {
-    "location": "MIAMI - FL",
-    "auction": "iaai",
-    "port": "Miami",
-    "regular": 200,
-    "large": 200,
-    "oversize": 225
-  },
-  {
-    "location": "MIAMI NORTH - FL",
-    "auction": "iaai",
-    "port": "Miami",
-    "regular": 225,
-    "large": 225,
-    "oversize": 255
-  },
-  {
-    "location": "MILWAUKEE - WI",
-    "auction": "iaai",
-    "port": "Chicago",
     "regular": 300,
     "large": 300,
-    "oversize": 345
+    "oversize": 360
   },
   {
-    "location": "Minneapolis South - MN",
-    "auction": "iaai",
-    "port": "Chicago",
-    "regular": 525,
-    "large": 525,
-    "oversize": 615
-  },
-  {
-    "location": "MINNEAPOLIS/ST. PAUL - MN",
-    "auction": "iaai",
-    "port": "Chicago",
-    "regular": 525,
-    "large": 525,
-    "oversize": 615
-  },
-  {
-    "location": "MISSOULA - MT",
-    "auction": "iaai",
-    "port": "Seattle",
-    "regular": 675,
-    "large": 675,
-    "oversize": 795
-  },
-  {
-    "location": "NASHVILLE - TN",
+    "location": "ATLANTA SOUTH - Georgia -",
     "auction": "iaai",
     "port": "Savannah",
-    "regular": 475,
-    "large": 475,
-    "oversize": 555
-  },
-  {
-    "location": "NEW CASTLE - DE",
-    "auction": "iaai",
-    "port": "New York",
-    "regular": 325,
-    "large": 325,
-    "oversize": 375
-  },
-  {
-    "location": "NEW ORLEANS - LA",
-    "auction": "iaai",
-    "port": "Savannah",
-    "regular": 475,
-    "large": 475,
-    "oversize": 555
-  },
-  {
-    "location": "New Orleans and Louisiana Flood - LA",
-    "auction": "iaai",
-    "port": "Savannah",
-    "regular": 500,
-    "large": 500,
-    "oversize": 585
-  },
-  {
-    "location": "NEW ORLEANS EAST - LA",
-    "auction": "iaai",
-    "port": "Savannah",
-    "regular": 475,
-    "large": 475,
-    "oversize": 555
-  },
-  {
-    "location": "NEWBURGH - NY",
-    "auction": "iaai",
-    "port": "New York",
     "regular": 300,
     "large": 300,
-    "oversize": 345
+    "oversize": 360
   },
   {
-    "location": "NORTH HOLLYWOOD - CA",
-    "auction": "iaai",
-    "port": "Los Angeles",
-    "regular": 275,
-    "large": 275,
-    "oversize": 315
-  },
-  {
-    "location": "NORTHERN NEW JERSEY - NJ",
-    "auction": "iaai",
-    "port": "New York",
-    "regular": 200,
-    "large": 200,
-    "oversize": 225
-  },
-  {
-    "location": "NORTHERN VIRGINIA - VA",
-    "auction": "iaai",
-    "port": "Norfolk",
-    "regular": 325,
-    "large": 325,
-    "oversize": 375
-  },
-  {
-    "location": "OKLAHOMA CITY - OK",
+    "location": "AUSTIN - Texas -",
     "auction": "iaai",
     "port": "Houston",
-    "regular": 475,
-    "large": 475,
-    "oversize": 555
-  },
-  {
-    "location": "OMAHA - NE",
-    "auction": "iaai",
-    "port": "Chicago",
-    "regular": 525,
-    "large": 525,
-    "oversize": 615
-  },
-  {
-    "location": "ORLANDO - FL",
-    "auction": "iaai",
-    "port": "Miami",
-    "regular": 325,
-    "large": 325,
-    "oversize": 375
-  },
-  {
-    "location": "ORLANDO-NORTH - FL",
-    "auction": "iaai",
-    "port": "Miami",
-    "regular": 325,
-    "large": 325,
-    "oversize": 375
-  },
-  {
-    "location": "PENSACOLA - FL",
-    "auction": "iaai",
-    "port": "Miami",
-    "regular": 475,
-    "large": 475,
-    "oversize": 555
-  },
-  {
-    "location": "PERMIAN BASIN - TX",
-    "auction": "iaai",
-    "port": "Houston",
-    "regular": 525,
-    "large": 525,
-    "oversize": 615
-  },
-  {
-    "location": "PHILADELPHIA - PA",
-    "auction": "iaai",
-    "port": "New York",
-    "regular": 275,
-    "large": 275,
-    "oversize": 315
-  },
-  {
-    "location": "PHILADELPHIA EAST - PA",
-    "auction": "iaai",
-    "port": "New York",
-    "regular": 275,
-    "large": 275,
-    "oversize": 315
-  },
-  {
-    "location": "PHOENIX - AZ",
-    "auction": "iaai",
-    "port": "Los Angeles",
-    "regular": 425,
-    "large": 425,
-    "oversize": 495
-  },
-  {
-    "location": "PHOENIX NORTH - AZ",
-    "auction": "iaai",
-    "port": "Los Angeles",
-    "regular": 425,
-    "large": 425,
-    "oversize": 495
-  },
-  {
-    "location": "PITTSBURGH - PA",
-    "auction": "iaai",
-    "port": "New York",
-    "regular": 525,
-    "large": 525,
-    "oversize": 615
-  },
-  {
-    "location": "PITTSBURGH NORTH - PA",
-    "auction": "iaai",
-    "port": "New York",
-    "regular": 525,
-    "large": 525,
-    "oversize": 615
-  },
-  {
-    "location": "PORT MURRAY - NJ",
-    "auction": "iaai",
-    "port": "New York",
     "regular": 250,
     "large": 250,
-    "oversize": 285
+    "oversize": 300
   },
   {
-    "location": "PORTAGE - WI",
+    "location": "AUSTIN NORTH - Texas -",
     "auction": "iaai",
-    "port": "Chicago",
-    "regular": 375,
-    "large": 375,
-    "oversize": 435
-  },
-  {
-    "location": "PORTLAND - GORHAM - ME",
-    "auction": "iaai",
-    "port": "New York",
-    "regular": 550,
-    "large": 550,
-    "oversize": 645
-  },
-  {
-    "location": "PORTLAND - OR",
-    "auction": "iaai",
-    "port": "Seattle",
-    "regular": 325,
-    "large": 325,
-    "oversize": 375
-  },
-  {
-    "location": "Portland West - OR",
-    "auction": "iaai",
-    "port": "Seattle",
-    "regular": 325,
-    "large": 325,
-    "oversize": 375
-  },
-  {
-    "location": "PROVIDENCE - RI",
-    "auction": "iaai",
-    "port": "New York",
-    "regular": 425,
-    "large": 425,
-    "oversize": 495
-  },
-  {
-    "location": "PULASKI - VA",
-    "auction": "iaai",
-    "port": "Norfolk",
-    "regular": 475,
-    "large": 475,
-    "oversize": 555
-  },
-  {
-    "location": "RALEIGH - NC",
-    "auction": "iaai",
-    "port": "Norfolk",
-    "regular": 375,
-    "large": 375,
-    "oversize": 435
-  },
-  {
-    "location": "RENO - NV",
-    "auction": "iaai",
-    "port": "Los Angeles",
-    "regular": 625,
-    "large": 625,
-    "oversize": 735
-  },
-  {
-    "location": "RICHMOND - VA",
-    "auction": "iaai",
-    "port": "Norfolk",
+    "port": "Houston",
     "regular": 275,
     "large": 275,
-    "oversize": 315
+    "oversize": 330
   },
   {
-    "location": "ROANOKE - VA",
+    "location": "AVENEL NEW JERSEY - New Jersey -",
+    "auction": "iaai",
+    "port": "New York",
+    "regular": 125,
+    "large": 125,
+    "oversize": 150
+  },
+  {
+    "location": "Atlanta West - Georgia -",
+    "auction": "iaai",
+    "port": "Savannah",
+    "regular": 325,
+    "large": 325,
+    "oversize": 390
+  },
+  {
+    "location": "BALTIMORE - Maryland -",
     "auction": "iaai",
     "port": "Norfolk",
+    "regular": 350,
+    "large": 350,
+    "oversize": 420
+  },
+  {
+    "location": "BATON ROUGE - Louisiana -",
+    "auction": "iaai",
+    "port": "Houston",
+    "regular": 350,
+    "large": 350,
+    "oversize": 420
+  },
+  {
+    "location": "BILLINGS - Montana -",
+    "auction": "iaai",
+    "port": "Seattle",
+    "regular": 850,
+    "large": 850,
+    "oversize": 1020
+  },
+  {
+    "location": "BIRMINGHAM - Alabama -",
+    "auction": "iaai",
+    "port": "Savannah",
+    "regular": 375,
+    "large": 375,
+    "oversize": 450
+  },
+  {
+    "location": "BOISE - Idaho -",
+    "auction": "iaai",
+    "port": "Seattle",
     "regular": 450,
     "large": 450,
-    "oversize": 525
+    "oversize": 540
   },
   {
-    "location": "ROCHESTER - NY",
+    "location": "BOSTON - SHIRLEY - Massachusetts -",
     "auction": "iaai",
     "port": "New York",
-    "regular": 525,
-    "large": 525,
-    "oversize": 615
-  },
-  {
-    "location": "ROSEDALE - MD",
-    "auction": "iaai",
-    "port": "Norfolk",
-    "regular": 425,
-    "large": 425,
-    "oversize": 495
-  },
-  {
-    "location": "SACRAMENTO - CA",
-    "auction": "iaai",
-    "port": "Los Angeles",
-    "regular": 475,
-    "large": 475,
-    "oversize": 555
-  },
-  {
-    "location": "SALT LAKE CITY - UT",
-    "auction": "iaai",
-    "port": "Los Angeles",
-    "regular": 625,
-    "large": 625,
-    "oversize": 735
-  },
-  {
-    "location": "SAN ANTONIO - TX",
-    "auction": "iaai",
-    "port": "Houston",
     "regular": 375,
     "large": 375,
-    "oversize": 435
+    "oversize": 450
   },
   {
-    "location": "SAN ANTONIO-SOUTH - TX",
+    "location": "BRIDGEPORT - Pennsylvania -",
     "auction": "iaai",
-    "port": "Houston",
-    "regular": 375,
-    "large": 375,
-    "oversize": 435
-  },
-  {
-    "location": "SAN BERNARDINO - CA",
-    "auction": "iaai",
-    "port": "Los Angeles",
-    "regular": 325,
-    "large": 325,
-    "oversize": 375
-  },
-  {
-    "location": "SAN DIEGO - CA",
-    "auction": "iaai",
-    "port": "Los Angeles",
-    "regular": 375,
-    "large": 375,
-    "oversize": 435
-  },
-  {
-    "location": "SAVANNAH - GA",
-    "auction": "iaai",
-    "port": "Savannah",
+    "port": "New York",
     "regular": 200,
     "large": 200,
-    "oversize": 225
+    "oversize": 240
   },
   {
-    "location": "Sayreville - NJ",
-    "auction": "iaai",
-    "port": "New York",
-    "regular": 225,
-    "large": 225,
-    "oversize": 255
-  },
-  {
-    "location": "SCRANTON - PA",
-    "auction": "iaai",
-    "port": "New York",
-    "regular": 325,
-    "large": 325,
-    "oversize": 375
-  },
-  {
-    "location": "SEATTLE - WA",
-    "auction": "iaai",
-    "port": "Seattle",
-    "regular": 250,
-    "large": 250,
-    "oversize": 285
-  },
-  {
-    "location": "SHADY SPRING - WV",
+    "location": "BUCKHANNON - West Virginia -",
     "auction": "iaai",
     "port": "Norfolk",
-    "regular": 700,
-    "large": 700,
-    "oversize": 825
+    "regular": 625,
+    "large": 625,
+    "oversize": 750
   },
   {
-    "location": "SHREVEPORT - LA",
-    "auction": "iaai",
-    "port": "Houston",
-    "regular": 390,
-    "large": 390,
-    "oversize": 453
-  },
-  {
-    "location": "SIOUX FALLS - SD",
-    "auction": "iaai",
-    "port": "Chicago",
-    "regular": 725,
-    "large": 725,
-    "oversize": 855
-  },
-  {
-    "location": "SOUTHERN NEW JERSEY - NJ",
+    "location": "BUFFALO - New York -",
     "auction": "iaai",
     "port": "New York",
+    "regular": 500,
+    "large": 500,
+    "oversize": 600
+  },
+  {
+    "location": "BURLINGTON - Vermont -",
+    "auction": "iaai",
+    "port": "New York",
+    "regular": 500,
+    "large": 500,
+    "oversize": 600
+  },
+  {
+    "location": "BZ Trucking - Hawaii -",
+    "auction": "iaai",
+    "port": "Los Angeles",
+    "regular": 2300,
+    "large": 2300,
+    "oversize": 2750
+  },
+  {
+    "location": "CASPER - Wyoming -",
+    "auction": "iaai",
+    "port": "Chicago",
+    "regular": 950,
+    "large": 950,
+    "oversize": 1140
+  },
+  {
+    "location": "CENTRAL NEW JERSEY - New Jersey -",
+    "auction": "iaai",
+    "port": "New York",
+    "regular": 150,
+    "large": 150,
+    "oversize": 180
+  },
+  {
+    "location": "CHARLESTON - South Carolina -",
+    "auction": "iaai",
+    "port": "Savannah",
     "regular": 275,
     "large": 275,
-    "oversize": 315
+    "oversize": 330
   },
   {
-    "location": "SPOKANE - WA",
+    "location": "CHARLOTTE - North Carolina -",
     "auction": "iaai",
-    "port": "Seattle",
-    "regular": 425,
-    "large": 425,
-    "oversize": 495
+    "port": "Norfolk",
+    "regular": 300,
+    "large": 300,
+    "oversize": 360
   },
   {
-    "location": "SPRINGFIELD - MO",
-    "auction": "iaai",
-    "port": "Savannah",
-    "regular": 700,
-    "large": 700,
-    "oversize": 825
-  },
-  {
-    "location": "ST. LOUIS - IL",
+    "location": "CHATTANOOGA - Tennessee -",
     "auction": "iaai",
     "port": "Savannah",
+    "regular": 475,
+    "large": 475,
+    "oversize": 570
+  },
+  {
+    "location": "CHICAGO NORTH  Illinois -",
+    "auction": "iaai",
+    "port": "Chicago",
+    "regular": 180,
+    "large": 180,
+    "oversize": 216
+  },
+  {
+    "location": "CHICAGO SOUTH - Illinois -",
+    "auction": "iaai",
+    "port": "Chicago",
+    "regular": 180,
+    "large": 180,
+    "oversize": 216
+  },
+  {
+    "location": "CHICAGO WEST - Illinois -",
+    "auction": "iaai",
+    "port": "Chicago",
+    "regular": 180,
+    "large": 180,
+    "oversize": 216
+  },
+  {
+    "location": "CINCINNATI - Ohio -",
+    "auction": "iaai",
+    "port": "Norfolk",
+    "regular": 550,
+    "large": 550,
+    "oversize": 660
+  },
+  {
+    "location": "CINCINNATI SOUTH - Ohio -",
+    "auction": "iaai",
+    "port": "Norfolk",
+    "regular": 550,
+    "large": 550,
+    "oversize": 660
+  },
+  {
+    "location": "CLEARWATER - Florida -",
+    "auction": "iaai",
+    "port": "Miami",
+    "regular": 250,
+    "large": 250,
+    "oversize": 300
+  },
+  {
+    "location": "CLEVELAND - Ohio -",
+    "auction": "iaai",
+    "port": "Norfolk",
+    "regular": 550,
+    "large": 550,
+    "oversize": 660
+  },
+  {
+    "location": "COLTON - California -",
+    "auction": "iaai",
+    "port": "Los Angeles",
+    "regular": 200,
+    "large": 200,
+    "oversize": 240
+  },
+  {
+    "location": "COLUMBIA - South Carolina -",
+    "auction": "iaai",
+    "port": "Savannah",
+    "regular": 275,
+    "large": 275,
+    "oversize": 330
+  },
+  {
+    "location": "COLUMBUS - Ohio -",
+    "auction": "iaai",
+    "port": "Norfolk",
+    "regular": 550,
+    "large": 550,
+    "oversize": 660
+  },
+  {
+    "location": "CONCORD - North Carolina -",
+    "auction": "iaai",
+    "port": "Norfolk",
+    "regular": 300,
+    "large": 300,
+    "oversize": 360
+  },
+  {
+    "location": "CORPUS CHRISTI - Texas -",
+    "auction": "iaai",
+    "port": "Houston",
+    "regular": 275,
+    "large": 275,
+    "oversize": 330
+  },
+  {
+    "location": "CULPEPER - Virginia -",
+    "auction": "iaai",
+    "port": "Norfolk",
+    "regular": 250,
+    "large": 250,
+    "oversize": 300
+  },
+  {
+    "location": "Colorado Springs - Colorado -",
+    "auction": "iaai",
+    "port": "Chicago",
     "regular": 650,
     "large": 650,
-    "oversize": 765
+    "oversize": 780
   },
   {
-    "location": "Suffolk - VA",
+    "location": "D&D TOWING INC MAUI - Hawaii -",
+    "auction": "iaai",
+    "port": "Los Angeles",
+    "regular": 2400,
+    "large": 2400,
+    "oversize": 2880
+  },
+  {
+    "location": "DALLAS - Texas -",
+    "auction": "iaai",
+    "port": "Houston",
+    "regular": 275,
+    "large": 275,
+    "oversize": 330
+  },
+  {
+    "location": "DAVENPORT - Iowa -",
+    "auction": "iaai",
+    "port": "Chicago",
+    "regular": 325,
+    "large": 325,
+    "oversize": 390
+  },
+  {
+    "location": "DAYTON - Ohio -",
     "auction": "iaai",
     "port": "Norfolk",
-    "regular": 225,
-    "large": 225,
-    "oversize": 255
+    "regular": 550,
+    "large": 550,
+    "oversize": 660
   },
   {
-    "location": "SYRACUSE - NY",
+    "location": "DC TOWING HILO - Hawaii -",
+    "auction": "iaai",
+    "port": "Los Angeles",
+    "regular": 2100,
+    "large": 2100,
+    "oversize": 2520
+  },
+  {
+    "location": "DENVER - Colorado -",
+    "auction": "iaai",
+    "port": "Chicago",
+    "regular": 650,
+    "large": 650,
+    "oversize": 780
+  },
+  {
+    "location": "DENVER EAST - Colorado -",
+    "auction": "iaai",
+    "port": "Chicago",
+    "regular": 650,
+    "large": 650,
+    "oversize": 780
+  },
+  {
+    "location": "DES MOINES - Iowa -",
+    "auction": "iaai",
+    "port": "Chicago",
+    "regular": 400,
+    "large": 400,
+    "oversize": 480
+  },
+  {
+    "location": "DETROIT - Michigan -",
+    "auction": "iaai",
+    "port": "Chicago",
+    "regular": 400,
+    "large": 400,
+    "oversize": 480
+  },
+  {
+    "location": "DOTHAN - Alabama -",
+    "auction": "iaai",
+    "port": "Savannah",
+    "regular": 375,
+    "large": 375,
+    "oversize": 450
+  },
+  {
+    "location": "DUNDALK - Maryland -",
+    "auction": "iaai",
+    "port": "Norfolk",
+    "regular": 300,
+    "large": 300,
+    "oversize": 360
+  },
+  {
+    "location": "Dallas/Ft Worth - Texas -",
+    "auction": "iaai",
+    "port": "Houston",
+    "regular": 275,
+    "large": 275,
+    "oversize": 330
+  },
+  {
+    "location": "EAST BAY - California -",
+    "auction": "iaai",
+    "port": "Los Angeles",
+    "regular": 400,
+    "large": 400,
+    "oversize": 480
+  },
+  {
+    "location": "EL PASO - Texas -",
+    "auction": "iaai",
+    "port": "Houston",
+    "regular": 425,
+    "large": 425,
+    "oversize": 510
+  },
+  {
+    "location": "ERIE - Pennsylvania -",
+    "auction": "iaai",
+    "port": "New York",
+    "regular": 500,
+    "large": 500,
+    "oversize": 600
+  },
+  {
+    "location": "EUGENE - Oregon -",
+    "auction": "iaai",
+    "port": "Seattle",
+    "regular": 375,
+    "large": 375,
+    "oversize": 450
+  },
+  {
+    "location": "Elkton - Maryland -",
+    "auction": "iaai",
+    "port": "Norfolk",
+    "regular": 350,
+    "large": 350,
+    "oversize": 420
+  },
+  {
+    "location": "Englishtown - New Jersey -",
+    "auction": "iaai",
+    "port": "New York",
+    "regular": 150,
+    "large": 150,
+    "oversize": 180
+  },
+  {
+    "location": "FARGO - North Dakota -",
+    "auction": "iaai",
+    "port": "Chicago",
+    "regular": 650,
+    "large": 650,
+    "oversize": 780
+  },
+  {
+    "location": "FAYETTEVILLE - Arkansas -",
+    "auction": "iaai",
+    "port": "Houston",
+    "regular": 475,
+    "large": 475,
+    "oversize": 570
+  },
+  {
+    "location": "FLINT - Michigan -",
+    "auction": "iaai",
+    "port": "Chicago",
+    "regular": 450,
+    "large": 450,
+    "oversize": 540
+  },
+  {
+    "location": "FONTANA - California -",
+    "auction": "iaai",
+    "port": "Los Angeles",
+    "regular": 200,
+    "large": 200,
+    "oversize": 240
+  },
+  {
+    "location": "FORT MYERS - Florida -",
+    "auction": "iaai",
+    "port": "Miami",
+    "regular": 250,
+    "large": 250,
+    "oversize": 300
+  },
+  {
+    "location": "FORT PIERCE - Florida -",
+    "auction": "iaai",
+    "port": "Miami",
+    "regular": 200,
+    "large": 200,
+    "oversize": 240
+  },
+  {
+    "location": "FREMONT - California -",
+    "auction": "iaai",
+    "port": "Los Angeles",
+    "regular": 400,
+    "large": 400,
+    "oversize": 480
+  },
+  {
+    "location": "FRESNO - California -",
+    "auction": "iaai",
+    "port": "Los Angeles",
+    "regular": 375,
+    "large": 375,
+    "oversize": 450
+  },
+  {
+    "location": "Fort Wayne - Indiana -",
+    "auction": "iaai",
+    "port": "Chicago",
+    "regular": 300,
+    "large": 300,
+    "oversize": 360
+  },
+  {
+    "location": "Fort Worth North - Texas -",
+    "auction": "iaai",
+    "port": "Houston",
+    "regular": 275,
+    "large": 275,
+    "oversize": 330
+  },
+  {
+    "location": "Fredericksburg-South - Virginia -",
+    "auction": "iaai",
+    "port": "Norfolk",
+    "regular": 250,
+    "large": 250,
+    "oversize": 300
+  },
+  {
+    "location": "GRAND RAPIDS - Michigan -",
+    "auction": "iaai",
+    "port": "Chicago",
+    "regular": 400,
+    "large": 400,
+    "oversize": 480
+  },
+  {
+    "location": "GREENSBORO - North Carolina -",
+    "auction": "iaai",
+    "port": "Norfolk",
+    "regular": 300,
+    "large": 300,
+    "oversize": 360
+  },
+  {
+    "location": "GREENVILLE - South Carolina -",
+    "auction": "iaai",
+    "port": "Savannah",
+    "regular": 300,
+    "large": 300,
+    "oversize": 360
+  },
+  {
+    "location": "GRENADA - Mississippi -",
+    "auction": "iaai",
+    "port": "Houston",
+    "regular": 475,
+    "large": 475,
+    "oversize": 570
+  },
+  {
+    "location": "GULF COAST - Mississippi -",
+    "auction": "iaai",
+    "port": "Houston",
+    "regular": 475,
+    "large": 475,
+    "oversize": 570
+  },
+  {
+    "location": "HARTFORD - Connecticut -",
+    "auction": "iaai",
+    "port": "New York",
+    "regular": 225,
+    "large": 225,
+    "oversize": 270
+  },
+  {
+    "location": "HARTFORD-SOUTH - Connecticut -",
+    "auction": "iaai",
+    "port": "New York",
+    "regular": 225,
+    "large": 225,
+    "oversize": 270
+  },
+  {
+    "location": "HIGH DESERT - California -",
+    "auction": "iaai",
+    "port": "Los Angeles",
+    "regular": 300,
+    "large": 300,
+    "oversize": 360
+  },
+  {
+    "location": "HIGH POINT - North Carolina -",
+    "auction": "iaai",
+    "port": "Norfolk",
+    "regular": 300,
+    "large": 300,
+    "oversize": 360
+  },
+  {
+    "location": "HONOLULU - Hawaii -",
+    "auction": "iaai",
+    "port": "Honolulu",
+    "regular": 120,
+    "large": 120,
+    "oversize": 144
+  },
+  {
+    "location": "HOUSTON - Texas -",
+    "auction": "iaai",
+    "port": "Houston",
+    "regular": 180,
+    "large": 180,
+    "oversize": 216
+  },
+  {
+    "location": "HOUSTON SOUTH - Texas -",
+    "auction": "iaai",
+    "port": "Houston",
+    "regular": 180,
+    "large": 180,
+    "oversize": 216
+  },
+  {
+    "location": "HOUSTON-NORTH - Texas -",
+    "auction": "iaai",
+    "port": "Houston",
+    "regular": 180,
+    "large": 180,
+    "oversize": 216
+  },
+  {
+    "location": "HUNTSVILLE - Alabama -",
+    "auction": "iaai",
+    "port": "Savannah",
+    "regular": 450,
+    "large": 450,
+    "oversize": 540
+  },
+  {
+    "location": "INDIANAPOLIS - Indiana -",
+    "auction": "iaai",
+    "port": "Chicago",
+    "regular": 300,
+    "large": 300,
+    "oversize": 360
+  },
+  {
+    "location": "Indianapolis South - Indiana -",
+    "auction": "iaai",
+    "port": "Savannah",
+    "regular": 600,
+    "large": 600,
+    "oversize": 720
+  },
+  {
+    "location": "JACKSON - Mississippi -",
+    "auction": "iaai",
+    "port": "Houston",
+    "regular": 425,
+    "large": 425,
+    "oversize": 510
+  },
+  {
+    "location": "JACKSONVILLE - Florida -",
+    "auction": "iaai",
+    "port": "Savannah",
+    "regular": 225,
+    "large": 225,
+    "oversize": 270
+  },
+  {
+    "location": "KANSAS CITY - Kansas -",
+    "auction": "iaai",
+    "port": "Savannah",
+    "regular": 625,
+    "large": 625,
+    "oversize": 750
+  },
+  {
+    "location": "KNOXVILLE - Tennessee -",
+    "auction": "iaai",
+    "port": "Savannah",
+    "regular": 400,
+    "large": 400,
+    "oversize": 480
+  },
+  {
+    "location": "Kansas City East - Missouri -",
+    "auction": "iaai",
+    "port": "Savannah",
+    "regular": 625,
+    "large": 625,
+    "oversize": 750
+  },
+  {
+    "location": "LAFAYETTE - Louisiana -",
+    "auction": "iaai",
+    "port": "Houston",
+    "regular": 375,
+    "large": 375,
+    "oversize": 450
+  },
+  {
+    "location": "LAKE CITY - Georgia -",
+    "auction": "iaai",
+    "port": "Savannah",
+    "regular": 300,
+    "large": 300,
+    "oversize": 360
+  },
+  {
+    "location": "LAS VEGAS - (OLD) - Nevada -",
+    "auction": "iaai",
+    "port": "Los Angeles",
+    "regular": 325,
+    "large": 325,
+    "oversize": 390
+  },
+  {
+    "location": "LAS VEGAS - Nevada -",
+    "auction": "iaai",
+    "port": "Los Angeles",
+    "regular": 375,
+    "large": 375,
+    "oversize": 450
+  },
+  {
+    "location": "LAUREL - Maryland -",
+    "auction": "iaai",
+    "port": "Norfolk",
+    "regular": 300,
+    "large": 300,
+    "oversize": 360
+  },
+  {
+    "location": "LEE'S TOWING KAUAI - Hawaii -",
+    "auction": "iaai",
+    "port": "Los Angeles",
+    "regular": 2750,
+    "large": 2750,
+    "oversize": 3150
+  },
+  {
+    "location": "LINCOLN - Illinois -",
+    "auction": "iaai",
+    "port": "Chicago",
+    "regular": 300,
+    "large": 300,
+    "oversize": 360
+  },
+  {
+    "location": "LITTLE ROCK - Arkansas -",
+    "auction": "iaai",
+    "port": "Houston",
+    "regular": 450,
+    "large": 450,
+    "oversize": 540
+  },
+  {
+    "location": "LONG ISLAND - New York -",
+    "auction": "iaai",
+    "port": "New York",
+    "regular": 250,
+    "large": 250,
+    "oversize": 300
+  },
+  {
+    "location": "LONGVIEW - Texas -",
+    "auction": "iaai",
+    "port": "Houston",
+    "regular": 275,
+    "large": 275,
+    "oversize": 330
+  },
+  {
+    "location": "LOS ANGELES - California -",
+    "auction": "iaai",
+    "port": "Los Angeles",
+    "regular": 160,
+    "large": 160,
+    "oversize": 192
+  },
+  {
+    "location": "LOUISVILLE - Kentucky -",
+    "auction": "iaai",
+    "port": "Savannah",
+    "regular": 550,
+    "large": 550,
+    "oversize": 660
+  },
+  {
+    "location": "LOUISVILLE NORTH - Kentucky -",
+    "auction": "iaai",
+    "port": "Savannah",
+    "regular": 550,
+    "large": 550,
+    "oversize": 660
+  },
+  {
+    "location": "LUBBOCK - Texas -",
+    "auction": "iaai",
+    "port": "Houston",
+    "regular": 450,
+    "large": 450,
+    "oversize": 540
+  },
+  {
+    "location": "Lexington - South Carolina -",
+    "auction": "iaai",
+    "port": "Savannah",
+    "regular": 300,
+    "large": 300,
+    "oversize": 360
+  },
+  {
+    "location": "Los Angeles South - California -",
+    "auction": "iaai",
+    "port": "Los Angeles",
+    "regular": 150,
+    "large": 150,
+    "oversize": 180
+  },
+  {
+    "location": "MACON - Georgia -",
+    "auction": "iaai",
+    "port": "Savannah",
+    "regular": 275,
+    "large": 275,
+    "oversize": 330
+  },
+  {
+    "location": "MANCHESTER - New Hampshire -",
     "auction": "iaai",
     "port": "New York",
     "regular": 400,
     "large": 400,
-    "oversize": 465
+    "oversize": 480
   },
   {
-    "location": "TAMPA - FL",
+    "location": "MCALLEN - Texas -",
     "auction": "iaai",
-    "port": "Miami",
-    "regular": 325,
-    "large": 325,
-    "oversize": 375
-  },
-  {
-    "location": "Tampa North - FL",
-    "auction": "iaai",
-    "port": "Miami",
+    "port": "Houston",
     "regular": 350,
     "large": 350,
-    "oversize": 405
+    "oversize": 420
   },
   {
-    "location": "TAUNTON - MA",
-    "auction": "iaai",
-    "port": "New York",
-    "regular": 450,
-    "large": 450,
-    "oversize": 525
-  },
-  {
-    "location": "Templeton - MA",
-    "auction": "iaai",
-    "port": "New York",
-    "regular": 450,
-    "large": 450,
-    "oversize": 525
-  },
-  {
-    "location": "TIDEWATER - VA",
-    "auction": "iaai",
-    "port": "Norfolk",
-    "regular": 225,
-    "large": 225,
-    "oversize": 255
-  },
-  {
-    "location": "TIFTON - GA",
+    "location": "MEMPHIS - Tennessee -",
     "auction": "iaai",
     "port": "Savannah",
-    "regular": 350,
-    "large": 350,
-    "oversize": 405
+    "regular": 500,
+    "large": 500,
+    "oversize": 600
   },
   {
-    "location": "TUCSON - AZ",
+    "location": "METRO DC - Maryland -",
+    "auction": "iaai",
+    "port": "Norfolk",
+    "regular": 300,
+    "large": 300,
+    "oversize": 360
+  },
+  {
+    "location": "MIAMI - Florida -",
+    "auction": "iaai",
+    "port": "Miami",
+    "regular": 125,
+    "large": 125,
+    "oversize": 150
+  },
+  {
+    "location": "MIAMI-NORTH - Florida -",
+    "auction": "iaai",
+    "port": "Miami",
+    "regular": 150,
+    "large": 150,
+    "oversize": 180
+  },
+  {
+    "location": "MILWAUKEE - Wisconsin -",
+    "auction": "iaai",
+    "port": "Chicago",
+    "regular": 225,
+    "large": 225,
+    "oversize": 270
+  },
+  {
+    "location": "MINNEAPOLIS/ST. PAUL - Minnesota -",
+    "auction": "iaai",
+    "port": "Chicago",
+    "regular": 450,
+    "large": 450,
+    "oversize": 540
+  },
+  {
+    "location": "MISSOULA - Montana -",
+    "auction": "iaai",
+    "port": "Seattle",
+    "regular": 600,
+    "large": 600,
+    "oversize": 720
+  },
+  {
+    "location": "Minneapolis South - Minnesota -",
+    "auction": "iaai",
+    "port": "Chicago",
+    "regular": 450,
+    "large": 450,
+    "oversize": 540
+  },
+  {
+    "location": "NASHVILLE - Tennessee -",
+    "auction": "iaai",
+    "port": "Savannah",
+    "regular": 400,
+    "large": 400,
+    "oversize": 480
+  },
+  {
+    "location": "NEW CASTLE - Delaware -",
+    "auction": "iaai",
+    "port": "New York",
+    "regular": 250,
+    "large": 250,
+    "oversize": 300
+  },
+  {
+    "location": "NEW ORLEANS - Louisiana -",
+    "auction": "iaai",
+    "port": "Houston",
+    "regular": 400,
+    "large": 400,
+    "oversize": 480
+  },
+  {
+    "location": "NEW ORLEANS EAST - Louisiana -",
+    "auction": "iaai",
+    "port": "Houston",
+    "regular": 400,
+    "large": 400,
+    "oversize": 480
+  },
+  {
+    "location": "NEWBURGH - New York -",
+    "auction": "iaai",
+    "port": "New York",
+    "regular": 225,
+    "large": 225,
+    "oversize": 270
+  },
+  {
+    "location": "NORTH HOLLYWOOD - California -",
+    "auction": "iaai",
+    "port": "Los Angeles",
+    "regular": 200,
+    "large": 200,
+    "oversize": 240
+  },
+  {
+    "location": "NORTHERN NEW JERSEY - New Jersey -",
+    "auction": "iaai",
+    "port": "New York",
+    "regular": 125,
+    "large": 125,
+    "oversize": 150
+  },
+  {
+    "location": "NORTHERN VIRGINIA - Virginia -",
+    "auction": "iaai",
+    "port": "Norfolk",
+    "regular": 250,
+    "large": 250,
+    "oversize": 300
+  },
+  {
+    "location": "New Orleans and Louisiana Flood - Louisiana -",
+    "auction": "iaai",
+    "port": "Savannah",
+    "regular": 425,
+    "large": 425,
+    "oversize": 510
+  },
+  {
+    "location": "OKLAHOMA CITY - Oklahoma -",
+    "auction": "iaai",
+    "port": "Houston",
+    "regular": 400,
+    "large": 400,
+    "oversize": 480
+  },
+  {
+    "location": "OMAHA - Nebraska -",
+    "auction": "iaai",
+    "port": "Chicago",
+    "regular": 450,
+    "large": 450,
+    "oversize": 540
+  },
+  {
+    "location": "ORLANDO - Florida -",
+    "auction": "iaai",
+    "port": "Miami",
+    "regular": 250,
+    "large": 250,
+    "oversize": 300
+  },
+  {
+    "location": "ORLANDO-NORTH - Florida -",
+    "auction": "iaai",
+    "port": "Miami",
+    "regular": 250,
+    "large": 250,
+    "oversize": 300
+  },
+  {
+    "location": "Omaha South - Nebraska -",
+    "auction": "iaai",
+    "port": "Chicago",
+    "regular": 450,
+    "large": 450,
+    "oversize": 540
+  },
+  {
+    "location": "PENSACOLA - Florida -",
+    "auction": "iaai",
+    "port": "Miami",
+    "regular": 400,
+    "large": 400,
+    "oversize": 480
+  },
+  {
+    "location": "PERMIAN BASIN - Texas -",
+    "auction": "iaai",
+    "port": "Houston",
+    "regular": 450,
+    "large": 450,
+    "oversize": 540
+  },
+  {
+    "location": "PHILADELPHIA - Pennsylvania -",
+    "auction": "iaai",
+    "port": "New York",
+    "regular": 200,
+    "large": 200,
+    "oversize": 240
+  },
+  {
+    "location": "PHILADELPHIA EAST - Pennsylvania -",
+    "auction": "iaai",
+    "port": "New York",
+    "regular": 200,
+    "large": 200,
+    "oversize": 240
+  },
+  {
+    "location": "PHOENIX - Arizona -",
+    "auction": "iaai",
+    "port": "Los Angeles",
+    "regular": 350,
+    "large": 350,
+    "oversize": 420
+  },
+  {
+    "location": "PITTSBURGH - Pennsylvania -",
+    "auction": "iaai",
+    "port": "New York",
+    "regular": 450,
+    "large": 450,
+    "oversize": 540
+  },
+  {
+    "location": "PITTSBURGH-NORTH - Pennsylvania -",
+    "auction": "iaai",
+    "port": "New York",
+    "regular": 450,
+    "large": 450,
+    "oversize": 540
+  },
+  {
+    "location": "PORT MURRAY - New Jersey -",
+    "auction": "iaai",
+    "port": "New York",
+    "regular": 175,
+    "large": 175,
+    "oversize": 210
+  },
+  {
+    "location": "PORTAGE - Wisconsin -",
+    "auction": "iaai",
+    "port": "Chicago",
+    "regular": 300,
+    "large": 300,
+    "oversize": 360
+  },
+  {
+    "location": "PORTLAND - GORHAM - Maine -",
+    "auction": "iaai",
+    "port": "New York",
+    "regular": 475,
+    "large": 475,
+    "oversize": 570
+  },
+  {
+    "location": "PORTLAND - Oregon -",
+    "auction": "iaai",
+    "port": "Seattle",
+    "regular": 250,
+    "large": 250,
+    "oversize": 300
+  },
+  {
+    "location": "PORTLAND SOUTH - Oregon -",
+    "auction": "iaai",
+    "port": "Seattle",
+    "regular": 300,
+    "large": 300,
+    "oversize": 360
+  },
+  {
+    "location": "PORTLAND - NORTN - Oregon -",
+    "auction": "iaai",
+    "port": "Seattle",
+    "regular": 250,
+    "large": 250,
+    "oversize": 300
+  },
+  {
+    "location": "PROVIDENCE - Rhode Island -",
+    "auction": "iaai",
+    "port": "New York",
+    "regular": 350,
+    "large": 350,
+    "oversize": 420
+  },
+  {
+    "location": "PULASKI - Virginia -",
+    "auction": "iaai",
+    "port": "Norfolk",
+    "regular": 400,
+    "large": 400,
+    "oversize": 480
+  },
+  {
+    "location": "Philadelphia East - Pennsylvania -",
+    "auction": "iaai",
+    "port": "New York",
+    "regular": 200,
+    "large": 200,
+    "oversize": 240
+  },
+  {
+    "location": "Philadelphia - Pennsylvania -",
+    "auction": "iaai",
+    "port": "New York",
+    "regular": 200,
+    "large": 200,
+    "oversize": 240
+  },
+  {
+    "location": "Portland West - Oregon -",
+    "auction": "iaai",
+    "port": "Seattle",
+    "regular": 250,
+    "large": 250,
+    "oversize": 300
+  },
+  {
+    "location": "Portland - Oregon -",
+    "auction": "iaai",
+    "port": "Seattle",
+    "regular": 250,
+    "large": 250,
+    "oversize": 300
+  },
+  {
+    "location": "Portland GORHAM",
+    "auction": "iaai",
+    "port": "New York",
+    "regular": 475,
+    "large": 475,
+    "oversize": 570
+  },
+  {
+    "location": "Provo - Utah - IAA",
+    "auction": "iaai",
+    "port": "Los Angeles",
+    "regular": 650,
+    "large": 650,
+    "oversize": 780
+  },
+  {
+    "location": "RALEIGH - North Carolina -",
+    "auction": "iaai",
+    "port": "Norfolk",
+    "regular": 300,
+    "large": 300,
+    "oversize": 360
+  },
+  {
+    "location": "RENO - Nevada -",
+    "auction": "iaai",
+    "port": "Los Angeles",
+    "regular": 550,
+    "large": 550,
+    "oversize": 660
+  },
+  {
+    "location": "RICHMOND - Virginia -",
+    "auction": "iaai",
+    "port": "Norfolk",
+    "regular": 200,
+    "large": 200,
+    "oversize": 240
+  },
+  {
+    "location": "ROANOKE - Virginia -",
+    "auction": "iaai",
+    "port": "Norfolk",
+    "regular": 375,
+    "large": 375,
+    "oversize": 450
+  },
+  {
+    "location": "ROCHESTER - New York -",
+    "auction": "iaai",
+    "port": "New York",
+    "regular": 450,
+    "large": 450,
+    "oversize": 540
+  },
+  {
+    "location": "ROSEDALE - Maryland -",
+    "auction": "iaai",
+    "port": "Norfolk",
+    "regular": 350,
+    "large": 350,
+    "oversize": 420
+  },
+  {
+    "location": "SACRAMENTO - California -",
+    "auction": "iaai",
+    "port": "Los Angeles",
+    "regular": 400,
+    "large": 400,
+    "oversize": 480
+  },
+  {
+    "location": "SACRAMENTO WEST - California -",
     "auction": "iaai",
     "port": "Los Angeles",
     "regular": 475,
     "large": 475,
-    "oversize": 555
+    "oversize": 570
   },
   {
-    "location": "TULSA - OK",
+    "location": "SALT LAKE CITY - Utah -",
+    "auction": "iaai",
+    "port": "Los Angeles",
+    "regular": 550,
+    "large": 550,
+    "oversize": 660
+  },
+  {
+    "location": "SAN ANTONIO - Texas -",
+    "auction": "iaai",
+    "port": "Houston",
+    "regular": 300,
+    "large": 300,
+    "oversize": 360
+  },
+  {
+    "location": "SAN ANTONIO-SOUTH - Texas -",
+    "auction": "iaai",
+    "port": "Houston",
+    "regular": 300,
+    "large": 300,
+    "oversize": 360
+  },
+  {
+    "location": "SAN BERNARDINO - California -",
+    "auction": "iaai",
+    "port": "Los Angeles",
+    "regular": 250,
+    "large": 250,
+    "oversize": 300
+  },
+  {
+    "location": "SAN DIEGO - California -",
+    "auction": "iaai",
+    "port": "Los Angeles",
+    "regular": 300,
+    "large": 300,
+    "oversize": 360
+  },
+  {
+    "location": "SANTA CLARITA - California -",
+    "auction": "iaai",
+    "port": "Los Angeles",
+    "regular": 400,
+    "large": 400,
+    "oversize": 480
+  },
+  {
+    "location": "SAVANNAH - Georgia -",
+    "auction": "iaai",
+    "port": "Savannah",
+    "regular": 125,
+    "large": 125,
+    "oversize": 150
+  },
+  {
+    "location": "SCRANTON - Pennsylvania -",
+    "auction": "iaai",
+    "port": "New York",
+    "regular": 250,
+    "large": 250,
+    "oversize": 300
+  },
+  {
+    "location": "SEATTLE - Washington -",
+    "auction": "iaai",
+    "port": "Seattle",
+    "regular": 175,
+    "large": 175,
+    "oversize": 210
+  },
+  {
+    "location": "SHADY SPRING - West Virginia -",
+    "auction": "iaai",
+    "port": "Norfolk",
+    "regular": 625,
+    "large": 625,
+    "oversize": 750
+  },
+  {
+    "location": "SHREVEPORT - Louisiana -",
+    "auction": "iaai",
+    "port": "Houston",
+    "regular": 315,
+    "large": 315,
+    "oversize": 378
+  },
+  {
+    "location": "SIOUX FALLS - South Dakota -",
+    "auction": "iaai",
+    "port": "Chicago",
+    "regular": 650,
+    "large": 650,
+    "oversize": 780
+  },
+  {
+    "location": "SOUTH BEND - Indiana -",
+    "auction": "iaai",
+    "port": "Chicago",
+    "regular": 250,
+    "large": 250,
+    "oversize": 300
+  },
+  {
+    "location": "SOUTHERN NEW JERSEY - New Jersey -",
+    "auction": "iaai",
+    "port": "New York",
+    "regular": 200,
+    "large": 200,
+    "oversize": 240
+  },
+  {
+    "location": "SPOKANE - Washington -",
+    "auction": "iaai",
+    "port": "Seattle",
+    "regular": 350,
+    "large": 350,
+    "oversize": 420
+  },
+  {
+    "location": "SPRINGFIELD - Missouri -",
+    "auction": "iaai",
+    "port": "Savannah",
+    "regular": 625,
+    "large": 625,
+    "oversize": 750
+  },
+  {
+    "location": "ST. CLOUD - Minnesota -",
+    "auction": "iaai",
+    "port": "Chicago",
+    "regular": 500,
+    "large": 500,
+    "oversize": 600
+  },
+  {
+    "location": "ST. LOUIS - Illinois -",
+    "auction": "iaai",
+    "port": "Savannah",
+    "regular": 575,
+    "large": 575,
+    "oversize": 690
+  },
+  {
+    "location": "STOCKTON - California -",
+    "auction": "iaai",
+    "port": "Los Angeles",
+    "regular": 475,
+    "large": 475,
+    "oversize": 570
+  },
+  {
+    "location": "SYRACUSE - New York -",
+    "auction": "iaai",
+    "port": "New York",
+    "regular": 325,
+    "large": 325,
+    "oversize": 390
+  },
+  {
+    "location": "Sayreville - New Jersey -",
+    "auction": "iaai",
+    "port": "New York",
+    "regular": 150,
+    "large": 150,
+    "oversize": 180
+  },
+  {
+    "location": "Suffolk - Virginia -",
+    "auction": "iaai",
+    "port": "Norfolk",
+    "regular": 150,
+    "large": 150,
+    "oversize": 180
+  },
+  {
+    "location": "TAMPA - Florida -",
+    "auction": "iaai",
+    "port": "Miami",
+    "regular": 250,
+    "large": 250,
+    "oversize": 300
+  },
+  {
+    "location": "TAMPA North -",
+    "auction": "iaai",
+    "port": "Miami",
+    "regular": 275,
+    "large": 275,
+    "oversize": 330
+  },
+  {
+    "location": "TAUNTON - Massachusetts -",
+    "auction": "iaai",
+    "port": "New York",
+    "regular": 375,
+    "large": 375,
+    "oversize": 450
+  },
+  {
+    "location": "TIDEWATER - Virginia -",
+    "auction": "iaai",
+    "port": "Norfolk",
+    "regular": 150,
+    "large": 150,
+    "oversize": 180
+  },
+  {
+    "location": "TIFTON - Georgia -",
+    "auction": "iaai",
+    "port": "Savannah",
+    "regular": 275,
+    "large": 275,
+    "oversize": 330
+  },
+  {
+    "location": "TUCSON - Arizona -",
+    "auction": "iaai",
+    "port": "Los Angeles",
+    "regular": 400,
+    "large": 400,
+    "oversize": 480
+  },
+  {
+    "location": "TULSA - Oklahoma -",
+    "auction": "iaai",
+    "port": "Houston",
+    "regular": 475,
+    "large": 475,
+    "oversize": 570
+  },
+  {
+    "location": "Tampa North - Florida -",
+    "auction": "iaai",
+    "port": "Miami",
+    "regular": 275,
+    "large": 275,
+    "oversize": 330
+  },
+  {
+    "location": "Templeton - Massachusetts -",
+    "auction": "iaai",
+    "port": "New York",
+    "regular": 375,
+    "large": 375,
+    "oversize": 450
+  },
+  {
+    "location": "WEST PALM BEACH - Florida -",
+    "auction": "iaai",
+    "port": "Miami",
+    "regular": 180,
+    "large": 180,
+    "oversize": 216
+  },
+  {
+    "location": "WICHITA - Kansas -",
     "auction": "iaai",
     "port": "Houston",
     "regular": 550,
     "large": 550,
-    "oversize": 645
+    "oversize": 660
   },
   {
-    "location": "WEST PALM BEACH - FL",
-    "auction": "iaai",
-    "port": "Miami",
-    "regular": 255,
-    "large": 255,
-    "oversize": 291
-  },
-  {
-    "location": "WICHITA - KS",
-    "auction": "iaai",
-    "port": "Houston",
-    "regular": 625,
-    "large": 625,
-    "oversize": 735
-  },
-  {
-    "location": "WILMINGTON - NC",
+    "location": "WILMINGTON - North Carolina -",
     "auction": "iaai",
     "port": "Norfolk",
-    "regular": 450,
-    "large": 450,
-    "oversize": 525
+    "regular": 375,
+    "large": 375,
+    "oversize": 450
   },
   {
-    "location": "YORK SPRINGS - PA",
+    "location": "YORK SPRINGS - Pennsylvania -",
     "auction": "iaai",
     "port": "New York",
+    "regular": 275,
+    "large": 275,
+    "oversize": 330
+  },
+  {
+    "location": "ALBANY - New York -",
+    "auction": "manheim",
+    "port": "New York",
+    "regular": 275,
+    "large": 275,
+    "oversize": 330
+  },
+  {
+    "location": "ARENA ILLINOIS - Illinois -",
+    "auction": "manheim",
+    "port": "Chicago",
+    "regular": 180,
+    "large": 180,
+    "oversize": 216
+  },
+  {
+    "location": "ATLANTA - Georgia -",
+    "auction": "manheim",
+    "port": "Savannah",
+    "regular": 300,
+    "large": 300,
+    "oversize": 360
+  },
+  {
+    "location": "BALTIMORE-WASHINGTON - Maryland -",
+    "auction": "manheim",
+    "port": "Norfolk",
+    "regular": 300,
+    "large": 300,
+    "oversize": 360
+  },
+  {
+    "location": "BIRMINGHAM - Alabama -",
+    "auction": "manheim",
+    "port": "Savannah",
+    "regular": 375,
+    "large": 375,
+    "oversize": 450
+  },
+  {
+    "location": "CALIFORNIA - California -",
+    "auction": "manheim",
+    "port": "Los Angeles",
+    "regular": 200,
+    "large": 200,
+    "oversize": 240
+  },
+  {
+    "location": "CENTRAL CALIFORNIA - California -",
+    "auction": "manheim",
+    "port": "Los Angeles",
     "regular": 350,
     "large": 350,
-    "oversize": 405
+    "oversize": 420
+  },
+  {
+    "location": "CENTRAL FLORIDA - Florida -",
+    "auction": "manheim",
+    "port": "Miami",
+    "regular": 250,
+    "large": 250,
+    "oversize": 300
+  },
+  {
+    "location": "CHARLOTTE - North Carolina -",
+    "auction": "manheim",
+    "port": "Norfolk",
+    "regular": 300,
+    "large": 300,
+    "oversize": 360
+  },
+  {
+    "location": "CHICAGO - Illinois -",
+    "auction": "manheim",
+    "port": "Chicago",
+    "regular": 225,
+    "large": 225,
+    "oversize": 270
+  },
+  {
+    "location": "CINCINNATI - Ohio -",
+    "auction": "manheim",
+    "port": "Norfolk",
+    "regular": 550,
+    "large": 550,
+    "oversize": 660
+  },
+  {
+    "location": "Clark County Auto Auction - Indiana -",
+    "auction": "manheim",
+    "port": "Chicago",
+    "regular": 425,
+    "large": 425,
+    "oversize": 510
+  },
+  {
+    "location": "DALLAS - Texas -",
+    "auction": "manheim",
+    "port": "Houston",
+    "regular": 275,
+    "large": 275,
+    "oversize": 330
+  },
+  {
+    "location": "DALLAS FORT WORTH - Texas -",
+    "auction": "manheim",
+    "port": "Houston",
+    "regular": 275,
+    "large": 275,
+    "oversize": 330
+  },
+  {
+    "location": "DARLINGTON - South Carolina -",
+    "auction": "manheim",
+    "port": "Savannah",
+    "regular": 275,
+    "large": 275,
+    "oversize": 330
+  },
+  {
+    "location": "DAYTONA BEACH - Florida -",
+    "auction": "manheim",
+    "port": "Miami",
+    "regular": 300,
+    "large": 300,
+    "oversize": 360
+  },
+  {
+    "location": "DENVER - Colorado -",
+    "auction": "manheim",
+    "port": "Chicago",
+    "regular": 650,
+    "large": 650,
+    "oversize": 780
+  },
+  {
+    "location": "DETROIT - Michigan -",
+    "auction": "manheim",
+    "port": "Chicago",
+    "regular": 500,
+    "large": 500,
+    "oversize": 480
+  },
+  {
+    "location": "EDMONTON - Alberta -",
+    "auction": "manheim",
+    "port": "Toronto",
+    "regular": 1450,
+    "large": 1450,
+    "oversize": 1650
+  },
+  {
+    "location": "EL PASO - Texas -",
+    "auction": "manheim",
+    "port": "Houston",
+    "regular": 425,
+    "large": 425,
+    "oversize": 510
+  },
+  {
+    "location": "FLINT - Michigan -",
+    "auction": "manheim",
+    "port": "Chicago",
+    "regular": 450,
+    "large": 450,
+    "oversize": 540
+  },
+  {
+    "location": "FORT LAUDERDALE - Florida -",
+    "auction": "manheim",
+    "port": "Miami",
+    "regular": 150,
+    "large": 150,
+    "oversize": 180
+  },
+  {
+    "location": "FORT MYERS - Florida -",
+    "auction": "manheim",
+    "port": "Miami",
+    "regular": 250,
+    "large": 250,
+    "oversize": 300
+  },
+  {
+    "location": "FREDERICKSBURG - Virginia -",
+    "auction": "manheim",
+    "port": "Norfolk",
+    "regular": 250,
+    "large": 250,
+    "oversize": 300
+  },
+  {
+    "location": "Fresno - California -",
+    "auction": "manheim",
+    "port": "Los Angeles",
+    "regular": 375,
+    "large": 375,
+    "oversize": 450
+  },
+  {
+    "location": "GEORGIA - Georgia -",
+    "auction": "manheim",
+    "port": "Savannah",
+    "regular": 300,
+    "large": 300,
+    "oversize": 360
+  },
+  {
+    "location": "HALIFAX - Nova Scotia -",
+    "auction": "manheim",
+    "port": "Toronto",
+    "regular": 1200,
+    "large": 1200,
+    "oversize": 1300
+  },
+  {
+    "location": "HARRISONBURG - Virginia -",
+    "auction": "manheim",
+    "port": "Norfolk",
+    "regular": 350,
+    "large": 350,
+    "oversize": 420
+  },
+  {
+    "location": "HONOLULU - Hawaii -",
+    "auction": "manheim",
+    "port": "Honolulu",
+    "regular": 180,
+    "large": 180,
+    "oversize": 216
+  },
+  {
+    "location": "HOUSTON - Texas -",
+    "auction": "manheim",
+    "port": "Houston",
+    "regular": 180,
+    "large": 180,
+    "oversize": 216
+  },
+  {
+    "location": "INDIANAPOLIS - Indiana -",
+    "auction": "manheim",
+    "port": "Chicago",
+    "regular": 300,
+    "large": 300,
+    "oversize": 360
+  },
+  {
+    "location": "JACKSONVILLE - Florida -",
+    "auction": "manheim",
+    "port": "Savannah",
+    "regular": 225,
+    "large": 225,
+    "oversize": 270
+  },
+  {
+    "location": "KANSAS CITY - Missouri -",
+    "auction": "manheim",
+    "port": "Savannah",
+    "regular": 625,
+    "large": 625,
+    "oversize": 750
+  },
+  {
+    "location": "KEYSTONE PENNSYLVANIA - Pennsylvania -",
+    "auction": "manheim",
+    "port": "New York",
+    "regular": 275,
+    "large": 275,
+    "oversize": 330
+  },
+  {
+    "location": "LAFAYETTE - Louisiana -",
+    "auction": "manheim",
+    "port": "Houston",
+    "regular": 375,
+    "large": 375,
+    "oversize": 450
+  },
+  {
+    "location": "LAKELAND - Florida -",
+    "auction": "manheim",
+    "port": "Miami",
+    "regular": 325,
+    "large": 325,
+    "oversize": 390
+  },
+  {
+    "location": "LOUISVILLE - Indiana -",
+    "auction": "manheim",
+    "port": "Savannah",
+    "regular": 550,
+    "large": 550,
+    "oversize": 660
+  },
+  {
+    "location": "Little Rock Manheim - Arkansas -",
+    "auction": "manheim",
+    "port": "Houston",
+    "regular": 450,
+    "large": 450,
+    "oversize": 540
+  },
+  {
+    "location": "METRO ATLANTA - Georgia -",
+    "auction": "manheim",
+    "port": "Savannah",
+    "regular": 300,
+    "large": 300,
+    "oversize": 360
+  },
+  {
+    "location": "MILWAUKEE - Wisconsin -",
+    "auction": "manheim",
+    "port": "Chicago",
+    "regular": 225,
+    "large": 225,
+    "oversize": 270
+  },
+  {
+    "location": "MINNEAPOLIS - Minnesota -",
+    "auction": "manheim",
+    "port": "Chicago",
+    "regular": 450,
+    "large": 450,
+    "oversize": 540
+  },
+  {
+    "location": "MONTREAL - Quebec -",
+    "auction": "manheim",
+    "port": "Toronto",
+    "regular": 500,
+    "large": 500,
+    "oversize": 600
+  },
+  {
+    "location": "Manheim Cleveland - Ohio -",
+    "auction": "manheim",
+    "port": "Norfolk",
+    "regular": 550,
+    "large": 550,
+    "oversize": 660
+  },
+  {
+    "location": "Manheim Rochester - New York -",
+    "auction": "manheim",
+    "port": "New York",
+    "regular": 450,
+    "large": 450,
+    "oversize": 540
+  },
+  {
+    "location": "NASHVILLE - Tennessee -",
+    "auction": "manheim",
+    "port": "Savannah",
+    "regular": 400,
+    "large": 400,
+    "oversize": 480
+  },
+  {
+    "location": "NEVADA - Nevada -",
+    "auction": "manheim",
+    "port": "Los Angeles",
+    "regular": 325,
+    "large": 325,
+    "oversize": 390
+  },
+  {
+    "location": "NEW ENGLAND - Massachusetts -",
+    "auction": "manheim",
+    "port": "New York",
+    "regular": 375,
+    "large": 375,
+    "oversize": 450
+  },
+  {
+    "location": "NEW JERSEY - New Jersey -",
+    "auction": "manheim",
+    "port": "New York",
+    "regular": 150,
+    "large": 150,
+    "oversize": 180
+  },
+  {
+    "location": "NEW MEXICO - New Mexico -",
+    "auction": "manheim",
+    "port": "Houston",
+    "regular": 600,
+    "large": 600,
+    "oversize": 720
+  },
+  {
+    "location": "NEW YORK - New York -",
+    "auction": "manheim",
+    "port": "New York",
+    "regular": 250,
+    "large": 250,
+    "oversize": 300
+  },
+  {
+    "location": "NORTH CAROLINA - North Carolina -",
+    "auction": "manheim",
+    "port": "Norfolk",
+    "regular": 300,
+    "large": 300,
+    "oversize": 360
+  },
+  {
+    "location": "NORTHSTAR MINNESOTA - Minnesota -",
+    "auction": "manheim",
+    "port": "Chicago",
+    "regular": 450,
+    "large": 450,
+    "oversize": 540
+  },
+  {
+    "location": "NY METRO SKYLINE - New Jersey -",
+    "auction": "manheim",
+    "port": "New York",
+    "regular": 150,
+    "large": 150,
+    "oversize": 180
+  },
+  {
+    "location": "OHIO - Ohio -",
+    "auction": "manheim",
+    "port": "Norfolk",
+    "regular": 550,
+    "large": 550,
+    "oversize": 660
+  },
+  {
+    "location": "OMAHA - Nebraska -",
+    "auction": "manheim",
+    "port": "Chicago",
+    "regular": 450,
+    "large": 450,
+    "oversize": 540
+  },
+  {
+    "location": "ORLANDO - Florida -",
+    "auction": "manheim",
+    "port": "Miami",
+    "regular": 250,
+    "large": 250,
+    "oversize": 300
+  },
+  {
+    "location": "PALM BEACH - Florida -",
+    "auction": "manheim",
+    "port": "Miami",
+    "regular": 170,
+    "large": 170,
+    "oversize": 204
+  },
+  {
+    "location": "PENNSYLVANIA - Pennsylvania -",
+    "auction": "manheim",
+    "port": "New York",
+    "regular": 200,
+    "large": 200,
+    "oversize": 240
+  },
+  {
+    "location": "PENSACOLA - Florida -",
+    "auction": "manheim",
+    "port": "Miami",
+    "regular": 400,
+    "large": 400,
+    "oversize": 480
+  },
+  {
+    "location": "PHILADELPHIA - Pennsylvania -",
+    "auction": "manheim",
+    "port": "New York",
+    "regular": 200,
+    "large": 200,
+    "oversize": 240
+  },
+  {
+    "location": "PHOENIX - Arizona -",
+    "auction": "manheim",
+    "port": "Los Angeles",
+    "regular": 350,
+    "large": 350,
+    "oversize": 420
+  },
+  {
+    "location": "PITTSBURGH - Pennsylvania -",
+    "auction": "manheim",
+    "port": "New York",
+    "regular": 450,
+    "large": 450,
+    "oversize": 540
+  },
+  {
+    "location": "PORTLAND - Oregon -",
+    "auction": "manheim",
+    "port": "Seattle",
+    "regular": 325,
+    "large": 325,
+    "oversize": 390
+  },
+  {
+    "location": "RIVERSIDE - California -",
+    "auction": "manheim",
+    "port": "Los Angeles",
+    "regular": 250,
+    "large": 250,
+    "oversize": 300
+  },
+  {
+    "location": "SAN ANTONIO - Texas -",
+    "auction": "manheim",
+    "port": "Houston",
+    "regular": 300,
+    "large": 300,
+    "oversize": 360
+  },
+  {
+    "location": "SAN DIEGO - California -",
+    "auction": "manheim",
+    "port": "Los Angeles",
+    "regular": 300,
+    "large": 300,
+    "oversize": 360
+  },
+  {
+    "location": "SAN FRANCISCO BAY - California -",
+    "auction": "manheim",
+    "port": "Los Angeles",
+    "regular": 400,
+    "large": 400,
+    "oversize": 480
+  },
+  {
+    "location": "SEATTLE - Washington -",
+    "auction": "manheim",
+    "port": "Seattle",
+    "regular": 175,
+    "large": 175,
+    "oversize": 210
+  },
+  {
+    "location": "SOUTHERN CALIFORNIA - California -",
+    "auction": "manheim",
+    "port": "Los Angeles",
+    "regular": 200,
+    "large": 200,
+    "oversize": 240
+  },
+  {
+    "location": "SPRINGFIELD - Missouri -",
+    "auction": "manheim",
+    "port": "Savannah",
+    "regular": 625,
+    "large": 625,
+    "oversize": 750
+  },
+  {
+    "location": "ST LOUIS - Missouri -",
+    "auction": "manheim",
+    "port": "Savannah",
+    "regular": 575,
+    "large": 575,
+    "oversize": 690
+  },
+  {
+    "location": "ST PETE - Florida -",
+    "auction": "manheim",
+    "port": "Miami",
+    "regular": 275,
+    "large": 275,
+    "oversize": 330
+  },
+  {
+    "location": "STATESVILLE - North Carolina -",
+    "auction": "manheim",
+    "port": "Norfolk",
+    "regular": 300,
+    "large": 300,
+    "oversize": 360
+  },
+  {
+    "location": "TAMPA - Florida -",
+    "auction": "manheim",
+    "port": "Miami",
+    "regular": 250,
+    "large": 250,
+    "oversize": 300
+  },
+  {
+    "location": "TEXAS HOBBY - Texas -",
+    "auction": "manheim",
+    "port": "Houston",
+    "regular": 150,
+    "large": 150,
+    "oversize": 180
+  },
+  {
+    "location": "TORONTO - Ontario -",
+    "auction": "manheim",
+    "port": "Toronto",
+    "regular": 225,
+    "large": 225,
+    "oversize": 325
+  },
+  {
+    "location": "TUCSON - Arizona -",
+    "auction": "manheim",
+    "port": "Los Angeles",
+    "regular": 400,
+    "large": 400,
+    "oversize": 480
+  },
+  {
+    "location": "TULSA - Oklahoma -",
+    "auction": "manheim",
+    "port": "Houston",
+    "regular": 475,
+    "large": 475,
+    "oversize": 570
+  },
+  {
+    "location": "UTAH - Utah -",
+    "auction": "manheim",
+    "port": "Los Angeles",
+    "regular": 550,
+    "large": 550,
+    "oversize": 660
+  },
+  {
+    "location": "VANCOUVER - British Columbia -",
+    "auction": "manheim",
+    "port": "Toronto",
+    "regular": 1950,
+    "large": 1950,
+    "oversize": 2050
+  },
+  {
+    "location": "WILMINGTON - North Carolina -",
+    "auction": "manheim",
+    "port": "Norfolk",
+    "regular": 375,
+    "large": 375,
+    "oversize": 450
+  },
+  {
+    "location": "myCentralAuction - Georgia -",
+    "auction": "manheim",
+    "port": "Savannah",
+    "regular": 275,
+    "large": 275,
+    "oversize": 330
   }
 ]

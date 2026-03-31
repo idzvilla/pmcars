@@ -60,10 +60,12 @@ export default function UslugiPage() {
             </div>
           ))}
         </div>
-        <div className="bg-dark-bg rounded-2xl p-10 text-center">
-          <h2 className="font-muller font-bold text-2xl text-white mb-3">Нужна консультация?</h2>
-          <p className="text-white/50 font-montserrat mb-6">Ответим на все вопросы и рассчитаем стоимость вашего авто</p>
-          <Button href="/contacts" size="lg">Получить консультацию</Button>
+        <div className="bg-dark-bg rounded-2xl p-8 md:p-10">
+          <div className="max-w-xl">
+            <h2 className="font-muller font-bold text-2xl text-white mb-3">Нужна консультация?</h2>
+            <p className="text-white/50 font-montserrat text-base mb-8 leading-relaxed">Ответим на все вопросы и рассчитаем стоимость вашего авто</p>
+            <Button href="/contacts" size="lg">Получить консультацию</Button>
+          </div>
         </div>
       </div>
     </div>

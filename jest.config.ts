@@ -1,12 +1,14 @@
 // jest.config.ts
-// Root jest config — uses projects to split UI (jsdom) and API (node) environments
 import type { Config } from 'jest'
+import nextJest from 'next/jest.js'
+
+const createJestConfig = nextJest({ dir: './' })
 
 const config: Config = {
-  projects: [
-    '<rootDir>/jest.config.ui.ts',
-    '<rootDir>/jest.config.api.ts',
-  ],
+  coverageProvider: 'v8',
+  testEnvironment: 'jsdom',
+  setupFilesAfterEnv: ['<rootDir>/jest.setup.ts'],
+  testPathIgnorePatterns: ['/node_modules/', '/.worktrees/', '/references/'],
 }
 
-export default config
+export default createJestConfig(config)

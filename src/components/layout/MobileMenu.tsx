@@ -13,12 +13,12 @@ type NavItem =
   | { label: string; href?: never; children: { label: string; href: string }[] }
 
 const navItems: NavItem[] = [
-  { label: 'Услуги', href: '/uslugi' },
-  { label: 'Доставка из США', href: '/dostavka' },
-  { label: 'Процесс покупки', href: '/protsess' },
+  { label: 'Главная', href: '/' },
+{ label: 'Процесс покупки', href: '/protsess' },
   {
     label: 'Информация',
     children: [
+      { label: 'Вопросы и ответы', href: '/faq' },
       { label: 'Таможенный калькулятор', href: '/info/kalkulyator' },
       { label: 'Калькулятор расходов', href: '/info/kalkulyator-rashod' },
       { label: 'ЭПТС', href: '/info/epts' },
@@ -26,9 +26,9 @@ const navItems: NavItem[] = [
       { label: 'Снятие с учёта', href: '/info/snyatie' },
     ],
   },
-  { label: 'FAQ', href: '/faq' },
   { label: 'Контакты', href: '/contacts' },
 ]
+
 
 export default function MobileMenu({ isOpen, onClose }: MobileMenuProps) {
   if (!isOpen) return null

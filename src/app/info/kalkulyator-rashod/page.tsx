@@ -58,57 +58,12 @@ export default function KalkulyatorRashodPage() {
   const [result, setResult] = useState<ExpensesResult>(ZERO_RESULT)
   const [copied, setCopied] = useState(false)
 
-  const [vinInput, setVinInput] = useState('')
-  const [vinStatus, setVinStatus] = useState<'idle' | 'loading' | 'success' | 'error'>('idle')
-  const [vinError, setVinError] = useState('')
-  const [vinSource, setVinSource] = useState('')
-
   const AGE_LABEL: Record<CarAge, string> = { under3: 'до 3 лет', '3to5': '3–5 лет', over5: 'старше 5 лет' }
   const FUEL_LABEL: Record<FuelType, string> = { gas: 'Бензин', diesel: 'Дизель', hybrid: 'Гибрид', electric: 'Электро' }
   const SIZE_LABEL: Record<VehicleSize, string> = { regular: 'Легковой автомобиль', large: 'Крупный', oversize: 'Oversized' }
   const CITY_LABEL: Record<City, string> = { MINSK: 'Минск', GOMEL: 'Гомель', VITEBSK: 'Витебск', MOGILEV: 'Могилёв', BREST: 'Брест', GRODNO: 'Гродно' }
   const PORT_LABEL: Record<EUPort, string> = { POTI: 'Поти', KLAIPEDA: 'Клайпеда' }
   const AUCTION_LABEL: Record<AuctionType, string> = { copart: 'Copart', iaai: 'IAAI', manheim: 'Manheim', bidcars: 'BidCars' }
-
-  async function handleVinLookup() {
-    const vin = vinInput.trim().toUpperCase()
-    if (!/^[A-HJ-NPR-Z0-9]{17}$/i.test(vin)) return
-    setVinStatus('loading')
-    setVinError('')
-    try {
-      const res = await fetch(`/api/vin-lookup?vin=${vin}`)
-      if (!res.ok) {
-        const json = await res.json().catch(() => ({}))
-        if (res.status === 404 || json?.error === 'not_found') {
-          setVinError('VIN не найден на Copart, IAAI и BidCars')
-        } else {
-          setVinError('Аукционы временно недоступны')
-        }
-        setVinStatus('error')
-        return
-      }
-      const data = await res.json()
-      if (data.priceUSD > 0) setPriceUSD(data.priceUSD)
-      if (data.engineLiters > 0) setEngineLiters(data.engineLiters)
-      if (data.fuelType) setFuelType(data.fuelType)
-      if (data.location) setLocation(data.location)
-      if (data.year) {
-        const currentYear = new Date().getFullYear()
-        const age = currentYear - data.year
-        if (age < 3) setCarAge('under3')
-        else if (age <= 5) setCarAge('3to5')
-        else setCarAge('over5')
-      }
-      if (data.source === 'copart' || data.source === 'iaai' || data.source === 'bidcars') {
-        setAuction(data.source)
-      }
-      setVinSource(data.source ?? '')
-      setVinStatus('success')
-    } catch {
-      setVinError('Аукционы временно недоступны')
-      setVinStatus('error')
-    }
-  }
 
   function buildShareText() {
     const auctionTotal = result.carPriceUSD + result.auctionFeeUSD
@@ -195,46 +150,6 @@ export default function KalkulyatorRashodPage() {
           <span className="inline-flex items-center gap-2 px-3 py-1.5 rounded-full bg-light-bg border border-gray-200 font-montserrat text-sm text-body">
             🇪🇺 <span className="font-bold">EUR</span> {eurRate.toFixed(4)} BYN
           </span>
-        </div>
-
-        {/* ===== VIN LOOKUP ===== */}
-        <div className="bg-light-bg rounded-2xl p-6 mb-8">
-          <h2 className="font-muller font-bold text-lg text-body mb-1">Загрузить данные с аукциона</h2>
-          <p className="font-montserrat text-sm text-muted mb-4">
-            Введите VIN — год, двигатель, топливо и цена заполнятся автоматически
-          </p>
-          <div className="flex gap-3">
-            <input
-              type="text"
-              maxLength={17}
-              placeholder="VIN (17 символов)"
-              className={inp + ' uppercase flex-1'}
-              value={vinInput}
-              onChange={e => {
-                setVinInput(e.target.value.toUpperCase())
-                setVinStatus('idle')
-                setVinError('')
-                setVinSource('')
-              }}
-              onKeyDown={e => { if (e.key === 'Enter' && vinInput.length === 17 && vinStatus !== 'loading') handleVinLookup() }}
-            />
-            <button
-              onClick={handleVinLookup}
-              disabled={vinInput.length !== 17 || vinStatus === 'loading'}
-              aria-label="Найти"
-              className="px-6 py-3 rounded-lg bg-primary text-white font-montserrat font-bold text-sm transition-colors hover:bg-primary/90 disabled:opacity-40 disabled:cursor-not-allowed whitespace-nowrap"
-            >
-              {vinStatus === 'loading' ? 'Загрузка...' : 'Найти'}
-            </button>
-          </div>
-          {vinStatus === 'success' && (
-            <p className="mt-3 font-montserrat text-sm text-green-600 font-medium">
-              ✓ Данные загружены с {vinSource ? vinSource.toUpperCase() : 'аукциона'} — проверьте и при необходимости скорректируйте поля ниже
-            </p>
-          )}
-          {vinStatus === 'error' && (
-            <p className="mt-3 font-montserrat text-sm text-red-500">{vinError}</p>
-          )}
         </div>
 
         <div className="lg:grid lg:grid-cols-[1fr_440px] lg:gap-8 lg:items-start">

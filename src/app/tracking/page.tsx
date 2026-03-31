@@ -41,7 +41,7 @@ export default function TrackingPage() {
 
   return (
     <div className="py-16 md:py-24">
-      <div className="container">
+      <div className="container max-w-3xl">
         <h1 className="font-muller font-bold text-4xl md:text-5xl text-body mb-4">
           Отслеживание авто
         </h1>
@@ -71,53 +71,43 @@ export default function TrackingPage() {
             className="w-full mt-4"
             size="lg"
           >
-            {loading ? (
-              <span className="flex items-center gap-2">
-                <svg className="animate-spin h-4 w-4" viewBox="0 0 24 24" fill="none">
-                  <circle className="opacity-25" cx="12" cy="12" r="10" stroke="currentColor" strokeWidth="4" />
-                  <path className="opacity-75" fill="currentColor" d="M4 12a8 8 0 018-8v8H4z" />
-                </svg>
-                Поиск...
-              </span>
-            ) : 'Отследить'}
+            {loading ? 'Поиск...' : 'Отследить'}
           </Button>
         </form>
 
+        <div className="min-h-[200px]">
+
         {/* Result */}
         {result && result.success && (
-          <TrackingResult data={result.data} />
+          <div className="animate-fade-in">
+            <TrackingResult data={result.data} />
+          </div>
         )}
 
         {/* Errors */}
         {result && !result.success && (
-          <div className="border border-gray-200 rounded-2xl p-10 text-center bg-light-bg">
+          <div className="p-10 text-center animate-fade-in">
             <div className="flex justify-center mb-4">
               {result.error === 'not_found'
-                ? <SearchX className="w-12 h-12 text-muted" />
-                : <AlertCircle className="w-12 h-12 text-muted" />}
+                ? <SearchX className="w-10 h-10 text-primary" />
+                : <AlertCircle className="w-10 h-10 text-primary" />}
             </div>
-            <p className="text-body font-montserrat font-bold text-lg mb-2">
-              {result.error === 'not_found'
-                ? 'Авто не найдено'
-                : 'Сервис недоступен'}
+            <p className="font-muller font-bold text-xl text-body mb-2">
+              {result.error === 'not_found' ? 'Авто не найдено' : 'Сервис недоступен'}
             </p>
-            <p className="text-muted font-montserrat text-sm mb-8">
+            <p className="text-muted font-montserrat text-sm mb-8 max-w-sm mx-auto">
               {result.error === 'not_found'
                 ? 'Проверьте правильность VIN или свяжитесь с менеджером — мы поможем найти ваш автомобиль'
                 : 'Попробуйте через несколько минут или свяжитесь с менеджером'}
             </p>
-            <div className="flex flex-wrap justify-center gap-3">
-              <a href="https://t.me/pmcars" target="_blank" rel="noopener noreferrer"
-                className="px-5 py-2.5 bg-[#2AABEE] text-white rounded-lg font-montserrat font-bold text-sm">
-                Telegram
-              </a>
-              <a href="https://wa.me/375296363636" target="_blank" rel="noopener noreferrer"
-                className="px-5 py-2.5 bg-[#25D366] text-white rounded-lg font-montserrat font-bold text-sm">
-                WhatsApp
-              </a>
-            </div>
+            <a href="https://t.me/pmcars" target="_blank" rel="noopener noreferrer"
+              className="inline-flex items-center gap-2 px-5 py-2.5 bg-primary text-white rounded-xl font-montserrat font-bold text-sm hover:bg-primary/90 transition-colors">
+              Написать в Telegram
+            </a>
           </div>
         )}
+
+        </div>
       </div>
     </div>
   )

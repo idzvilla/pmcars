@@ -8,8 +8,7 @@ const navColumns = [
     title: 'Компания',
     links: [
       { label: 'Услуги', href: '/uslugi' },
-      { label: 'Доставка из США', href: '/dostavka' },
-      { label: 'Контакты', href: '/contacts' },
+{ label: 'Контакты', href: '/contacts' },
     ],
   },
   {
@@ -33,7 +32,7 @@ const navColumns = [
 
 export default function Footer() {
   return (
-    <footer className="bg-[#080d12] text-white/60 font-montserrat">
+    <footer className="bg-dark-bg text-white/60 font-montserrat">
       <div className="container py-12">
         <div className="grid grid-cols-1 md:grid-cols-4 gap-8">
           {/* Лого + контакты */}

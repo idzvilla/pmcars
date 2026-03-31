@@ -23,17 +23,17 @@ export default function ContactsPage() {
             </a>
             <div className="flex flex-wrap gap-2 mb-10">
               <a href="https://t.me/pmcars" target="_blank" rel="noopener noreferrer"
-                className="inline-flex items-center gap-2 px-4 py-2 rounded-lg border border-gray-200 font-montserrat text-sm text-body hover:border-primary hover:text-primary transition-colors">
+                className="inline-flex items-center gap-2 px-4 py-2 rounded-xl border border-gray-200 font-montserrat text-sm text-body hover:border-primary hover:text-primary transition-colors">
                 <Image src="/icons/tg.svg" alt="" width={16} height={16} />
                 Telegram
               </a>
               <a href="https://wa.me/375296363636" target="_blank" rel="noopener noreferrer"
-                className="inline-flex items-center gap-2 px-4 py-2 rounded-lg border border-gray-200 font-montserrat text-sm text-body hover:border-primary hover:text-primary transition-colors">
+                className="inline-flex items-center gap-2 px-4 py-2 rounded-xl border border-gray-200 font-montserrat text-sm text-body hover:border-primary hover:text-primary transition-colors">
                 <Image src="/icons/wa.svg" alt="" width={16} height={16} />
                 WhatsApp
               </a>
               <a href="viber://chat?number=+375296363636" target="_blank" rel="noopener noreferrer"
-                className="inline-flex items-center gap-2 px-4 py-2 rounded-lg border border-gray-200 font-montserrat text-sm text-body hover:border-primary hover:text-primary transition-colors">
+                className="inline-flex items-center gap-2 px-4 py-2 rounded-xl border border-gray-200 font-montserrat text-sm text-body hover:border-primary hover:text-primary transition-colors">
                 <Image src="/icons/vb.svg" alt="" width={16} height={16} />
                 Viber
               </a>
