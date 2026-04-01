@@ -4,6 +4,7 @@ import Link from 'next/link'
 import Button from '@/components/ui/Button'
 import Accordion from '@/components/ui/Accordion'
 import { Check, ShieldCheck, FileText, Star, Users } from 'lucide-react'
+import CasesSection from '@/components/sections/CasesSection'
 
 export const metadata: Metadata = {
   title: 'Авто из США в Беларусь под ключ | pmcars.by',
@@ -198,6 +199,8 @@ export default function HomePage() {
             ))}
           </div>
         </section>
+
+        <CasesSection />
 
         {/* Стоимость услуг */}
         <section className="pb-14 md:pb-16 border-b border-gray-100 mb-14 md:mb-16">
