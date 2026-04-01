@@ -1,5 +1,6 @@
 // src/app/info/auktsionnyy-list/page.tsx
 import type { Metadata } from 'next'
+import Link from 'next/link'
 
 export const metadata: Metadata = {
   title: 'Как читать аукционный лист Copart и IAAI | pmcars.by',
@@ -130,14 +131,22 @@ export default function AuktsionnyyListPage() {
           <p className="font-montserrat text-white/50 text-sm mb-5">
             Пришлите ссылку на лот — разберём все поля и скажем стоит ли брать.
           </p>
-          <a
-            href="https://t.me/pmcars"
-            target="_blank"
-            rel="noopener noreferrer"
-            className="inline-flex items-center px-5 py-3 rounded-xl bg-primary text-white font-montserrat font-bold text-sm hover:bg-primary/90 transition-colors"
-          >
-            Написать в Telegram
-          </a>
+          <div className="flex flex-wrap gap-3">
+            <a
+              href="https://t.me/pmcars"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="inline-flex items-center px-5 py-3 rounded-xl bg-primary text-white font-montserrat font-bold text-sm hover:bg-primary/90 transition-colors"
+            >
+              Написать в Telegram
+            </a>
+            <Link
+              href="/contacts"
+              className="inline-flex items-center px-5 py-3 rounded-xl border border-white/20 text-white font-montserrat font-bold text-sm hover:border-primary hover:text-primary transition-colors"
+            >
+              Оставить заявку
+            </Link>
+          </div>
         </div>
       </div>
     </div>
