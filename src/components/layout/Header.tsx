@@ -12,6 +12,10 @@ const infoLinks: { label: string; href: string }[] = [
   { label: 'ЭПТС', href: '/info/epts' },
   { label: 'ДКП', href: '/info/dkp' },
   { label: 'Снятие с учёта', href: '/info/snyatie' },
+  { label: 'Страхование груза', href: '/info/strahovanie' },
+  { label: 'Для дилеров', href: '/info/dlya-dilerov' },
+  { label: 'Типы повреждений', href: '/info/tipy-povrezhdeniy' },
+  { label: 'Аукционный лист', href: '/info/auktsionnyy-list' },
 ]
 
 export default function Header() {
