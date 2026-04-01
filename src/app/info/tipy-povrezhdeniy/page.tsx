@@ -189,14 +189,22 @@ export default function TipyPovrezhdeniyPage() {
           <p className="font-montserrat text-white/50 text-sm mb-5">
             Проанализируем повреждения, оценим стоимость ремонта и скажем стоит ли брать.
           </p>
-          <a
-            href="https://t.me/pmcars"
-            target="_blank"
-            rel="noopener noreferrer"
-            className="inline-flex items-center px-5 py-3 rounded-xl bg-primary text-white font-montserrat font-bold text-sm hover:bg-primary/90 transition-colors"
-          >
-            Получить консультацию
-          </a>
+          <div className="flex flex-wrap gap-3">
+            <a
+              href="https://t.me/pmcars"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="inline-flex items-center px-5 py-3 rounded-xl bg-primary text-white font-montserrat font-bold text-sm hover:bg-primary/90 transition-colors"
+            >
+              Получить консультацию
+            </a>
+            <Link
+              href="/contacts"
+              className="inline-flex items-center px-5 py-3 rounded-xl border border-white/20 text-white font-montserrat font-bold text-sm hover:border-primary hover:text-primary transition-colors"
+            >
+              Оставить заявку
+            </Link>
+          </div>
         </div>
       </div>
     </div>
