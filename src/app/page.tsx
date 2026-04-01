@@ -42,8 +42,8 @@ const advantages = [
   },
   {
     icon: Star,
-    title: 'Только США',
-    text: 'Не распыляемся на Корею и Европу. Знаем Copart и IAAI изнутри — это даёт реальное преимущество при торгах.',
+    title: 'США, Китай, Корея',
+    text: 'Работаем с мировыми аукционами — Copart, IAAI и азиатские площадки. Знаем рынки изнутри, это даёт преимущество при подборе и торгах.',
   },
   {
     icon: Users,
@@ -124,14 +124,13 @@ export default function HomePage() {
         <div className="container py-20 md:py-28">
           <div className="max-w-2xl">
             <p className="text-primary text-sm font-montserrat font-bold uppercase tracking-widest mb-4">
-              Авто из США • Беларусь
+              Авто с мировых аукционов • Беларусь
             </p>
             <h1 className="font-muller font-bold text-white text-4xl md:text-5xl lg:text-6xl leading-tight mb-6">
-              Пригоняем авто из&nbsp;США под&nbsp;ключ
+              Авто из&nbsp;США, Китая и&nbsp;Кореи под&nbsp;ключ
             </h1>
             <p className="text-white/60 font-montserrat text-lg mb-8 leading-relaxed">
-              Copart и IAAI — подбор, доставка, растаможка.
-              Официальный договор, фиксированная стоимость услуг.
+              Подбираем так, чтобы не было стыдно. Официальный договор, фиксированная стоимость услуг.
             </p>
             <div className="flex flex-wrap gap-4 mb-14">
               <Button href="/info/kalkulyator-rashod" size="lg">
