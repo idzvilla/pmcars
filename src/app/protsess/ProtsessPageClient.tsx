@@ -342,6 +342,38 @@ export default function ProtsessPageClient() {
                           ))}
                         </ul>
                       )}
+                      {i === 4 && (
+                        <div className="mt-5 flex flex-col gap-3">
+                          <div className="bg-light-bg rounded-2xl p-5 border border-gray-100">
+                            <p className="font-montserrat text-xs font-semibold text-primary uppercase tracking-wide mb-2">
+                              Как заполнить SWIFT-перевод
+                            </p>
+                            <p className="font-montserrat text-sm text-muted leading-relaxed">
+                              В назначении платежа укажите номер аккаунта (Buyer&nbsp;/&nbsp;Member) и номер лота
+                              (Lot&nbsp;/&nbsp;Stock). По этим данным аукцион понимает, кто оплатил и за какой
+                              автомобиль.
+                            </p>
+                          </div>
+                          <div className="bg-light-bg rounded-2xl p-5 border border-gray-100">
+                            <p className="font-montserrat text-xs font-semibold text-primary uppercase tracking-wide mb-2">
+                              Аукционные сборы ниже через брокера
+                            </p>
+                            <p className="font-montserrat text-sm text-muted leading-relaxed">
+                              При покупке через нашу компанию аукционные сборы, как правило, ниже — аукционам
+                              выгоднее работать через профессиональных брокеров.
+                            </p>
+                          </div>
+                          <div className="bg-light-bg rounded-2xl p-5 border border-gray-100">
+                            <p className="font-montserrat text-xs font-semibold text-primary uppercase tracking-wide mb-2">
+                              Можно сменить получателя
+                            </p>
+                            <p className="font-montserrat text-sm text-muted leading-relaxed">
+                              Пока автомобиль в пути, есть возможность изменить получателя — например, до
+                              прибытия в порт назначения. Уточняйте заранее.
+                            </p>
+                          </div>
+                        </div>
+                      )}
                     </div>
                   </div>
                 ))}
@@ -609,7 +641,7 @@ export default function ProtsessPageClient() {
           </div>
 
           {/* Right sidebar — desktop only */}
-          <aside className="hidden xl:block w-[160px] flex-shrink-0 sticky top-32">
+          <aside className="hidden xl:block w-[200px] flex-shrink-0 sticky top-32">
             <nav className="flex flex-col">
               {SECTIONS.map(({ id, label }) => (
                 <a
@@ -618,7 +650,7 @@ export default function ProtsessPageClient() {
                   className={`py-[5px] pl-2 text-xs font-montserrat leading-snug transition-colors border-l-[1.5px] ${
                     activeSection === id
                       ? 'text-primary font-semibold border-primary'
-                      : 'text-muted/50 border-transparent hover:text-muted'
+                      : 'text-muted/50 font-medium border-transparent hover:text-muted'
                   }`}
                 >
                   {label}
