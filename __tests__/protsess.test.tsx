@@ -20,7 +20,7 @@ describe('ProtsessPageClient', () => {
     expect(screen.getAllByText('Оплата и договор').length).toBeGreaterThanOrEqual(1)
     expect(screen.getAllByText('Доставка и растаможка').length).toBeGreaterThanOrEqual(1)
     expect(screen.getAllByText('Получение авто в РБ').length).toBeGreaterThanOrEqual(1)
-    expect(screen.getAllByText('Полезная информация').length).toBeGreaterThanOrEqual(1)
+    expect(screen.getAllByText('Вопросы и ответы').length).toBeGreaterThanOrEqual(1)
     expect(screen.getByText('С чего начинается покупка')).toBeInTheDocument()
   })
 
