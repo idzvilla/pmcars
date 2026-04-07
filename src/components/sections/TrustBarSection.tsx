@@ -1,3 +1,4 @@
+// src/components/sections/TrustBarSection.tsx
 const stats = [
   { value: '200+', label: 'авто доставлено' },
   { value: '2–3 мес', label: 'средний срок' },
