@@ -8,8 +8,8 @@ import ReviewsSection from '@/components/sections/ReviewsSection'
 import TrustBarSection from '@/components/sections/TrustBarSection'
 
 export const metadata: Metadata = {
-  title: 'Авто из США в Беларусь под ключ | pmcars.by',
-  description: 'Импорт автомобилей из США в Беларусь под ключ. Подбор на Copart и IAAI, доставка, растаможка. Официальный договор, без скрытых комиссий.',
+  title: 'Авто из США в Беларусь дешевле на 30–50% | pmcars.by',
+  description: 'Импортируем авто из США в Беларусь под ключ. Подбор на Copart и IAAI, доставка морем, растаможка. 200+ авто, 8 лет на рынке. Договор и фиксированная цена с первого дня.',
 }
 
 const steps = [
