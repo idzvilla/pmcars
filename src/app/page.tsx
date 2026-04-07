@@ -1,10 +1,10 @@
 // src/app/page.tsx
 import type { Metadata } from 'next'
-import Link from 'next/link'
 import Button from '@/components/ui/Button'
 import Accordion from '@/components/ui/Accordion'
 import { Check, ShieldCheck, FileText, Star, Users } from 'lucide-react'
 import CasesSection from '@/components/sections/CasesSection'
+import TrustBarSection from '@/components/sections/TrustBarSection'
 
 export const metadata: Metadata = {
   title: 'Авто из США в Беларусь под ключ | pmcars.by',
@@ -124,31 +124,29 @@ export default function HomePage() {
         <div className="absolute bottom-0 left-0 right-0 h-[1px] bg-white/10" />
         <div className="container py-20 md:py-28">
           <div className="max-w-2xl">
-            <p className="text-primary text-sm font-montserrat font-bold uppercase tracking-widest mb-4">
-              Авто с мировых аукционов • Беларусь
+            <p className="inline-flex items-center gap-2 text-primary text-sm font-montserrat font-bold uppercase tracking-widest mb-5">
+              <span className="w-1.5 h-1.5 rounded-full bg-primary" />
+              200+ авто доставлено · Работаем с 2017 года
             </p>
             <h1 className="font-muller font-bold text-white text-4xl md:text-5xl lg:text-6xl leading-tight mb-6">
-              Авто из&nbsp;США, Китая и&nbsp;Кореи под&nbsp;ключ
+              Авто из&nbsp;США дешевле на&nbsp;30–50%, чем на&nbsp;рынке в&nbsp;Беларуси
             </h1>
             <p className="text-white/60 font-montserrat text-lg mb-8 leading-relaxed">
-              Подбираем так, чтобы не было стыдно. Официальный договор, фиксированная стоимость услуг.
+              Подберём на Copart или IAAI, доставим морем, растаможим. Получите ключи в Минске через 2–3 месяца. Договор и фиксированная цена — с первого дня.
             </p>
             <div className="flex flex-wrap gap-4 mb-14">
               <Button href="/info/kalkulyator-rashod" size="lg">
-                Рассчитать стоимость
+                Рассчитать стоимость моего авто
               </Button>
-              <a
-                href="https://t.me/pmcars"
-                target="_blank"
-                rel="noopener noreferrer"
-                className="inline-flex items-center gap-2 px-8 py-4 rounded-xl border border-white/20 text-white font-montserrat font-bold text-base hover:border-primary hover:text-primary transition-colors"
-              >
+              <Button href="https://t.me/plusminus_cars" variant="ghost" size="lg" external>
                 Написать в Telegram
-              </a>
+              </Button>
             </div>
           </div>
         </div>
       </section>
+
+      <TrustBarSection />
 
     <div className="py-16 md:py-24">
       <div className="container">
@@ -232,16 +230,13 @@ export default function HomePage() {
                     </li>
                   ))}
                 </ul>
-                <Link
+                <Button
                   href="/contacts"
-                  className={`inline-flex w-full justify-center items-center px-5 py-3 rounded-xl font-montserrat font-bold text-sm transition-colors ${
-                    t.highlighted
-                      ? 'bg-primary text-white hover:bg-primary/90'
-                      : 'border border-gray-200 text-body hover:border-primary hover:text-primary'
-                  }`}
+                  variant={t.highlighted ? 'primary' : 'secondary'}
+                  className="w-full justify-center"
                 >
                   Оставить заявку
-                </Link>
+                </Button>
               </div>
             ))}
           </div>
@@ -254,15 +249,12 @@ export default function HomePage() {
               <h3 className="font-muller font-bold text-2xl text-white mb-3">
                 Хотите узнать полную стоимость?
               </h3>
-              <p className="font-montserrat text-white/50 text-base mb-8 leading-relaxed">
+              <p className="font-montserrat text-white/60 text-base mb-8 leading-relaxed">
                 Считаем точно: цена авто + доставка + таможня — без сюрпризов.
               </p>
-              <Link
-                href="/info/kalkulyator-rashod"
-                className="inline-flex items-center px-6 py-3.5 rounded-xl bg-primary text-white font-montserrat font-bold text-sm hover:bg-primary/90 transition-colors"
-              >
+              <Button href="/info/kalkulyator-rashod">
                 Открыть калькулятор →
-              </Link>
+              </Button>
             </div>
           </div>
         </section>
@@ -275,12 +267,9 @@ export default function HomePage() {
           <div className="max-w-2xl mb-6">
             <Accordion items={faqItems} />
           </div>
-          <Link
-            href="/faq"
-            className="inline-flex items-center px-5 py-3 rounded-xl border border-gray-200 text-body font-montserrat font-bold text-sm hover:border-primary hover:text-primary transition-colors"
-          >
+          <Button href="/faq" variant="secondary">
             Все вопросы и ответы →
-          </Link>
+          </Button>
         </section>
 
         {/* CTA */}
@@ -289,24 +278,16 @@ export default function HomePage() {
             <h3 className="font-muller font-bold text-2xl text-white mb-3">
               Готовы начать?
             </h3>
-            <p className="font-montserrat text-white/50 text-base mb-8 leading-relaxed">
+            <p className="font-montserrat text-white/60 text-base mb-8 leading-relaxed">
               Оставьте заявку — свяжемся в течение часа и рассчитаем стоимость под ваш бюджет.
             </p>
             <div className="flex flex-wrap gap-3">
-              <a
-                href="https://t.me/pmcars"
-                target="_blank"
-                rel="noopener noreferrer"
-                className="inline-flex items-center px-6 py-3.5 rounded-xl bg-primary text-white font-montserrat font-bold text-sm hover:bg-primary/90 transition-colors"
-              >
+              <Button href="https://t.me/plusminus_cars" external>
                 Написать в Telegram
-              </a>
-              <Link
-                href="/contacts"
-                className="inline-flex items-center px-6 py-3.5 rounded-xl border border-white/20 text-white font-montserrat font-bold text-sm hover:border-primary hover:text-primary transition-colors"
-              >
+              </Button>
+              <Button href="/contacts" variant="ghost">
                 Оставить заявку
-              </Link>
+              </Button>
             </div>
           </div>
         </div>
