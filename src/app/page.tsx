@@ -4,6 +4,7 @@ import Button from '@/components/ui/Button'
 import Accordion from '@/components/ui/Accordion'
 import { Check, ShieldCheck, FileText, Star, Users } from 'lucide-react'
 import CasesSection from '@/components/sections/CasesSection'
+import ReviewsSection from '@/components/sections/ReviewsSection'
 import TrustBarSection from '@/components/sections/TrustBarSection'
 
 export const metadata: Metadata = {
@@ -107,8 +108,12 @@ const tariffs = [
 
 const faqItems = [
   {
-    question: 'Сколько стоит услуга по доставке авто из США?',
-    answer: 'Тариф «Экспресс» — 300 руб (вы присылаете готовый лот, мы проводим аукцион и организуем доставку). Тариф «Стандартный» — 600 руб (включает подбор авто, консультацию по лоту, оценку повреждений). Корпоративным клиентам — индивидуально.',
+    question: 'А если авто окажется хуже, чем на фото?',
+    answer: 'Мы проверяем каждый лот по истории (CarFax), фото и описанию аукциона. Если видим риск — говорим прямо и предлагаем другой вариант. После покупки делаем фотофиксацию состояния.',
+  },
+  {
+    question: 'Как защищены мои деньги?',
+    answer: 'Договор подписывается до первого платежа. Все суммы зафиксированы. Оплата идёт по инвойсам через банковский перевод — у вас полная финансовая прозрачность.',
   },
   {
     question: 'Какой срок доставки авто из США?',
@@ -119,12 +124,16 @@ const faqItems = [
     answer: 'Аукционный сбор, доставка по США до порта, морская перевозка, доставка из порта в РБ, растаможка и таможенные платежи, услуги декларанта.',
   },
   {
-    question: 'Как происходит оплата?',
-    answer: 'Оплата по инвойсу через банковский перевод. В связи с санкциями переводы идут через компании-посредники, комиссия 4–5%. Плюс комиссия банка РБ: 20–100 BYN и 80–85 EUR за оформление документов.',
+    question: 'Как происходит оплата и почему есть комиссия 4–5%?',
+    answer: 'Оплата по инвойсу через банковский перевод. В связи с санкциями переводы идут через компании-посредники — это стандарт рынка, не наша накрутка. Комиссия 4–5% плюс комиссия банка РБ: 20–100 BYN и 80–85 EUR за оформление документов.',
   },
   {
     question: 'Можно ли отследить где находится мой автомобиль?',
-    answer: 'Да. После покупки мы предоставляем трекинг-данные и регулярно обновляем статус доставки. Также вы можете воспользоваться разделом «Отслеживание авто» на нашем сайте.',
+    answer: 'Да. После покупки предоставляем трекинг-данные и регулярно обновляем статус. Также есть раздел «Отслеживание авто» на сайте.',
+  },
+  {
+    question: 'Сколько стоит услуга?',
+    answer: 'Тариф «Экспресс» — 300 BYN (вы присылаете лот, мы проводим аукцион и организуем доставку). Тариф «Стандартный» — 600 BYN (включает подбор, консультацию по лоту, оценку повреждений). Корпоративным клиентам — от 900 BYN, обсуждаем объём.',
   },
 ]
 
@@ -277,6 +286,8 @@ export default function HomePage() {
           </div>
         </section>
 
+        <ReviewsSection />
+
         {/* Частые вопросы */}
         <section className="mb-14 md:mb-16">
           <h2 className="font-muller font-bold text-3xl md:text-4xl lg:text-5xl text-body mb-3">
@@ -294,10 +305,13 @@ export default function HomePage() {
         <div className="bg-dark-bg rounded-2xl p-8 md:p-10">
           <div className="max-w-xl">
             <h3 className="font-muller font-bold text-2xl text-white mb-3">
-              Готовы начать?
+              Узнайте, сколько будет стоить ваше авто
             </h3>
-            <p className="font-montserrat text-white/60 text-base mb-8 leading-relaxed">
-              Оставьте заявку — свяжемся в течение часа и рассчитаем стоимость под ваш бюджет.
+            <p className="font-montserrat text-white/60 text-base mb-3 leading-relaxed">
+              Напишите нам — рассчитаем полную стоимость под ваш бюджет за 1 час.
+            </p>
+            <p className="font-montserrat text-white/40 text-sm mb-8">
+              Бесплатно, без обязательств. Уже помогли 200+ клиентам.
             </p>
             <div className="flex flex-wrap gap-3">
               <Button href="https://t.me/plusminus_cars" external>
