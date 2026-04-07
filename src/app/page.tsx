@@ -56,9 +56,13 @@ const advantages = [
 const tariffs = [
   {
     title: 'Экспресс',
-    price: '300 руб',
+    price: '300 BYN',
     priceNote: null,
+    badge: null,
     highlighted: false,
+    cta: 'Начать с Экспресс',
+    ctaHref: 'https://t.me/plusminus_cars',
+    ctaExternal: true,
     features: [
       'Вы присылаете номер лота и ставку',
       'Проведение аукциона',
@@ -68,9 +72,13 @@ const tariffs = [
   },
   {
     title: 'Стандартный',
-    price: '600 руб',
+    price: '600 BYN',
     priceNote: null,
+    badge: 'Популярный выбор',
     highlighted: true,
+    cta: 'Выбрать Стандартный',
+    ctaHref: 'https://t.me/plusminus_cars',
+    ctaExternal: true,
     features: [
       'Подбор авто на аукционе',
       'Консультация по лоту: повреждения, история',
@@ -81,9 +89,13 @@ const tariffs = [
   },
   {
     title: 'Корпоративный',
-    price: 'Индивидуально',
-    priceNote: 'для ИП и юр. лиц',
+    price: 'от 900 BYN',
+    priceNote: 'для ИП и юр. лиц, обсуждаем объём',
+    badge: null,
     highlighted: false,
+    cta: 'Обсудить условия',
+    ctaHref: 'https://t.me/plusminus_cars',
+    ctaExternal: true,
     features: [
       'Доступ к брокерскому аккаунту',
       'Сопровождение при покупке',
@@ -203,7 +215,7 @@ export default function HomePage() {
         {/* Стоимость услуг */}
         <section className="pb-14 md:pb-16 border-b border-gray-100 mb-14 md:mb-16">
           <h2 className="font-muller font-bold text-3xl md:text-4xl lg:text-5xl text-body mb-3">
-            Стоимость услуг
+            Выберите свой формат
           </h2>
           <p className="font-montserrat text-base text-muted mb-8 max-w-xl">
             Фиксированная цена за нашу работу. Всё остальное — по фактическим затратам, без накруток.
@@ -212,10 +224,15 @@ export default function HomePage() {
             {tariffs.map((t) => (
               <div
                 key={t.title}
-                className={`bg-light-bg rounded-2xl p-6 border flex flex-col ${
+                className={`bg-light-bg rounded-2xl p-6 border flex flex-col relative ${
                   t.highlighted ? 'border-primary' : 'border-gray-100'
                 }`}
               >
+                {t.badge && (
+                  <span className="absolute -top-3 left-6 inline-flex items-center px-3 py-1 rounded-full bg-primary text-white font-montserrat font-bold text-xs">
+                    {t.badge}
+                  </span>
+                )}
                 <h3 className="font-muller font-bold text-lg text-body mb-1">{t.title}</h3>
                 <p className="text-2xl font-muller font-bold text-primary mb-1">{t.price}</p>
                 {t.priceNote
@@ -231,11 +248,12 @@ export default function HomePage() {
                   ))}
                 </ul>
                 <Button
-                  href="/contacts"
+                  href={t.ctaHref}
                   variant={t.highlighted ? 'primary' : 'secondary'}
                   className="w-full justify-center"
+                  external={t.ctaExternal}
                 >
-                  Оставить заявку
+                  {t.cta}
                 </Button>
               </div>
             ))}
