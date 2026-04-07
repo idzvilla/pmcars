@@ -4,6 +4,7 @@ import Button from '@/components/ui/Button'
 import Accordion from '@/components/ui/Accordion'
 import { Check, ShieldCheck, FileText, Star, Users } from 'lucide-react'
 import CasesSection from '@/components/sections/CasesSection'
+import TeamSection from '@/components/sections/TeamSection'
 import ReviewsSection from '@/components/sections/ReviewsSection'
 import TrustBarSection from '@/components/sections/TrustBarSection'
 
@@ -218,6 +219,8 @@ export default function HomePage() {
             ))}
           </div>
         </section>
+
+        <TeamSection />
 
         <CasesSection />
 
