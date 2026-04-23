@@ -8,7 +8,6 @@ import MobileMenu from './MobileMenu'
 
 const infoLinks: { label: string; href: string }[] = [
   { label: 'Вопросы и ответы', href: '/faq' },
-  { label: 'Таможенный калькулятор', href: '/info/kalkulyator' },
   { label: 'ЭПТС', href: '/info/epts' },
   { label: 'ДКП', href: '/info/dkp' },
   { label: 'Снятие с учёта', href: '/info/snyatie' },
@@ -25,7 +24,7 @@ export default function Header() {
     <>
       <header className="fixed top-2 inset-x-0 mx-auto w-[calc(100%-1rem)] max-w-[1200px] z-40 bg-dark-bg border border-white/[0.08] rounded-2xl shadow-2xl">
         <div className="px-5 xl:px-6 h-[80px] flex items-center">
-          <div className="flex items-center gap-6 w-full h-full">
+          <div className="flex items-center w-full h-full">
 
               {/* Logo */}
               <div className="flex-shrink-0">
@@ -33,37 +32,49 @@ export default function Header() {
                   <Image
                     src="/logo.svg"
                     alt="pmcars.by"
-                    width={130}
-                    height={36}
+                    width={110}
+                    height={30}
                     priority
-                    className="w-auto h-[36px]"
+                    className="w-auto h-[30px] xl:h-[36px]"
                   />
                 </Link>
               </div>
 
-              {/* Right section */}
-              <div className="flex-1 min-w-0 flex items-center h-full">
-
-                {/* Mobile top row */}
-                <div className="xl:hidden flex items-center justify-between">
-                  <a
-                    href="tel:+375296363636"
-                    className="text-white font-montserrat text-sm whitespace-nowrap"
-                  >
-                    +375 (29) 636-36-36
+              {/* Mobile right group: phone + icons + burger */}
+              <div className="xl:hidden flex-1 flex items-center justify-end gap-3">
+                <a
+                  href="tel:+375296363636"
+                  className="text-white font-montserrat text-base whitespace-nowrap"
+                >
+                  +375 (29) 636-36-36
+                </a>
+                <span className="w-px h-4 bg-white/20 flex-shrink-0" />
+                <div className="flex items-center gap-1.5">
+                  <a href="https://t.me/plusminus_cars" target="_blank" rel="noopener noreferrer" className="opacity-70 hover:opacity-100 transition-opacity">
+                    <Image src="/icons/tg.svg" alt="Telegram" width={24} height={24} />
                   </a>
-                  <a
-                    href="https://t.me/pmcars"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    className="text-white/60 text-xs font-montserrat hover:text-primary transition-colors"
-                  >
-                    Telegram
+                  <a href="https://wa.me/375296363636" target="_blank" rel="noopener noreferrer" className="opacity-70 hover:opacity-100 transition-opacity">
+                    <Image src="/icons/wa.svg" alt="WhatsApp" width={24} height={24} />
+                  </a>
+                  <a href="viber://chat?number=+375296363636" target="_blank" rel="noopener noreferrer" className="opacity-70 hover:opacity-100 transition-opacity">
+                    <Image src="/icons/vb.svg" alt="Viber" width={24} height={24} />
                   </a>
                 </div>
+                <span className="w-px h-4 bg-white/20 flex-shrink-0" />
+                <button
+                  onClick={() => setMenuOpen(true)}
+                  aria-label="Открыть меню"
+                  className="flex items-center justify-center w-8 h-8"
+                >
+                  <svg width="22" height="10" viewBox="0 0 22 10" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <rect width="22" height="2" rx="1" fill="white"/>
+                    <rect y="8" width="22" height="2" rx="1" fill="white"/>
+                  </svg>
+                </button>
+              </div>
 
-                {/* Desktop layout */}
-                <div className="hidden xl:flex items-center gap-5 flex-1 h-full">
+              {/* Desktop layout */}
+              <div className="hidden xl:flex items-center gap-5 flex-1 ml-6 h-full">
 
                   {/* Left: info + nav stacked */}
                   <div className="flex-1 flex flex-col items-start gap-0 pt-[4px]">
@@ -72,10 +83,10 @@ export default function Header() {
                     <div className="flex items-center gap-3">
                       {/* Social */}
                       <div className="flex items-center gap-1">
-                        <a href="https://tiktok.com/@pmcars" target="_blank" rel="noopener noreferrer" className="opacity-70 hover:opacity-100 transition-opacity">
+                        <a href="https://www.tiktok.com/@plusminus_cars?_r=1&_t=ZS-91LOBGS51JI" target="_blank" rel="noopener noreferrer" className="opacity-70 hover:opacity-100 transition-opacity">
                           <Image src="/icons/tt.svg" alt="TikTok" width={18} height={18} />
                         </a>
-                        <a href="https://instagram.com/pmcars" target="_blank" rel="noopener noreferrer" className="opacity-70 hover:opacity-100 transition-opacity">
+                        <a href="https://www.instagram.com/plusminus_cars?igsh=MXBmeWVjNmYyN2t5eg%3D%3D" target="_blank" rel="noopener noreferrer" className="opacity-70 hover:opacity-100 transition-opacity">
                           <Image src="/icons/inst.svg" alt="Instagram" width={18} height={18} />
                         </a>
                         <a href="https://youtube.com/@pmcars" target="_blank" rel="noopener noreferrer" className="opacity-70 hover:opacity-100 transition-opacity">
@@ -92,7 +103,7 @@ export default function Header() {
 
                       {/* Messengers */}
                       <div className="flex items-center gap-1">
-                        <a href="https://t.me/pmcars" target="_blank" rel="noopener noreferrer" className="opacity-70 hover:opacity-100 transition-opacity">
+                        <a href="https://t.me/plusminus_cars" target="_blank" rel="noopener noreferrer" className="opacity-70 hover:opacity-100 transition-opacity">
                           <Image src="/icons/tg.svg" alt="Telegram" width={18} height={18} />
                         </a>
                         <a href="viber://chat?number=+375296363636" target="_blank" rel="noopener noreferrer" className="opacity-70 hover:opacity-100 transition-opacity">
@@ -136,7 +147,7 @@ export default function Header() {
                                 <li key={link.href}>
                                   <Link
                                     href={link.href}
-                                    className="block px-4 py-2.5 text-white/70 hover:text-primary hover:bg-white/5 transition-colors text-sm"
+                                    className="block px-4 py-2.5 text-white/70 hover:text-primary hover:bg-white/5 transition-colors text-[15px]"
                                   >
                                     {link.label}
                                   </Link>
@@ -159,14 +170,14 @@ export default function Header() {
                   <div className="flex items-center gap-2 flex-shrink-0">
                     <Link
                       href="/tracking"
-                      className="inline-flex items-center gap-2 bg-white/10 text-white/70 px-3.5 py-2 rounded-lg font-montserrat text-sm whitespace-nowrap hover:bg-white/15 hover:text-white transition-colors"
+                      className="inline-flex items-center gap-2 bg-white/10 text-white/70 px-3.5 py-2 rounded-lg font-montserrat text-[15px] whitespace-nowrap hover:bg-white/15 hover:text-white transition-colors"
                     >
                       <Search size={13} />
                       Отслеживание авто
                     </Link>
                     <Link
                       href="/info/kalkulyator-rashod"
-                      className="inline-flex items-center gap-2 bg-white/10 text-white/70 px-3.5 py-2 rounded-lg font-montserrat text-sm whitespace-nowrap hover:bg-white/15 hover:text-white transition-colors"
+                      className="inline-flex items-center gap-2 bg-white/10 text-white/70 px-3.5 py-2 rounded-lg font-montserrat text-[15px] whitespace-nowrap hover:bg-white/15 hover:text-white transition-colors"
                     >
                       <Calculator size={13} />
                       Калькулятор расходов
@@ -174,25 +185,6 @@ export default function Header() {
                   </div>
 
                 </div>
-
-              </div>
-
-              {/* Mobile burger (3×3 dots) */}
-              <div className="xl:hidden ml-3 flex-shrink-0">
-                <button
-                  onClick={() => setMenuOpen(true)}
-                  aria-label="Открыть меню"
-                  className="p-1.5 flex flex-col gap-[5px]"
-                >
-                  {[0, 1, 2].map((row) => (
-                    <div key={row} className="flex gap-[5px]">
-                      {[0, 1, 2].map((col) => (
-                        <span key={col} className="block w-[5px] h-[5px] rounded-full bg-white/80" />
-                      ))}
-                    </div>
-                  ))}
-                </button>
-              </div>
 
             </div>
           </div>
